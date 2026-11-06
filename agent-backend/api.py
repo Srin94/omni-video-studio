@@ -23,12 +23,15 @@ from fastapi import FastAPI, HTTPException  # noqa: E402
 from fastapi.middleware.cors import CORSMiddleware  # noqa: E402
 from pydantic import BaseModel, Field  # noqa: E402
 
+import json  # noqa: E402
+
 import config  # type: ignore  # noqa: E402
 import trends as trends_mod  # type: ignore  # noqa: E402
 import reference_gatherer  # type: ignore  # noqa: E402
 import prompt_assembler  # type: ignore  # noqa: E402
 import payload_ops  # type: ignore  # noqa: E402
 import pipeline  # type: ignore  # noqa: E402
+import github_dispatch  # type: ignore  # noqa: E402
 from schema import Genre, VideoFormat  # type: ignore  # noqa: E402
 
 app = FastAPI(title="Omni Video Studio API", version="1.0.0")
@@ -76,6 +79,12 @@ class StartRenderBody(BaseModel):
     skip_video: bool = False
 
 
+class DispatchRenderBody(BaseModel):
+    json_text: str
+    format: VideoFormat = "landscape"
+    sources: List[str] = Field(default_factory=list)
+
+
 # ---------------------------------------------------------------------------
 # Endpoints
 # ---------------------------------------------------------------------------
@@ -86,6 +95,7 @@ def health() -> dict:
         "channel": config.CHANNEL_NAME,
         "telegram_configured": config.has_telegram(),
         "youtube_configured": config.has_youtube_credentials(),
+        "github_configured": config.has_github(),
         "trends_geos": config.GOOGLE_TRENDS_GEOS,
     }
 
@@ -134,6 +144,30 @@ def start_render(body: StartRenderBody) -> dict:
         skip_video=body.skip_video,
     )
     return {"job_id": job_id, "summary": report.summary, "warnings": report.warnings}
+
+
+@app.post("/api/dispatch-render")
+def dispatch_render(body: DispatchRenderBody) -> dict:
+    """Validate the payload and commit it to render-jobs/ on GitHub, which fires
+    the Actions render workflow. This is the hosted/mobile path — rendering runs
+    on a GitHub runner, not on this server."""
+    report = payload_ops.validate(body.json_text, video_format=body.format, sources=body.sources)
+    if not report.ok or report.payload is None:
+        raise HTTPException(status_code=422, detail={"errors": report.errors})
+    if not github_dispatch.configured():
+        raise HTTPException(
+            status_code=503,
+            detail=("GitHub dispatch is not configured. Set GITHUB_TOKEN (a fine-grained "
+                    "PAT with Contents: write on the repo) in the backend environment."),
+        )
+    # Commit the validated+stamped payload so CI renders exactly what was shown.
+    payload_json = json.dumps(report.payload.model_dump(), ensure_ascii=False, indent=2)
+    title = report.payload.youtube_title or "Omni video"
+    try:
+        result = github_dispatch.commit_payload(payload_json, title)
+    except RuntimeError as exc:
+        raise HTTPException(status_code=502, detail=str(exc))
+    return {"ok": True, "title": title, "summary": report.summary, **result}
 
 
 @app.get("/api/status/{job_id}")

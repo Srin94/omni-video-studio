@@ -20,7 +20,7 @@ export const App: React.FC = () => {
   const [genre, setGenre] = useState<string>("PARADOX_LOGIC");
   const [format, setFormat] = useState<VideoFormat>("landscape");
   const [prepared, setPrepared] = useState<PreparedPrompt | null>(null);
-  const [health, setHealth] = useState<{ telegram_configured: boolean; youtube_configured: boolean } | null>(null);
+  const [health, setHealth] = useState<{ telegram_configured: boolean; youtube_configured: boolean; github_configured?: boolean } | null>(null);
 
   useEffect(() => {
     api.health().then(setHealth).catch(() => setHealth(null));
@@ -44,6 +44,7 @@ export const App: React.FC = () => {
           </div>
           <div className="hidden items-center gap-3 text-xs text-ink-600 sm:flex">
             <Badge ok={!!health}>API</Badge>
+            <Badge ok={health?.github_configured}>GitHub</Badge>
             <Badge ok={health?.telegram_configured}>Telegram</Badge>
             <Badge ok={health?.youtube_configured}>YouTube</Badge>
           </div>
@@ -110,6 +111,7 @@ export const App: React.FC = () => {
             sources={prepared?.sources ?? []}
             telegramConfigured={!!health?.telegram_configured}
             youtubeConfigured={!!health?.youtube_configured}
+            githubConfigured={!!health?.github_configured}
             onBack={() => setStep(2)}
           />
         )}

@@ -29,7 +29,10 @@ async function req<T>(path: string, init?: RequestInit): Promise<T> {
 }
 
 export const api = {
-  health: () => req<{ ok: boolean; telegram_configured: boolean; youtube_configured: boolean }>("/api/health"),
+  health: () =>
+    req<{ ok: boolean; telegram_configured: boolean; youtube_configured: boolean; github_configured?: boolean }>(
+      "/api/health"
+    ),
 
   trends: (genre?: string, force = false) =>
     req<{ count: number; genre: string; trends: TrendCard[] }>(
@@ -60,4 +63,19 @@ export const api = {
     }),
 
   status: (jobId: string) => req<JobStatus>(`/api/status/${jobId}`),
+
+  // Hosted/mobile path: commit the payload to render-jobs/ on GitHub, which
+  // fires the Actions render workflow (no local render on the free backend).
+  dispatchRender: (json_text: string, format: VideoFormat, sources: string[]) =>
+    req<{
+      ok: boolean;
+      title: string;
+      path: string;
+      branch: string;
+      actions_url: string;
+      commit_url: string;
+    }>("/api/dispatch-render", {
+      method: "POST",
+      body: JSON.stringify({ json_text, format, sources }),
+    }),
 };

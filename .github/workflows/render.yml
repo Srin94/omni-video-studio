@@ -44,6 +44,9 @@ jobs:
   render:
     runs-on: ubuntu-22.04
     timeout-minutes: 120
+    # contents: write lets the delivery step publish a GitHub Release.
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -63,9 +66,12 @@ jobs:
           if [ -z "$FMT" ] || [ "$FMT" = "auto" ]; then
             FMT=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1])).get('video_format','landscape'))" "$PAYLOAD")
           fi
+          # Collapse whitespace so the title is a safe single-line output value.
+          TITLE=$(python3 -c "import json,sys;t=json.load(open(sys.argv[1])).get('youtube_title','Omni video');print(' '.join(str(t).split()))" "$PAYLOAD")
           echo "payload=$PAYLOAD" >> "$GITHUB_OUTPUT"
           echo "format=$FMT" >> "$GITHUB_OUTPUT"
-          echo "Rendering **$PAYLOAD** as **$FMT**" >> "$GITHUB_STEP_SUMMARY"
+          echo "title=$TITLE" >> "$GITHUB_OUTPUT"
+          echo "Rendering **$PAYLOAD** as **$FMT** — $TITLE" >> "$GITHUB_STEP_SUMMARY"
 
       - name: System deps (ffmpeg + headless-Chrome libs for Remotion)
         run: |
@@ -120,3 +126,60 @@ jobs:
             agent-backend/output/thumbnail.png
           if-no-files-found: warn
           retention-days: 14
+
+      # --- Delivery: a permanent Release link + a push to Telegram ----------
+      - name: Publish GitHub Release
+        id: release
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TITLE: ${{ steps.job.outputs.title }}
+          PAYLOAD: ${{ steps.job.outputs.payload }}
+          FMT: ${{ steps.job.outputs.format }}
+        run: |
+          VID=agent-backend/output/final_video.mp4
+          if [ ! -f "$VID" ]; then
+            echo "No video rendered; skipping release."
+            exit 0
+          fi
+          ASSETS="$VID"
+          [ -f agent-backend/output/thumbnail.png ] && ASSETS="$ASSETS agent-backend/output/thumbnail.png"
+          TAG="render-${{ github.run_number }}.${{ github.run_attempt }}"
+          URL=$(gh release create "$TAG" $ASSETS \
+            --title "$TITLE" \
+            --notes "Rendered from \`$PAYLOAD\` ($FMT) — run #${{ github.run_number }}.")
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+          echo "Release: $URL" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Notify Telegram
+        if: success()
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TITLE: ${{ steps.job.outputs.title }}
+          RELEASE_URL: ${{ steps.release.outputs.url }}
+        run: |
+          if [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ]; then
+            echo "Telegram not configured (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID secrets); skipping."
+            exit 0
+          fi
+          VID=agent-backend/output/final_video.mp4
+          if [ ! -f "$VID" ]; then
+            echo "No video; skipping Telegram."
+            exit 0
+          fi
+          CAP="🎬 ${TITLE}"
+          [ -n "$RELEASE_URL" ] && CAP="${CAP}"$'\n'"${RELEASE_URL}"
+          SIZE=$(stat -c%s "$VID")
+          # Telegram bot uploads cap at 50MB — send inline when it fits, else the link.
+          if [ "$SIZE" -lt 49000000 ]; then
+            curl -sS -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendVideo" \
+              -F chat_id="$TG_CHAT" -F supports_streaming=true \
+              -F caption="$CAP" -F video=@"$VID" -o /dev/null \
+              && echo "Sent video to Telegram."
+          else
+            curl -sS -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+              -F chat_id="$TG_CHAT" \
+              -F text="${CAP}"$'\n'"(video is >50MB — download it from the release link above)" -o /dev/null \
+              && echo "Sent release link to Telegram."
+          fi

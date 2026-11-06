@@ -51,6 +51,18 @@ YOUTUBE_CLIENT_ID = os.getenv("YOUTUBE_CLIENT_ID", "").strip()
 YOUTUBE_CLIENT_SECRET = os.getenv("YOUTUBE_CLIENT_SECRET", "").strip()
 YOUTUBE_REFRESH_TOKEN = os.getenv("YOUTUBE_REFRESH_TOKEN", "").strip()
 
+# ---------------------------------------------------------------------------
+# GitHub "render farm" dispatch (mobile flow). When GITHUB_TOKEN is set, the
+# backend commits the validated payload to render-jobs/ in the repo, which fires
+# the Render video workflow — so a phone can trigger a render with no git/CLI.
+# The token is used ONLY to write GITHUB_RENDER_PATH; it is never logged or
+# returned to the client.
+# ---------------------------------------------------------------------------
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "").strip()
+GITHUB_REPO = os.getenv("GITHUB_REPO", "Srin94/omni-video-studio").strip()
+GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main").strip()
+GITHUB_RENDER_PATH = os.getenv("GITHUB_RENDER_PATH", "render-jobs/payload.json").strip()
+
 DRY_RUN_SKIP_UPLOAD = os.getenv("DRY_RUN_SKIP_UPLOAD", "false").lower() in ("1", "true", "yes")
 
 # On-screen channel brand (wordmark + outro CTA + thumbnail).
@@ -208,6 +220,10 @@ def has_telegram() -> bool:
 
 def has_youtube_credentials() -> bool:
     return bool(YOUTUBE_CLIENT_ID and YOUTUBE_CLIENT_SECRET and YOUTUBE_REFRESH_TOKEN)
+
+
+def has_github() -> bool:
+    return bool(GITHUB_TOKEN and GITHUB_REPO)
 
 
 def video_dimensions(video_format: str) -> tuple[int, int]:

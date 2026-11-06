@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { ArrowLeft, CheckCircle2, XCircle, AlertTriangle, Loader2, Rocket } from "lucide-react";
+import { ArrowLeft, CheckCircle2, XCircle, AlertTriangle, Loader2, Rocket, Github, ExternalLink } from "lucide-react";
 import type { JobStatus, ValidationResult, VideoFormat } from "../types";
 import { api } from "../api";
 
@@ -8,6 +8,7 @@ interface Props {
   sources: string[];
   telegramConfigured: boolean;
   youtubeConfigured: boolean;
+  githubConfigured: boolean;
   onBack: () => void;
 }
 
@@ -19,7 +20,9 @@ const STATUS_ICON: Record<string, React.ReactNode> = {
   pending: <span className="h-4 w-4 rounded-full border border-ink-600" />,
 };
 
-export const IngestionMonitor: React.FC<Props> = ({ format, sources, telegramConfigured, youtubeConfigured, onBack }) => {
+type DispatchResult = { title: string; actions_url: string; commit_url: string };
+
+export const IngestionMonitor: React.FC<Props> = ({ format, sources, telegramConfigured, youtubeConfigured, githubConfigured, onBack }) => {
   const [jsonText, setJsonText] = useState("");
   const [validation, setValidation] = useState<ValidationResult | null>(null);
   const [validating, setValidating] = useState(false);
@@ -28,8 +31,24 @@ export const IngestionMonitor: React.FC<Props> = ({ format, sources, telegramCon
   const [skipVideo, setSkipVideo] = useState(false);
   const [job, setJob] = useState<JobStatus | null>(null);
   const [launching, setLaunching] = useState(false);
+  const [dispatching, setDispatching] = useState(false);
+  const [dispatchResult, setDispatchResult] = useState<DispatchResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const pollRef = useRef<number | null>(null);
+
+  const renderOnGithub = async () => {
+    setDispatching(true);
+    setError(null);
+    setDispatchResult(null);
+    try {
+      const r = await api.dispatchRender(jsonText, format, sources);
+      setDispatchResult({ title: r.title, actions_url: r.actions_url, commit_url: r.commit_url });
+    } catch (e) {
+      setError((e as Error).message);
+    } finally {
+      setDispatching(false);
+    }
+  };
 
   const validate = async () => {
     setValidating(true);
@@ -162,13 +181,51 @@ export const IngestionMonitor: React.FC<Props> = ({ format, sources, telegramCon
             <p className="mt-2 text-xs text-amber-300">YouTube isn’t configured — upload will be skipped automatically.</p>
           )}
 
-          <button
-            disabled={launching || (!!job && job.status === "running")}
-            onClick={launch}
-            className="mt-4 flex items-center gap-2 rounded-xl bg-brand px-5 py-2.5 font-semibold text-ink-950 transition hover:bg-brand-glow disabled:opacity-40"
-          >
-            {launching ? <Loader2 size={18} className="animate-spin" /> : <Rocket size={18} />} Launch Render &amp; Pipeline
-          </button>
+          <div className="mt-4 flex flex-wrap items-center gap-3">
+            {/* Primary: render on the free GitHub Actions farm (works on mobile,
+                no local Node/Chrome needed). */}
+            <button
+              disabled={dispatching}
+              onClick={renderOnGithub}
+              className="flex items-center gap-2 rounded-xl bg-brand px-5 py-2.5 font-semibold text-ink-950 transition hover:bg-brand-glow disabled:opacity-40"
+            >
+              {dispatching ? <Loader2 size={18} className="animate-spin" /> : <Github size={18} />} Render on GitHub
+            </button>
+            {/* Secondary: local full pipeline (only works when the backend runs
+                on a machine with the Remotion renderer installed). */}
+            <button
+              disabled={launching || (!!job && job.status === "running")}
+              onClick={launch}
+              className="flex items-center gap-2 rounded-xl border border-ink-600 px-4 py-2.5 font-medium text-ink-200 transition hover:border-brand/50 hover:text-white disabled:opacity-40"
+            >
+              {launching ? <Loader2 size={18} className="animate-spin" /> : <Rocket size={18} />} Render locally
+            </button>
+          </div>
+          <p className="mt-2 text-xs text-ink-500">
+            <span className="text-ink-300">Render on GitHub</span> runs the free Actions render farm and delivers the
+            finished video to Telegram — the mobile-friendly path.{" "}
+            {!githubConfigured && <span className="text-amber-300">Set GITHUB_TOKEN on the backend to enable it.</span>}
+          </p>
+
+          {dispatchResult && (
+            <div className="mt-4 rounded-xl border border-emerald-500/40 bg-emerald-500/10 p-4">
+              <p className="flex items-center gap-2 text-sm font-semibold text-emerald-200">
+                <CheckCircle2 size={16} /> Render queued: {dispatchResult.title}
+              </p>
+              <p className="mt-1 text-xs text-ink-300">
+                A GitHub runner is building your video now (~12–18 min). It'll land in your Telegram when done, and the
+                run shows up here:
+              </p>
+              <a
+                href={dispatchResult.actions_url}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-2 inline-flex items-center gap-1.5 text-sm text-brand hover:underline"
+              >
+                <ExternalLink size={14} /> View the render run on GitHub Actions
+              </a>
+            </div>
+          )}
         </section>
       )}
 

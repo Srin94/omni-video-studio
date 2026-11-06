@@ -68,6 +68,35 @@ local proxy.
 
 ---
 
+## Full workflow from a phone (no laptop, no git)
+
+Two extra bits of config turn the hosted studio into a tap-only mobile flow:
+
+**① "Render on GitHub" button** — the studio commits your validated payload to
+`render-jobs/` via the GitHub API, firing the workflow. Enable it by setting a
+token on the backend (Render → `omni-api` → Environment):
+
+- Create a **fine-grained PAT** (GitHub → Settings → Developer settings →
+  Fine-grained tokens) scoped to **only `omni-video-studio`** with
+  **Repository permissions → Contents: Read and write**.
+- Set `GITHUB_TOKEN` to that PAT. (`GITHUB_REPO` defaults to
+  `Srin94/omni-video-studio`.) The token is used only to write the render
+  payload file and is never returned to the browser.
+
+**② Delivery to your phone** — the workflow publishes each render as a **GitHub
+Release** (permanent link, any size) and pushes it to **Telegram**. Add two repo
+**Secrets** (repo → Settings → Secrets and variables → Actions):
+
+- `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` — the finished video is sent to that
+  chat (inline if under Telegram's 50MB bot limit, otherwise the release link).
+
+Both delivery steps are optional and no-op if their secrets are absent — the
+`omni-video` artifact is always produced regardless.
+
+The mobile loop then is: open the studio → topic → copy prompt → paste into the
+Claude/Gemini app → copy JSON back → **Validate** → **Render on GitHub** → the
+video arrives in Telegram.
+
 ## End-to-end, once hosted
 
 1. Open the hosted studio → pick a topic → copy the master prompt.
