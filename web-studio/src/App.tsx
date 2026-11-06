@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Radar, Sparkles, Wand2, Rocket } from "lucide-react";
+import { Radar, Sparkles, Wand2, Rocket, type LucideIcon } from "lucide-react";
 import type { PreparedPrompt, VideoFormat } from "./types";
 import { api } from "./api";
 import { TopicRadar } from "./components/TopicRadar";
@@ -8,7 +8,7 @@ import { IngestionMonitor } from "./components/IngestionMonitor";
 
 type Step = 1 | 2 | 3;
 
-const STEPS: { n: Step; label: string; icon: React.FC<{ size?: number }> }[] = [
+const STEPS: { n: Step; label: string; icon: LucideIcon }[] = [
   { n: 1, label: "Topic & Radar", icon: Radar },
   { n: 2, label: "Prompt Relay", icon: Wand2 },
   { n: 3, label: "Render & Publish", icon: Rocket },
