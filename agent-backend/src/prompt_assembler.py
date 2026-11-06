@@ -95,7 +95,10 @@ across scenes and change the values so the viewer watches the story move."""
 _ILLUSTRATION_GUIDE = """ANIMATED ILLUSTRATION (`illustration`) — THE top engagement \
 lever. For scenes about a COUNT, a MECHANISM, a SYSTEM or a FLOW, don't just show a \
 photo — DRAW the idea so it animates while the narrator talks. Set `illustration` on \
-roughly half to two-thirds of scenes (the conceptual ones). Pick ONE kind:
+MOST scenes — every conceptual one (a count, a mechanism, a comparison, a cause→effect \
+chain). A scene with only static text cards is a dead slide; a scene with a flow or a \
+crowd is alive. Only leave it null for a pure quote, a single date, or a real \
+photographable object you'd rather show as B-roll. Pick ONE kind:
 
 1) "glyph_world" — draw the countable noun of the sentence as a CROWD of little \
 glowing icons that move to match the verb. Use it whenever the scene has a number of \

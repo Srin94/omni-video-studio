@@ -140,7 +140,9 @@ export const ConceptFlow: React.FC<{
 
   // main axis = the tier direction; cross axis = spread within a tier.
   const mainStart = vertical ? height * 0.25 : width * 0.08;
-  const mainEnd = vertical ? height * 0.86 : width * 0.92;
+  // In portrait, stop the flow above the karaoke subtitle band (bottom ~120px)
+  // so the last node never collides with the caption.
+  const mainEnd = vertical ? height * 0.8 : width * 0.92;
   const crossMargin = (vertical ? width : height) * (vertical ? 0.06 : 0.1);
   const crossLo = vertical ? crossMargin : height * 0.28;
   const crossHi = vertical ? width - crossMargin : height * 0.82;

@@ -106,6 +106,35 @@ _NODE_ICON = {
     "sun": "sun", "solar": "sun", "moon": "moon", "atom": "atom", "electron": "atom",
     "nucleus": "atom", "wave": "radio", "gene": "dna", "dna": "dna", "cell": "microscope",
     "virus": "bug", "lab": "flask-conical", "fire": "flame", "energy": "zap",
+    # motion / forces / mechanical
+    "battery": "battery-charging", "motor": "cog", "engine": "cog", "gear": "cog",
+    "rotor": "fan", "fan": "fan", "blade": "fan", "propeller": "fan", "turbine": "fan",
+    "propulsion": "rocket", "thrust": "move-up", "lift": "move-up", "rise": "move-up",
+    "upward": "arrow-up", "up ": "arrow-up", "downward": "arrow-down", "down": "arrow-down",
+    "gravity": "arrow-down-to-line", "weight": "anvil", "mass": "anvil", "heavy": "anvil",
+    "load": "package", "payload": "package", "cargo": "package",
+    "air": "wind", "wind": "wind", "flow": "wind", "aerodynam": "wind",
+    "flight": "plane", "aircraft": "plane", "plane": "plane", "fly": "plane", "aviation": "plane",
+    "vehicle": "car", "car": "car", "drone": "send",
+    # control / systems / measurement
+    "control": "sliders-horizontal", "adjust": "sliders-horizontal", "tune": "sliders-horizontal",
+    "balance": "scale", "stability": "scale", "stable": "scale", "law": "scale", "force": "scale",
+    "computer": "cpu", "chip": "cpu", "electron": "cpu",
+    "power": "zap", "electric": "zap", "voltage": "zap", "current": "zap", "charge": "zap",
+    "range": "gauge", "distance": "gauge", "speed": "gauge", "velocity": "gauge", "rate": "gauge",
+    "consumption": "gauge", "endurance": "gauge",
+    # logic / verdicts / abstractions (common in explainer scenes)
+    "fact": "badge-check", "verified": "badge-check", "established": "badge-check",
+    "real": "badge-check", "true": "badge-check", "proven": "badge-check",
+    "fiction": "circle-help", "speculation": "circle-help", "unverified": "circle-help",
+    "myth": "circle-help", "false": "circle-x", "question": "circle-help", "unknown": "circle-help",
+    "future": "sparkles", "concept": "lightbulb", "idea": "lightbulb", "theory": "lightbulb",
+    "challenge": "triangle-alert", "problem": "triangle-alert", "limit": "triangle-alert",
+    "risk": "triangle-alert", "trade-off": "git-compare", "tradeoff": "git-compare",
+    "versus": "git-compare", "compare": "git-compare", "difference": "git-compare",
+    "cost": "banknote", "price": "banknote", "profit": "trending-up", "growth": "trending-up",
+    "reaction": "repeat", "cycle": "repeat-2", "loop": "repeat-2", "step": "footprints",
+    "time": "clock", "year": "calendar", "history": "scroll", "process": "workflow",
 }
 
 
@@ -152,32 +181,103 @@ def _status(text: str, hud_text: str) -> str:
 
 
 def _node_icon(label: str) -> str:
+    # Longest matching key wins, so a specific term beats a substring of it
+    # (e.g. "unverified" is not mis-read as "verified", "database" not "data").
     low = label.lower()
+    best_key = ""
+    best_icon = "circle-dot"
     for key, icon in _NODE_ICON.items():
-        if key in low:
-            return icon
-    return "circle-dot"
+        k = key.strip()
+        if k and k in low and len(k) > len(best_key):
+            best_key, best_icon = k, icon
+    return best_icon
 
 
-def _flow_from_node_network(scene: SceneSpec) -> Optional[ConceptFlowSpec]:
+# A flow is built from the scene's own STRUCTURED fields (visual-element
+# headlines, HUD metric values, callout keywords) — which the model fills
+# reliably — rather than by chopping a narration sentence on its commas (that
+# produced nonsense like "Monitor movement -> orientation -> and stability").
+_EDGE_COLORS = ["cyan", "emerald", "amber", "violet"]
+_VS_RE = re.compile(r"\s+(?:vs\.?|versus|or)\s+", re.IGNORECASE)
+_LABEL_STRIP = re.compile(r"^[\"'“”\s]+|[\"'“”\s]+$")
+
+
+def _clean_label(text: str, max_len: int = 26) -> str:
+    s = re.sub(r"\s+", " ", (text or "")).strip()
+    s = _LABEL_STRIP.sub("", s).strip(" .")
+    if len(s) > max_len:
+        s = s[:max_len].rstrip() + "…"
+    return s
+
+
+def _dedupe(labels: List[str]) -> List[str]:
+    out: List[str] = []
+    seen = set()
+    for lab in labels:
+        key = lab.lower()
+        if lab and len(lab) >= 2 and key not in seen:
+            seen.add(key)
+            out.append(lab)
+    return out
+
+
+def _comparison_branch(scene: SceneSpec) -> Optional[ConceptFlowSpec]:
+    """A comparison_split whose headline reads 'A vs B' becomes a branch:
+    topic -> {A, B}. The clearest possible 'these two are weighed' visual."""
     for el in scene.visual_elements:
-        if el.element_type != "node_network":
+        if el.element_type != "comparison_split":
             continue
-        parts = [p.strip() for p in re.split(r"\s*(?:->|→|=>|,|then)\s*", el.subtext) if p.strip()]
-        if len(parts) < 2:
+        parts = _VS_RE.split(el.headline or "")
+        if len(parts) != 2:
             continue
-        nodes: List[FlowNode] = []
-        edges: List[FlowEdge] = []
-        colors = ["cyan", "emerald", "amber", "violet"]
-        for i, label in enumerate(parts[:6]):
-            nid = f"n{i}"
-            nodes.append(FlowNode(id=nid, label=label[:28], icon=_node_icon(label), tier=i + 1,
-                                   highlight=(i == len(parts) - 1)))
-            if i > 0:
-                edges.append(FlowEdge(source=f"n{i-1}", target=nid, color=colors[(i - 1) % len(colors)], animate=True))
-        return ConceptFlowSpec(title=(el.headline or scene.chapter_title)[:40], nodes=nodes, edges=edges,
-                               caption=el.subtext[:90])
+        a, b = _clean_label(parts[0]), _clean_label(parts[1])
+        if not a or not b:
+            continue
+        root = _clean_label(scene.chapter_title, 30) or "Compare"
+        nodes = [
+            FlowNode(id="n0", label=root, icon=_node_icon(root), tier=1),
+            FlowNode(id="nA", label=a, icon=_node_icon(a), tier=2, highlight=True),
+            FlowNode(id="nB", label=b, icon=_node_icon(b), tier=2, highlight=True),
+        ]
+        edges = [
+            FlowEdge(source="n0", target="nA", color="emerald", animate=True),
+            FlowEdge(source="n0", target="nB", color="amber", animate=True),
+        ]
+        return ConceptFlowSpec(title=root, nodes=nodes, edges=edges, caption=_clean_label(el.subtext, 90))
     return None
+
+
+def _linear_flow(scene: SceneSpec) -> Optional[ConceptFlowSpec]:
+    """Chain the scene's concrete labels into a 2-5 node flow. Concept headlines
+    lead, then HUD values (the concrete nouns), then callout keywords as filler."""
+    candidates: List[str] = []
+    for el in scene.visual_elements:
+        candidates.append(_clean_label(el.headline))
+    for m in scene.hud_metrics:
+        candidates.append(_clean_label(m.value))
+    for kw in scene.callout_keywords:
+        candidates.append(_clean_label(kw))
+
+    labels = _dedupe([c for c in candidates if c])[:4]
+    if len(labels) < 2:
+        return None
+
+    nodes: List[FlowNode] = []
+    edges: List[FlowEdge] = []
+    for i, lab in enumerate(labels):
+        nid = f"n{i}"
+        nodes.append(FlowNode(id=nid, label=lab, icon=_node_icon(lab), tier=i + 1,
+                              highlight=(i == len(labels) - 1)))
+        if i > 0:
+            edges.append(FlowEdge(source=f"n{i-1}", target=nid,
+                                  color=_EDGE_COLORS[(i - 1) % len(_EDGE_COLORS)], animate=True))
+    return ConceptFlowSpec(title=_clean_label(scene.chapter_title, 40), nodes=nodes, edges=edges, caption="")
+
+
+def _flow_from_structure(scene: SceneSpec) -> Optional[ConceptFlowSpec]:
+    """Every scene gets an animated diagram (a branch for a comparison, else a
+    flow), so no scene is ever a bare card-wall with an empty half."""
+    return _comparison_branch(scene) or _linear_flow(scene)
 
 
 def _world_from_text(scene: SceneSpec) -> Optional[GlyphWorldSpec]:
@@ -217,13 +317,16 @@ def _world_from_text(scene: SceneSpec) -> Optional[GlyphWorldSpec]:
 def infer_scene(scene: SceneSpec) -> None:
     if scene.illustration is not None:
         return  # the LLM already specified one — never override it
-    flow = _flow_from_node_network(scene)
-    if flow is not None:
-        scene.illustration = SceneIllustration(kind="concept_flow", flow=flow)
-        return
+    # A specific countable-noun crowd is the strongest visual when it applies;
+    # otherwise build an animated flow from the scene's own structure so EVERY
+    # scene shows a real diagram instead of a static card-wall.
     world = _world_from_text(scene)
     if world is not None:
         scene.illustration = SceneIllustration(kind="glyph_world", world=world)
+        return
+    flow = _flow_from_structure(scene)
+    if flow is not None:
+        scene.illustration = SceneIllustration(kind="concept_flow", flow=flow)
 
 
 def infer_payload(payload: OmniRenderPayload) -> int:
