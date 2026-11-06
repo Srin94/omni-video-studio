@@ -1,0 +1,26 @@
+# Render.com Blueprint — one-click deploy of the authoring API.
+#
+#   Render dashboard -> New -> Blueprint -> pick Srin94/omni-video-studio.
+#
+# This deploys ONLY the lightweight FastAPI authoring API (trends, prompt relay,
+# schema validation). The heavy Remotion rendering stays on GitHub Actions, so
+# this service is small enough for Render's free plan.
+#
+# Docs: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: omni-api
+    runtime: docker
+    plan: free
+    # Build the image from the repo root so the Dockerfile can COPY agent-backend/.
+    dockerfilePath: ./agent-backend/Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: CHANNEL_NAME
+        value: Omni Studio
+      # Set this in the Render dashboard to your deployed studio's origin,
+      # e.g. https://omni-studio.pages.dev  (comma-separate multiple origins).
+      - key: CORS_ORIGINS
+        sync: false

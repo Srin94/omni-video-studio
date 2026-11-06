@@ -41,10 +41,15 @@ docker build -f agent-backend/Dockerfile -t omni-api .
 docker run -p 8000:8000 omni-api
 ```
 
-**Render.com (simplest):** New → Web Service → point at this repo →
-Runtime *Docker*, Dockerfile path `agent-backend/Dockerfile`, Docker context `.`
-(root). It injects `$PORT` automatically. Set env var `CORS_ORIGINS` to your
-deployed studio URL so the browser can call it.
+**Render.com (one click):** this repo ships a [`render.yaml`](render.yaml)
+blueprint. In the Render dashboard: **New → Blueprint → pick
+`Srin94/omni-video-studio`**. It creates the `omni-api` web service on the free
+plan, builds from `agent-backend/Dockerfile`, health-checks `/api/health`, and
+injects `$PORT`. After the studio is deployed, set `CORS_ORIGINS` (in the
+service's Environment tab) to its origin so the browser can call the API.
+
+Prefer to click through manually instead? New → Web Service → this repo →
+Runtime *Docker*, Dockerfile path `agent-backend/Dockerfile`, Docker context `.`.
 
 The image is intentionally small — no Node, no Chrome — because rendering lives
 in Actions. Free web services on Render sleep when idle and wake on the next
