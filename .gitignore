@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Env / secrets
+.env
+agent-backend/.env
+
+# Pipeline output (generated artifacts)
+agent-backend/output/
+agent-backend/data/*.db
+agent-backend/.cache/
+*.wav
+*.mp4
+*.png
+!agent-backend/templates/*.png
+
+# Node / build
+node_modules/
+dist/
+.vite/
+video-engine/out/
+video-engine/public/assets/render_payload.json
+video-engine/public/assets/narration.wav
+# Fetched topic B-roll (regenerated per render, not committed)
+video-engine/public/assets/broll/
+
+# Music catalog (drop-in, not committed)
+agent-backend/assets/music/**/*.mp3
+agent-backend/assets/music/**/*.wav
+agent-backend/assets/music/**/*.ogg
+agent-backend/assets/music/**/*.flac
+agent-backend/assets/music/**/*.m4a
+
+# OS
+.DS_Store
+Thumbs.db

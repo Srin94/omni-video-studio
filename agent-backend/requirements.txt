@@ -1,0 +1,35 @@
+# ===========================================================================
+# CORE dependencies — install everywhere, including Python 3.13 / 3.14.
+#   pip install -r requirements.txt
+# The optional local-ML extras (Kokoro TTS, faster-whisper alignment) live in
+# requirements-ml.txt; the audio engine degrades gracefully without them
+# (edge-tts voice + proportional word timing), so the full pipeline still runs.
+# ===========================================================================
+
+# --- Web API ---------------------------------------------------------------
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0
+python-dotenv>=1.0.1
+
+# --- Scraping / reference gathering ----------------------------------------
+httpx>=0.28.0
+feedparser>=6.0.11
+beautifulsoup4>=4.12.3
+
+# --- Audio (cloud-free voice + music bed; pure-wheel deps only) ------------
+edge-tts>=7.0.0
+numpy>=1.26.0
+pydub>=0.25.1
+# pydub imports stdlib `audioop`, removed in Python 3.13+. This backport
+# restores it. (No-op on a 3.11/3.12 runtime.)
+audioop-lts>=0.2.1; python_version >= "3.13"
+
+# --- Imagery (topic-matched B-roll via Openverse) + thumbnail + publish ----
+# Pillow is a pure-wheel dependency (installs on 3.13/3.14) used to validate,
+# center-crop and re-encode fetched B-roll images.
+pillow>=10.4.0
+playwright>=1.50.0
+google-api-python-client>=2.160.0
+google-auth-oauthlib>=1.2.1
+tenacity>=9.0.0

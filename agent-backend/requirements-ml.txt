@@ -1,0 +1,23 @@
+# ===========================================================================
+# OPTIONAL local-ML extras — higher-quality audio, but heavier and tied to
+# onnxruntime / ctranslate2, which only ship wheels for released Python
+# versions (typically <= 3.12 at a given time). Install AFTER the core set:
+#   pip install -r requirements.txt
+#   pip install -r requirements-ml.txt
+#
+# What they add:
+#   kokoro-onnx    local Kokoro-82M TTS (nicer than edge-tts). Also needs the
+#                  model files cached — see the audio_engine docstring.
+#   faster-whisper word-level karaoke timestamp alignment (vs. the proportional
+#                  fallback used when it's absent).
+#   soundfile      WAV decode used by both of the above.
+#
+# If `pip install -r requirements-ml.txt` fails with "No matching distribution
+# for onnxruntime / ctranslate2", your Python is newer than their wheels. Either
+# use a Python 3.12 venv for these extras, or just skip this file — the pipeline
+# runs fine on the core set alone.
+# ===========================================================================
+
+kokoro-onnx>=0.4.0
+faster-whisper>=1.1.0
+soundfile>=0.13.0

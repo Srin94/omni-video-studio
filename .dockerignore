@@ -1,0 +1,18 @@
+# Keep the backend image build context lean and secret-free.
+**/.venv
+**/venv
+**/__pycache__
+**/*.py[cod]
+**/node_modules
+**/.vite
+**/dist
+video-engine/out
+agent-backend/output
+agent-backend/.cache
+agent-backend/data/*.db
+**/*.mp4
+**/*.wav
+**/.env
+.git
+.github
+web-studio

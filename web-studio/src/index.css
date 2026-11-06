@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(1200px 700px at 80% -10%, rgba(56, 189, 248, 0.08), transparent 60%),
+    #070a12;
+  color: #e8f1fb;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+}
+
+/* Thin scrollbars for the prompt + JSON areas */
+textarea,
+pre {
+  scrollbar-width: thin;
+  scrollbar-color: #2a3657 transparent;
+}
+
+.grid-bg {
+  background-image: linear-gradient(rgba(30, 39, 64, 0.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 39, 64, 0.5) 1px, transparent 1px);
+  background-size: 48px 48px;
+}

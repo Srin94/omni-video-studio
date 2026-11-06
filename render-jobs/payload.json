@@ -1,0 +1,1433 @@
+{
+  "genre": "EVERYDAY_TECH",
+  "suggested_bgm_mood": "upbeat_curious_tech",
+  "youtube_title": "249 House Seats Won: Inside the 2026 Democratic Leadership Revolt",
+  "youtube_description": "Democrats swept the November 3, 2026 midterms with 249 House seats and 54 Senate seats, flipping deep-red states like Texas, Kansas, and South Carolina. Now, a closed-door battle over PAC money and party leadership is unfolding before the new Congress even takes office. Chapters: 0:00 The 2026 Midterm Sweep | 0:10 The 513-Race Breakdown | 0:19 Deep-Red Senate Flips | 0:28 The Closed-Door Leadership Mechanic | 0:37 The $1.8M PAC Funding Ledger | 0:46 The Senate Defection Bloc | 0:55 Will Schumer and Jeffries Survive?\n\nImagery via Openverse (Creative Commons):\n• Onasill ~ Bill · CC BY-NC-SA 2.0 (https://www.flickr.com/photos/7156765@N05/24149350053)\n• dannymac15_1999 · CC BY-ND 2.0 (https://www.flickr.com/photos/58440035@N05/8651732075)\n• HPUPhotogStudent · CC BY 2.0 (https://www.flickr.com/photos/36121865@N03/3736856571)",
+  "youtube_tags": [
+    "2026 midterm elections",
+    "democrats midterm results",
+    "house election results 2026",
+    "senate election results 2026",
+    "chuck schumer senate leader",
+    "hakeem jeffries house leader",
+    "james talarico texas senate",
+    "congressional leadership vote",
+    "aipac pac funding",
+    "us politics explainer"
+  ],
+  "pinned_comment": "House Democrats vote behind closed doors on November 18, and Senate Democrats vote in early December. With 4 incoming Senators already breaking ranks, do you think Chuck Schumer and Hakeem Jeffries keep their leadership seats, or does the new majority replace them?",
+  "thumbnail_headline": "249 SEATS & REVOLT",
+  "thumbnail_sub_badge": "HOW IT WORKS",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "chapter_title": "THE MAJORITY SWEEP",
+      "narration_text": "On November 3, Democrats didn't just win the 2026 midterms... they captured 249 House seats and 54 Senate seats, locking in total congressional control.",
+      "visual_archetype": "KINETIC_MINIMALIST",
+      "camera_movement": "slow_zoom_in",
+      "hud_metrics": [
+        {
+          "label": "House Seats",
+          "value": "249 / 435",
+          "delta": "+31 OVER MAJORITY"
+        },
+        {
+          "label": "Senate Seats",
+          "value": "54 / 100",
+          "delta": "+3 OVER CONTROL"
+        },
+        {
+          "label": "Races Called",
+          "value": "405 House",
+          "delta": "30 PENDING"
+        },
+        {
+          "label": "Leadership Status",
+          "value": "UNDECIDED",
+          "delta": "LOCKED"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "249 House Seats",
+          "subtext": "218 needed for control (156 Republican, 30 uncalled)",
+          "badge": "AP CALL",
+          "highlight_color": "emerald"
+        },
+        {
+          "element_type": "stat_card",
+          "headline": "54 Senate Seats",
+          "subtext": "34 held + 20 won on Nov 3 vs 44 Republican",
+          "badge": "MAJORITY",
+          "highlight_color": "cyan"
+        }
+      ],
+      "callout_keywords": [
+        "249 House seats",
+        "54 Senate seats",
+        "congressional control"
+      ],
+      "illustration": {
+        "kind": "glyph_world",
+        "world": {
+          "unit_icon": "person",
+          "formation": "field",
+          "population": 435,
+          "active_fraction": 0.572,
+          "gate_label": "218 MAJORITY LINE",
+          "section_label": "U.S. HOUSE",
+          "headline": "249 of 435 Seats",
+          "unit_label": "seats",
+          "active_label": "won by Democrats",
+          "caption": "Democrats cleared the 218-seat threshold with 30 races still uncalled.",
+          "status": "normal"
+        },
+        "flow": null
+      },
+      "broll_query": "",
+      "start_sec": 0.0,
+      "duration_sec": 12.84,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 2,
+      "chapter_title": "THE 513-RACE TELEMETRY",
+      "narration_text": "Out of 513 total races, 473 are already called... with Democrats winning 292 to Republicans' 181, crushing the 218-seat threshold for House control.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "pan_right",
+      "hud_metrics": [
+        {
+          "label": "House Seats",
+          "value": "249 DEM",
+          "delta": "156 GOP"
+        },
+        {
+          "label": "Senate Seats",
+          "value": "54 DEM",
+          "delta": "44 GOP"
+        },
+        {
+          "label": "Races Called",
+          "value": "473 / 513",
+          "delta": "92.2% COMPLETE"
+        },
+        {
+          "label": "Leadership Status",
+          "value": "PENDING",
+          "delta": "NOV 18 VOTE"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "comparison_split",
+          "headline": "292 DEM vs 181 GOP",
+          "subtext": "473 of 513 total midterm races called (1 going to runoff)",
+          "badge": "TOTAL BALLOT",
+          "highlight_color": "cyan"
+        },
+        {
+          "element_type": "stat_card",
+          "headline": "33 of 35 Senate Called",
+          "subtext": "Democrats won 20 on the ballot; Republicans won 13",
+          "badge": "SENATE",
+          "highlight_color": "emerald"
+        }
+      ],
+      "callout_keywords": [
+        "513 total races",
+        "winning 292",
+        "218-seat threshold"
+      ],
+      "illustration": {
+        "kind": "glyph_world",
+        "world": {
+          "unit_icon": "box",
+          "formation": "rush",
+          "population": 513,
+          "active_fraction": 0.569,
+          "gate_label": "AP RACE CALLS",
+          "section_label": "NATIONAL TALLY",
+          "headline": "292 of 513 Races",
+          "unit_label": "races",
+          "active_label": "called for Democrats",
+          "caption": "Out of 473 called races nationwide, Democrats captured 61.7 percent.",
+          "status": "normal"
+        },
+        "flow": null
+      },
+      "broll_query": "",
+      "start_sec": 13.44,
+      "duration_sec": 13.704,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 3,
+      "chapter_title": "DEEP-RED SENATE FLIPS",
+      "narration_text": "The shockwaves hit deep-red territory... where Democrats won Senate races with James Talarico in Texas, Annie Andrews in South Carolina, and Josh Turek in Iowa.",
+      "visual_archetype": "NARRATIVE_STORYBOARD",
+      "camera_movement": "slow_zoom_out",
+      "hud_metrics": [
+        {
+          "label": "House Seats",
+          "value": "249 DEM",
+          "delta": "LOCKED"
+        },
+        {
+          "label": "Senate Seats",
+          "value": "20 DEM WINS",
+          "delta": "+RED STATE FLIPS"
+        },
+        {
+          "label": "Races Called",
+          "value": "136 / 158",
+          "delta": "KEY RACES"
+        },
+        {
+          "label": "Leadership Status",
+          "value": "CHALLENGED",
+          "delta": "NEW INCOMERS"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "map_pin",
+          "headline": "Texas & South Carolina",
+          "subtext": "James Talarico (TX) and Annie Andrews (SC) win Senate seats",
+          "badge": "AP CALL",
+          "highlight_color": "emerald"
+        },
+        {
+          "element_type": "map_pin",
+          "headline": "Iowa, Kansas & Ohio",
+          "subtext": "Josh Turek (IA), Adam Hamilton (KS), and Sherrod Brown (OH) win",
+          "badge": "HEARTLAND",
+          "highlight_color": "cyan"
+        },
+        {
+          "element_type": "stat_card",
+          "headline": "Governor Flips",
+          "subtext": "Rob Sand (IA), Keisha Lance Bottoms (GA), Amy Klobuchar (MN) win",
+          "badge": "EXECUTIVES",
+          "highlight_color": "violet"
+        }
+      ],
+      "callout_keywords": [
+        "James Talarico",
+        "Annie Andrews",
+        "Josh Turek"
+      ],
+      "illustration": null,
+      "broll_query": "United States Senate chamber",
+      "start_sec": 27.744,
+      "duration_sec": 12.216,
+      "broll_asset": "assets/broll/scene_03.jpg",
+      "broll_attribution": "Onasill ~ Bill · CC BY-NC-SA 2.0",
+      "broll_source_url": "https://www.flickr.com/photos/7156765@N05/24149350053"
+    },
+    {
+      "scene_id": 4,
+      "chapter_title": "THE CLOSED-DOOR MECHANISM",
+      "narration_text": "Here is the catch most voters miss... you don't elect party leaders. Lawmakers pick them in closed-door votes on November 18 and early December.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "static_focus",
+      "hud_metrics": [
+        {
+          "label": "House Seats",
+          "value": "249 VOTERS",
+          "delta": "CAUCUS BALLOT"
+        },
+        {
+          "label": "Senate Seats",
+          "value": "54 VOTERS",
+          "delta": "SECRET BALLOT"
+        },
+        {
+          "label": "Races Called",
+          "value": "473 / 513",
+          "delta": "CERTIFYING"
+        },
+        {
+          "label": "Leadership Status",
+          "value": "NOV 18 / DEC",
+          "delta": "CLOSED DOOR"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "node_network",
+          "headline": "Internal Caucus Protocol",
+          "subtext": "Voters elect reps, reps vote in secret, and leaders control the floor",
+          "badge": "MECHANISM",
+          "highlight_color": "cyan"
+        },
+        {
+          "element_type": "timeline_milestone",
+          "headline": "November 18 & Early Dec",
+          "subtext": "House Democrats vote Nov 18; Senate Democrats vote early December",
+          "badge": "SCHEDULE",
+          "highlight_color": "amber"
+        }
+      ],
+      "callout_keywords": [
+        "party leaders",
+        "closed-door votes",
+        "November 18"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "HOW LEADERS ARE PICKED",
+          "nodes": [
+            {
+              "id": "voters",
+              "label": "Nov 3 Voters",
+              "sublabel": "Elect 303 Dems",
+              "icon": "users",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "caucus",
+              "label": "Closed Caucus",
+              "sublabel": "Nov 18 & Dec",
+              "icon": "lock",
+              "tier": 2,
+              "highlight": true
+            },
+            {
+              "id": "leaders",
+              "label": "Party Leaders",
+              "sublabel": "Speaker & Majority",
+              "icon": "shield",
+              "tier": 3,
+              "highlight": false
+            }
+          ],
+          "edges": [
+            {
+              "source": "voters",
+              "target": "caucus",
+              "label": "Send Reps",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "caucus",
+              "target": "leaders",
+              "label": "Secret Vote",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": "caucus",
+          "caption": "Voters never see the leadership ballot; members vote behind closed doors."
+        }
+      },
+      "broll_query": "",
+      "start_sec": 40.56,
+      "duration_sec": 10.536,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 5,
+      "chapter_title": "THE PAC FUNDING LEDGER",
+      "narration_text": "Right now, incumbent leaders face scrutiny over AIPAC and allied PAC funding... House leader Hakeem Jeffries received $1,432,101, while Senate leader Chuck Schumer took $410,311.",
+      "visual_archetype": "DOCUMENTARY_ARCHIVE",
+      "camera_movement": "slow_zoom_in",
+      "hud_metrics": [
+        {
+          "label": "House Seats",
+          "value": "JEFFRIES (NY)",
+          "delta": "SINCE 2023"
+        },
+        {
+          "label": "Senate Seats",
+          "value": "SCHUMER (NY)",
+          "delta": "SINCE 2017"
+        },
+        {
+          "label": "Races Called",
+          "value": "$1,842,412",
+          "delta": "COMBINED PAC $"
+        },
+        {
+          "label": "Leadership Status",
+          "value": "UNDER FIRE",
+          "delta": "DONOR SCRUTINY"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "$1,432,101 to Jeffries",
+          "subtext": "$1,031,851 directly from AIPAC PAC and United Democracy Project",
+          "badge": "HOUSE LEADER",
+          "highlight_color": "crimson"
+        },
+        {
+          "element_type": "stat_card",
+          "headline": "$410,311 to Schumer",
+          "subtext": "$101,070 from AIPAC PAC and United Democracy Project since 2017",
+          "badge": "SENATE LEADER",
+          "highlight_color": "amber"
+        }
+      ],
+      "callout_keywords": [
+        "Hakeem Jeffries",
+        "$1,432,101",
+        "Chuck Schumer"
+      ],
+      "illustration": null,
+      "broll_query": "United States Capitol building night",
+      "start_sec": 51.696,
+      "duration_sec": 17.928,
+      "broll_asset": "assets/broll/scene_05.jpg",
+      "broll_attribution": "dannymac15_1999 · CC BY-ND 2.0",
+      "broll_source_url": "https://www.flickr.com/photos/58440035@N05/8651732075"
+    },
+    {
+      "scene_id": 6,
+      "chapter_title": "THE SENATE DEFECTION BLOC",
+      "narration_text": "That triggered an immediate rebellion... incoming Senators-elect Adam Hamilton, Troy Jackson, and Juliana Stratton already pledged they won't back Schumer for majority leader.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "pan_right",
+      "hud_metrics": [
+        {
+          "label": "House Seats",
+          "value": "249 DEM",
+          "delta": "NOV 18 VOTE"
+        },
+        {
+          "label": "Senate Seats",
+          "value": "54 DEM",
+          "delta": "4 DEFECTIONS"
+        },
+        {
+          "label": "Races Called",
+          "value": "473 / 513",
+          "delta": "FINALIZING"
+        },
+        {
+          "label": "Leadership Status",
+          "value": "CRITICAL",
+          "delta": "BLOC FORMING"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "node_network",
+          "headline": "3 Hard No Votes",
+          "subtext": "Adam Hamilton (KS), Troy Jackson (ME), Juliana Stratton (IL) reject Schumer",
+          "badge": "DEFECTION",
+          "highlight_color": "crimson"
+        },
+        {
+          "element_type": "quote_callout",
+          "headline": "'It is time for new leadership'",
+          "subtext": "Senator-elect Peggy Flanagan (Minnesota) on November 4",
+          "badge": "ROLL CALL",
+          "highlight_color": "amber"
+        }
+      ],
+      "callout_keywords": [
+        "immediate rebellion",
+        "Adam Hamilton",
+        "Juliana Stratton"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "SENATE LEADERSHIP REVOLT",
+          "nodes": [
+            {
+              "id": "hamilton",
+              "label": "A. Hamilton (KS)",
+              "sublabel": "No on Schumer",
+              "icon": "user-x",
+              "tier": 1,
+              "highlight": true
+            },
+            {
+              "id": "jackson",
+              "label": "T. Jackson (ME)",
+              "sublabel": "No on Schumer",
+              "icon": "user-x",
+              "tier": 1,
+              "highlight": true
+            },
+            {
+              "id": "stratton",
+              "label": "J. Stratton (IL)",
+              "sublabel": "No on Schumer",
+              "icon": "user-x",
+              "tier": 1,
+              "highlight": true
+            },
+            {
+              "id": "vote",
+              "label": "Dec Caucus Vote",
+              "sublabel": "54 Dem Senators",
+              "icon": "git-merge",
+              "tier": 2,
+              "highlight": true
+            },
+            {
+              "id": "schumer",
+              "label": "Leader Schumer",
+              "sublabel": "In Danger",
+              "icon": "alert-triangle",
+              "tier": 3,
+              "highlight": false
+            }
+          ],
+          "edges": [
+            {
+              "source": "hamilton",
+              "target": "vote",
+              "label": "Defects",
+              "color": "crimson",
+              "animate": true
+            },
+            {
+              "source": "jackson",
+              "target": "vote",
+              "label": "Defects",
+              "color": "crimson",
+              "animate": true
+            },
+            {
+              "source": "stratton",
+              "target": "vote",
+              "label": "Defects",
+              "color": "crimson",
+              "animate": true
+            },
+            {
+              "source": "vote",
+              "target": "schumer",
+              "label": "Blocks",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": "vote",
+          "caption": "Incoming freshmen from Kansas, Maine, Illinois, and Minnesota are challenging the old guard."
+        }
+      },
+      "broll_query": "",
+      "start_sec": 70.224,
+      "duration_sec": 11.784,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 7,
+      "chapter_title": "THE DECEMBER VERDICT",
+      "narration_text": "With Minnesota's Peggy Flanagan also demanding new leadership, and voter calls flooding the Capitol... will this new majority actually oust Schumer and Jeffries?",
+      "visual_archetype": "KINETIC_MINIMALIST",
+      "camera_movement": "slow_zoom_out",
+      "hud_metrics": [
+        {
+          "label": "House Seats",
+          "value": "249 DEM",
+          "delta": "NOV 18 VOTE"
+        },
+        {
+          "label": "Senate Seats",
+          "value": "54 DEM",
+          "delta": "EARLY DEC VOTE"
+        },
+        {
+          "label": "Races Called",
+          "value": "(202) 224-3121",
+          "delta": "SWITCHBOARD LIVE"
+        },
+        {
+          "label": "Leadership Status",
+          "value": "TOSS-UP",
+          "delta": "YOU DECIDE"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "(202) 224-3121",
+          "subtext": "Capitol switchboard flooded ahead of Nov 18 and December secret ballots",
+          "badge": "ACTION LINE",
+          "highlight_color": "cyan"
+        },
+        {
+          "element_type": "comparison_split",
+          "headline": "Keep Old Guard vs New Leaders",
+          "subtext": "Schumer (since 2017) & Jeffries (since 2023) vs 2026 Reform Bloc",
+          "badge": "THE VERDICT",
+          "highlight_color": "crimson"
+        }
+      ],
+      "callout_keywords": [
+        "Peggy Flanagan",
+        "new leadership",
+        "Schumer and Jeffries"
+      ],
+      "illustration": null,
+      "broll_query": "Capitol Hill rotunda Washington DC",
+      "start_sec": 82.608,
+      "duration_sec": 9.864,
+      "broll_asset": "assets/broll/scene_07.jpg",
+      "broll_attribution": "HPUPhotogStudent · CC BY 2.0",
+      "broll_source_url": "https://www.flickr.com/photos/36121865@N03/3736856571"
+    }
+  ],
+  "words": [
+    {
+      "word": "On",
+      "start_sec": 0.05,
+      "end_sec": 0.323
+    },
+    {
+      "word": "November",
+      "start_sec": 0.323,
+      "end_sec": 1.065
+    },
+    {
+      "word": "3",
+      "start_sec": 1.065,
+      "end_sec": 1.26
+    },
+    {
+      "word": "Democrats",
+      "start_sec": 1.26,
+      "end_sec": 2.079
+    },
+    {
+      "word": "didn't",
+      "start_sec": 2.079,
+      "end_sec": 2.665
+    },
+    {
+      "word": "just",
+      "start_sec": 2.665,
+      "end_sec": 3.094
+    },
+    {
+      "word": "win",
+      "start_sec": 3.094,
+      "end_sec": 3.445
+    },
+    {
+      "word": "the",
+      "start_sec": 3.445,
+      "end_sec": 3.796
+    },
+    {
+      "word": "2026",
+      "start_sec": 3.796,
+      "end_sec": 4.226
+    },
+    {
+      "word": "midterms...",
+      "start_sec": 4.226,
+      "end_sec": 5.201
+    },
+    {
+      "word": "they",
+      "start_sec": 5.201,
+      "end_sec": 5.63
+    },
+    {
+      "word": "captured",
+      "start_sec": 5.63,
+      "end_sec": 6.372
+    },
+    {
+      "word": "249",
+      "start_sec": 6.372,
+      "end_sec": 6.723
+    },
+    {
+      "word": "House",
+      "start_sec": 6.723,
+      "end_sec": 7.23
+    },
+    {
+      "word": "seats",
+      "start_sec": 7.23,
+      "end_sec": 7.738
+    },
+    {
+      "word": "and",
+      "start_sec": 7.738,
+      "end_sec": 8.089
+    },
+    {
+      "word": "54",
+      "start_sec": 8.089,
+      "end_sec": 8.362
+    },
+    {
+      "word": "Senate",
+      "start_sec": 8.362,
+      "end_sec": 8.947
+    },
+    {
+      "word": "seats",
+      "start_sec": 8.947,
+      "end_sec": 9.455
+    },
+    {
+      "word": "locking",
+      "start_sec": 9.455,
+      "end_sec": 10.118
+    },
+    {
+      "word": "in",
+      "start_sec": 10.118,
+      "end_sec": 10.391
+    },
+    {
+      "word": "total",
+      "start_sec": 10.391,
+      "end_sec": 10.899
+    },
+    {
+      "word": "congressional",
+      "start_sec": 10.899,
+      "end_sec": 12.03
+    },
+    {
+      "word": "control.",
+      "start_sec": 12.03,
+      "end_sec": 12.772
+    },
+    {
+      "word": "Out",
+      "start_sec": 13.49,
+      "end_sec": 13.876
+    },
+    {
+      "word": "of",
+      "start_sec": 13.876,
+      "end_sec": 14.176
+    },
+    {
+      "word": "513",
+      "start_sec": 14.176,
+      "end_sec": 14.562
+    },
+    {
+      "word": "total",
+      "start_sec": 14.562,
+      "end_sec": 15.119
+    },
+    {
+      "word": "races",
+      "start_sec": 15.119,
+      "end_sec": 15.677
+    },
+    {
+      "word": "473",
+      "start_sec": 15.677,
+      "end_sec": 16.062
+    },
+    {
+      "word": "are",
+      "start_sec": 16.062,
+      "end_sec": 16.448
+    },
+    {
+      "word": "already",
+      "start_sec": 16.448,
+      "end_sec": 17.177
+    },
+    {
+      "word": "called...",
+      "start_sec": 17.177,
+      "end_sec": 18.078
+    },
+    {
+      "word": "with",
+      "start_sec": 18.078,
+      "end_sec": 18.549
+    },
+    {
+      "word": "Democrats",
+      "start_sec": 18.549,
+      "end_sec": 19.45
+    },
+    {
+      "word": "winning",
+      "start_sec": 19.45,
+      "end_sec": 20.178
+    },
+    {
+      "word": "292",
+      "start_sec": 20.178,
+      "end_sec": 20.564
+    },
+    {
+      "word": "to",
+      "start_sec": 20.564,
+      "end_sec": 20.864
+    },
+    {
+      "word": "Republicans'",
+      "start_sec": 20.864,
+      "end_sec": 22.022
+    },
+    {
+      "word": "181",
+      "start_sec": 22.022,
+      "end_sec": 22.408
+    },
+    {
+      "word": "crushing",
+      "start_sec": 22.408,
+      "end_sec": 23.223
+    },
+    {
+      "word": "the",
+      "start_sec": 23.223,
+      "end_sec": 23.608
+    },
+    {
+      "word": "218-seat",
+      "start_sec": 23.608,
+      "end_sec": 24.423
+    },
+    {
+      "word": "threshold",
+      "start_sec": 24.423,
+      "end_sec": 25.323
+    },
+    {
+      "word": "for",
+      "start_sec": 25.323,
+      "end_sec": 25.709
+    },
+    {
+      "word": "House",
+      "start_sec": 25.709,
+      "end_sec": 26.267
+    },
+    {
+      "word": "control.",
+      "start_sec": 26.267,
+      "end_sec": 27.081
+    },
+    {
+      "word": "The",
+      "start_sec": 27.794,
+      "end_sec": 28.111
+    },
+    {
+      "word": "shockwaves",
+      "start_sec": 28.111,
+      "end_sec": 28.923
+    },
+    {
+      "word": "hit",
+      "start_sec": 28.923,
+      "end_sec": 29.24
+    },
+    {
+      "word": "deep-red",
+      "start_sec": 29.24,
+      "end_sec": 29.91
+    },
+    {
+      "word": "territory...",
+      "start_sec": 29.91,
+      "end_sec": 30.862
+    },
+    {
+      "word": "where",
+      "start_sec": 30.862,
+      "end_sec": 31.321
+    },
+    {
+      "word": "Democrats",
+      "start_sec": 31.321,
+      "end_sec": 32.061
+    },
+    {
+      "word": "won",
+      "start_sec": 32.061,
+      "end_sec": 32.379
+    },
+    {
+      "word": "Senate",
+      "start_sec": 32.379,
+      "end_sec": 32.908
+    },
+    {
+      "word": "races",
+      "start_sec": 32.908,
+      "end_sec": 33.366
+    },
+    {
+      "word": "with",
+      "start_sec": 33.366,
+      "end_sec": 33.754
+    },
+    {
+      "word": "James",
+      "start_sec": 33.754,
+      "end_sec": 34.213
+    },
+    {
+      "word": "Talarico",
+      "start_sec": 34.213,
+      "end_sec": 34.883
+    },
+    {
+      "word": "in",
+      "start_sec": 34.883,
+      "end_sec": 35.13
+    },
+    {
+      "word": "Texas",
+      "start_sec": 35.13,
+      "end_sec": 35.588
+    },
+    {
+      "word": "Annie",
+      "start_sec": 35.588,
+      "end_sec": 36.047
+    },
+    {
+      "word": "Andrews",
+      "start_sec": 36.047,
+      "end_sec": 36.646
+    },
+    {
+      "word": "in",
+      "start_sec": 36.646,
+      "end_sec": 36.893
+    },
+    {
+      "word": "South",
+      "start_sec": 36.893,
+      "end_sec": 37.351
+    },
+    {
+      "word": "Carolina",
+      "start_sec": 37.351,
+      "end_sec": 38.022
+    },
+    {
+      "word": "and",
+      "start_sec": 38.022,
+      "end_sec": 38.339
+    },
+    {
+      "word": "Josh",
+      "start_sec": 38.339,
+      "end_sec": 38.727
+    },
+    {
+      "word": "Turek",
+      "start_sec": 38.727,
+      "end_sec": 39.185
+    },
+    {
+      "word": "in",
+      "start_sec": 39.185,
+      "end_sec": 39.432
+    },
+    {
+      "word": "Iowa.",
+      "start_sec": 39.432,
+      "end_sec": 39.891
+    },
+    {
+      "word": "Here",
+      "start_sec": 40.61,
+      "end_sec": 40.972
+    },
+    {
+      "word": "is",
+      "start_sec": 40.972,
+      "end_sec": 41.202
+    },
+    {
+      "word": "the",
+      "start_sec": 41.202,
+      "end_sec": 41.499
+    },
+    {
+      "word": "catch",
+      "start_sec": 41.499,
+      "end_sec": 41.926
+    },
+    {
+      "word": "most",
+      "start_sec": 41.926,
+      "end_sec": 42.288
+    },
+    {
+      "word": "voters",
+      "start_sec": 42.288,
+      "end_sec": 42.782
+    },
+    {
+      "word": "miss...",
+      "start_sec": 42.782,
+      "end_sec": 43.341
+    },
+    {
+      "word": "you",
+      "start_sec": 43.341,
+      "end_sec": 43.638
+    },
+    {
+      "word": "don't",
+      "start_sec": 43.638,
+      "end_sec": 44.065
+    },
+    {
+      "word": "elect",
+      "start_sec": 44.065,
+      "end_sec": 44.493
+    },
+    {
+      "word": "party",
+      "start_sec": 44.493,
+      "end_sec": 44.921
+    },
+    {
+      "word": "leaders.",
+      "start_sec": 44.921,
+      "end_sec": 45.546
+    },
+    {
+      "word": "Lawmakers",
+      "start_sec": 45.546,
+      "end_sec": 46.248
+    },
+    {
+      "word": "pick",
+      "start_sec": 46.248,
+      "end_sec": 46.615
+    },
+    {
+      "word": "them",
+      "start_sec": 46.615,
+      "end_sec": 46.982
+    },
+    {
+      "word": "in",
+      "start_sec": 46.982,
+      "end_sec": 47.216
+    },
+    {
+      "word": "closed-door",
+      "start_sec": 47.216,
+      "end_sec": 48.05
+    },
+    {
+      "word": "votes",
+      "start_sec": 48.05,
+      "end_sec": 48.485
+    },
+    {
+      "word": "on",
+      "start_sec": 48.485,
+      "end_sec": 48.718
+    },
+    {
+      "word": "November",
+      "start_sec": 48.718,
+      "end_sec": 49.353
+    },
+    {
+      "word": "18",
+      "start_sec": 49.353,
+      "end_sec": 49.586
+    },
+    {
+      "word": "and",
+      "start_sec": 49.586,
+      "end_sec": 49.887
+    },
+    {
+      "word": "early",
+      "start_sec": 49.887,
+      "end_sec": 50.321
+    },
+    {
+      "word": "December.",
+      "start_sec": 50.321,
+      "end_sec": 51.022
+    },
+    {
+      "word": "Right",
+      "start_sec": 51.746,
+      "end_sec": 52.183
+    },
+    {
+      "word": "now",
+      "start_sec": 52.183,
+      "end_sec": 52.485
+    },
+    {
+      "word": "incumbent",
+      "start_sec": 52.485,
+      "end_sec": 53.191
+    },
+    {
+      "word": "leaders",
+      "start_sec": 53.191,
+      "end_sec": 53.762
+    },
+    {
+      "word": "face",
+      "start_sec": 53.762,
+      "end_sec": 54.131
+    },
+    {
+      "word": "scrutiny",
+      "start_sec": 54.131,
+      "end_sec": 54.769
+    },
+    {
+      "word": "over",
+      "start_sec": 54.769,
+      "end_sec": 55.139
+    },
+    {
+      "word": "AIPAC",
+      "start_sec": 55.139,
+      "end_sec": 55.576
+    },
+    {
+      "word": "and",
+      "start_sec": 55.576,
+      "end_sec": 55.878
+    },
+    {
+      "word": "allied",
+      "start_sec": 55.878,
+      "end_sec": 56.382
+    },
+    {
+      "word": "PAC",
+      "start_sec": 56.382,
+      "end_sec": 56.684
+    },
+    {
+      "word": "funding...",
+      "start_sec": 56.684,
+      "end_sec": 57.457
+    },
+    {
+      "word": "House",
+      "start_sec": 57.457,
+      "end_sec": 58.232
+    },
+    {
+      "word": "leader",
+      "start_sec": 58.232,
+      "end_sec": 59.127
+    },
+    {
+      "word": "Hakeem",
+      "start_sec": 59.127,
+      "end_sec": 60.021
+    },
+    {
+      "word": "Jeffries",
+      "start_sec": 60.021,
+      "end_sec": 61.154
+    },
+    {
+      "word": "received",
+      "start_sec": 61.154,
+      "end_sec": 62.287
+    },
+    {
+      "word": "$1432101",
+      "start_sec": 62.287,
+      "end_sec": 63.42
+    },
+    {
+      "word": "while",
+      "start_sec": 63.42,
+      "end_sec": 64.196
+    },
+    {
+      "word": "Senate",
+      "start_sec": 64.196,
+      "end_sec": 65.09
+    },
+    {
+      "word": "leader",
+      "start_sec": 65.09,
+      "end_sec": 65.985
+    },
+    {
+      "word": "Chuck",
+      "start_sec": 65.985,
+      "end_sec": 66.76
+    },
+    {
+      "word": "Schumer",
+      "start_sec": 66.76,
+      "end_sec": 67.774
+    },
+    {
+      "word": "took",
+      "start_sec": 67.774,
+      "end_sec": 68.43
+    },
+    {
+      "word": "$410311.",
+      "start_sec": 68.43,
+      "end_sec": 69.563
+    },
+    {
+      "word": "That",
+      "start_sec": 70.274,
+      "end_sec": 70.62
+    },
+    {
+      "word": "triggered",
+      "start_sec": 70.62,
+      "end_sec": 71.281
+    },
+    {
+      "word": "an",
+      "start_sec": 71.281,
+      "end_sec": 71.501
+    },
+    {
+      "word": "immediate",
+      "start_sec": 71.501,
+      "end_sec": 72.162
+    },
+    {
+      "word": "rebellion...",
+      "start_sec": 72.162,
+      "end_sec": 73.012
+    },
+    {
+      "word": "incoming",
+      "start_sec": 73.012,
+      "end_sec": 73.61
+    },
+    {
+      "word": "Senators-elect",
+      "start_sec": 73.61,
+      "end_sec": 74.585
+    },
+    {
+      "word": "Adam",
+      "start_sec": 74.585,
+      "end_sec": 74.932
+    },
+    {
+      "word": "Hamilton",
+      "start_sec": 74.932,
+      "end_sec": 75.53
+    },
+    {
+      "word": "Troy",
+      "start_sec": 75.53,
+      "end_sec": 75.876
+    },
+    {
+      "word": "Jackson",
+      "start_sec": 75.876,
+      "end_sec": 76.411
+    },
+    {
+      "word": "and",
+      "start_sec": 76.411,
+      "end_sec": 76.694
+    },
+    {
+      "word": "Juliana",
+      "start_sec": 76.694,
+      "end_sec": 77.229
+    },
+    {
+      "word": "Stratton",
+      "start_sec": 77.229,
+      "end_sec": 77.827
+    },
+    {
+      "word": "already",
+      "start_sec": 77.827,
+      "end_sec": 78.362
+    },
+    {
+      "word": "pledged",
+      "start_sec": 78.362,
+      "end_sec": 78.897
+    },
+    {
+      "word": "they",
+      "start_sec": 78.897,
+      "end_sec": 79.243
+    },
+    {
+      "word": "won't",
+      "start_sec": 79.243,
+      "end_sec": 79.652
+    },
+    {
+      "word": "back",
+      "start_sec": 79.652,
+      "end_sec": 79.998
+    },
+    {
+      "word": "Schumer",
+      "start_sec": 79.998,
+      "end_sec": 80.533
+    },
+    {
+      "word": "for",
+      "start_sec": 80.533,
+      "end_sec": 80.817
+    },
+    {
+      "word": "majority",
+      "start_sec": 80.817,
+      "end_sec": 81.415
+    },
+    {
+      "word": "leader.",
+      "start_sec": 81.415,
+      "end_sec": 81.95
+    },
+    {
+      "word": "With",
+      "start_sec": 82.658,
+      "end_sec": 82.971
+    },
+    {
+      "word": "Minnesota's",
+      "start_sec": 82.971,
+      "end_sec": 83.682
+    },
+    {
+      "word": "Peggy",
+      "start_sec": 83.682,
+      "end_sec": 84.052
+    },
+    {
+      "word": "Flanagan",
+      "start_sec": 84.052,
+      "end_sec": 84.593
+    },
+    {
+      "word": "also",
+      "start_sec": 84.593,
+      "end_sec": 84.906
+    },
+    {
+      "word": "demanding",
+      "start_sec": 84.906,
+      "end_sec": 85.503
+    },
+    {
+      "word": "new",
+      "start_sec": 85.503,
+      "end_sec": 85.76
+    },
+    {
+      "word": "leadership",
+      "start_sec": 85.76,
+      "end_sec": 86.414
+    },
+    {
+      "word": "and",
+      "start_sec": 86.414,
+      "end_sec": 86.67
+    },
+    {
+      "word": "voter",
+      "start_sec": 86.67,
+      "end_sec": 87.04
+    },
+    {
+      "word": "calls",
+      "start_sec": 87.04,
+      "end_sec": 87.41
+    },
+    {
+      "word": "flooding",
+      "start_sec": 87.41,
+      "end_sec": 87.95
+    },
+    {
+      "word": "the",
+      "start_sec": 87.95,
+      "end_sec": 88.207
+    },
+    {
+      "word": "Capitol...",
+      "start_sec": 88.207,
+      "end_sec": 88.861
+    },
+    {
+      "word": "will",
+      "start_sec": 88.861,
+      "end_sec": 89.174
+    },
+    {
+      "word": "this",
+      "start_sec": 89.174,
+      "end_sec": 89.487
+    },
+    {
+      "word": "new",
+      "start_sec": 89.487,
+      "end_sec": 89.743
+    },
+    {
+      "word": "majority",
+      "start_sec": 89.743,
+      "end_sec": 90.284
+    },
+    {
+      "word": "actually",
+      "start_sec": 90.284,
+      "end_sec": 90.824
+    },
+    {
+      "word": "oust",
+      "start_sec": 90.824,
+      "end_sec": 91.137
+    },
+    {
+      "word": "Schumer",
+      "start_sec": 91.137,
+      "end_sec": 91.621
+    },
+    {
+      "word": "and",
+      "start_sec": 91.621,
+      "end_sec": 91.877
+    },
+    {
+      "word": "Jeffries",
+      "start_sec": 91.877,
+      "end_sec": 92.418
+    }
+  ],
+  "total_duration_sec": 92.472,
+  "video_format": "portrait",
+  "source_urls": [
+    "https://primarydemocrats.com/2026-general.html"
+  ]
+}
