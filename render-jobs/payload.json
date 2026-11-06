@@ -1,240 +1,262 @@
 {
   "genre": "SCIENCE_PHYSICS",
   "suggested_bgm_mood": "upbeat_curious_tech",
-  "youtube_title": "How Could Tesla Build a Flying Car?",
-  "youtube_description": "Has Tesla achieved a flying car? This video explores the physics and engineering behind electric vertical flight, separating verified facts from speculation. Discover how electric motors, rotors, thrust, flight controls, and battery technology could make flying vehicles possible.",
+  "youtube_title": "The Big Bang Wasn't an Explosion: How Space Stretches Faster Than Light",
+  "youtube_description": "The Big Bang was not an explosion in space—it was the rapid expansion of space itself 13.8 billion years ago. Discover how the Cosmic Microwave Background, Hubble's Law (73 km/s/Mpc), and 68% dark energy prove the universe is still accelerating today. Chapters: 0:00 The Singularity Myth | 0:09 Cosmic Inflation & Recombination | 0:18 The 2.725K Afterglow | 0:27 Hubble's Redshift Proof | 0:36 The 73 km/s/Mpc Speed Limit | 0:46 Dark Energy's 68% Push | 0:55 Big Freeze vs. Big Rip",
   "youtube_tags": [
-    "Tesla",
-    "Flying Car",
-    "Electric Aviation",
-    "VTOL",
-    "Physics",
-    "Engineering",
-    "Future Technology",
-    "Electric Vehicles",
-    "Science Explained",
-    "Flying Vehicles"
+    "what is the big bang",
+    "is the universe expanding",
+    "hubble constant explained",
+    "cosmic microwave background",
+    "dark energy explained",
+    "cosmic inflation",
+    "edwin hubble redshift",
+    "astrophysics shorts",
+    "cosmology explainer",
+    "big freeze vs big rip"
   ],
-  "pinned_comment": "Would you trust a flying electric car for your daily commute? Tell us why!",
-  "thumbnail_headline": "TESLA FLYING CAR?",
-  "thumbnail_sub_badge": "FACT OR FICTION",
+  "pinned_comment": "Dark energy makes up 68% of the cosmos and is pushing galaxies past our cosmic horizon faster than light. Based on current physics, do you think the universe ends in a cold 'Big Freeze' or tears atoms apart in a 'Big Rip'?",
+  "thumbnail_headline": "FASTER THAN LIGHT",
+  "thumbnail_sub_badge": "COSMOLOGY",
   "scenes": [
     {
       "scene_id": 1,
-      "chapter_title": "The Big Question",
-      "narration_text": "A Tesla flying car sounds incredible. But has Tesla actually achieved it? Let's explore the science and separate verified technology from speculation.",
-      "visual_archetype": "NARRATIVE_STORYBOARD",
-      "camera_movement": "slow_zoom_in",
-      "hud_metrics": [],
+      "chapter_title": "THE EXPANSION OF SPACE",
+      "narration_text": "13.8 billion years ago, the Big Bang wasn't an explosion in space... it was space itself stretching outward from a scorching, subatomic singularity.",
+      "visual_archetype": "KINETIC_MINIMALIST",
+      "camera_movement": "slow_zoom_out",
+      "hud_metrics": [
+        {
+          "label": "Cosmic Epoch",
+          "value": "t = 0 sec",
+          "delta": "13.8B YRS AGO"
+        },
+        {
+          "label": "Temperature",
+          "value": "10^32 Kelvin",
+          "delta": "PLANCK HEAT"
+        },
+        {
+          "label": "Expansion Rate",
+          "value": "INFLATIONARY",
+          "delta": "METRIC STRETCH"
+        },
+        {
+          "label": "Observable Scale",
+          "value": "Subatomic",
+          "delta": "EXPANDING"
+        }
+      ],
       "visual_elements": [
         {
-          "element_type": "quote_callout",
-          "headline": "TESLA FLYING CAR?",
-          "subtext": "Has this futuristic technology become reality?",
-          "badge": "BIG QUESTION",
+          "element_type": "comparison_split",
+          "headline": "Explosion in Space vs Expansion of Space",
+          "subtext": "Matter did not fly into empty void; the fabric of spacetime stretched everywhere",
+          "badge": "CORE PRINCIPLE",
           "highlight_color": "cyan"
         },
         {
-          "element_type": "comparison_split",
-          "headline": "Fact vs Fiction",
-          "subtext": "Separate verified achievements from futuristic concepts.",
-          "badge": null,
-          "highlight_color": "cyan"
+          "element_type": "stat_card",
+          "headline": "13.8 Billion Years",
+          "subtext": "Age of the universe measured from the initial singularity",
+          "badge": "ORIGIN",
+          "highlight_color": "emerald"
         }
       ],
       "callout_keywords": [
-        "actually achieved",
-        "verified technology",
-        "speculation"
+        "13.8 billion years",
+        "Big Bang",
+        "subatomic singularity"
       ],
-      "illustration": null,
-      "broll_query": "cinematic futuristic electric car and conceptual flying vehicle in dramatic futuristic city",
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "THE METRIC STRETCH",
+          "nodes": [
+            {
+              "id": "singularity",
+              "label": "Singularity",
+              "sublabel": "t = 0 Seconds",
+              "icon": "zap",
+              "tier": 1,
+              "highlight": true
+            },
+            {
+              "id": "spacetime",
+              "label": "Spacetime Grid",
+              "sublabel": "Metric Expansion",
+              "icon": "maximize-2",
+              "tier": 2,
+              "highlight": true
+            },
+            {
+              "id": "cosmos",
+              "label": "Expanding Cosmos",
+              "sublabel": "13.8B Years Old",
+              "icon": "globe",
+              "tier": 3,
+              "highlight": false
+            }
+          ],
+          "edges": [
+            {
+              "source": "singularity",
+              "target": "spacetime",
+              "label": "Unfolds",
+              "color": "amber",
+              "animate": true
+            },
+            {
+              "source": "spacetime",
+              "target": "cosmos",
+              "label": "Stretches",
+              "color": "cyan",
+              "animate": true
+            }
+          ],
+          "focus_node_id": "spacetime",
+          "caption": "Space itself expands between every coordinate rather(than) exploding from a center."
+        }
+      },
+      "broll_query": "",
       "start_sec": 0.0,
-      "duration_sec": 8.46,
+      "duration_sec": 8.85,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 2,
-      "chapter_title": "Electric Foundation",
-      "narration_text": "Electric vehicles use batteries to store energy. Power electronics manage electricity, while electric motors convert that energy into motion.",
+      "chapter_title": "INFLATION TO FIRST ATOMS",
+      "narration_text": "In the first fraction of a second, cosmic inflation stretched space faster than light... cooling subatomic plasma until atoms finally formed 380,000 years later.",
       "visual_archetype": "NEON_TECHNICAL_HUD",
       "camera_movement": "pan_right",
       "hud_metrics": [
         {
-          "label": "Energy source",
-          "value": "Battery",
-          "delta": null
+          "label": "Cosmic Epoch",
+          "value": "+380,000 Yrs",
+          "delta": "RECOMBINATION"
         },
         {
-          "label": "Power conversion",
-          "value": "Electric motor",
-          "delta": null
+          "label": "Temperature",
+          "value": "3,000 Kelvin",
+          "delta": "COOLING PLASMA"
+        },
+        {
+          "label": "Expansion Rate",
+          "value": "> Light Speed",
+          "delta": "10^-36 SEC SURGE"
+        },
+        {
+          "label": "Observable Scale",
+          "value": "84M Light-Yrs",
+          "delta": "TRANSPARENT"
         }
       ],
       "visual_elements": [
         {
-          "element_type": "node_network",
-          "headline": "Electric Power",
-          "subtext": "Battery supplies energy to the electric motor.",
-          "badge": null,
-          "highlight_color": "cyan"
+          "element_type": "timeline_milestone",
+          "headline": "t = 10^-36 Seconds",
+          "subtext": "Cosmic inflation expands volume by a factor of at least 10^78",
+          "badge": "INFLATION",
+          "highlight_color": "violet"
         },
         {
           "element_type": "stat_card",
-          "headline": "Electric propulsion",
-          "subtext": "Electrical energy becomes mechanical motion.",
-          "badge": null,
+          "headline": "380,000 Years",
+          "subtext": "Protons capture electrons to form neutral hydrogen, clearing the cosmic fog",
+          "badge": "FIRST ATOMS",
           "highlight_color": "cyan"
         }
       ],
       "callout_keywords": [
-        "store energy",
-        "electric motors"
+        "cosmic inflation",
+        "faster than light",
+        "380,000 years"
       ],
-      "illustration": null,
-      "broll_query": "detailed electric vehicle battery pack power electronics and electric motor animation",
-      "start_sec": 8.88,
-      "duration_sec": 7.31,
+      "illustration": {
+        "kind": "glyph_world",
+        "world": {
+          "unit_icon": "atom",
+          "formation": "orbit",
+          "population": 1000000000,
+          "active_fraction": 0.75,
+          "gate_label": "3,000K THRESHOLD",
+          "section_label": "RECOMBINATION ERA",
+          "headline": "75% Hydrogen Atoms",
+          "unit_label": "atoms",
+          "active_label": "capturing electrons",
+          "caption": "As expanding space cooled to 3,000 Kelvin, nuclei locked in electrons to form neutral hydrogen and helium.",
+          "status": "normal"
+        },
+        "flow": null
+      },
+      "broll_query": "",
+      "start_sec": 9.27,
+      "duration_sec": 9.23,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 3,
-      "chapter_title": "Creating Lift",
-      "narration_text": "A flying electric vehicle needs rotors or fans. They push air downward, creating an upward reaction force that can lift the vehicle.",
-      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "chapter_title": "THE 2.725 KELVIN ECHO",
+      "narration_text": "That exact moment released a blinding flash that still fills space today... the Cosmic Microwave Background, now stretched and cooled to just 2.725 Kelvin.",
+      "visual_archetype": "DOCUMENTARY_ARCHIVE",
       "camera_movement": "slow_zoom_in",
       "hud_metrics": [
         {
-          "label": "Air movement",
-          "value": "Downward",
-          "delta": null
+          "label": "Cosmic Epoch",
+          "value": "1965 Discovery",
+          "delta": "PENZIAS & WILSON"
         },
         {
-          "label": "Generated force",
-          "value": "Upward thrust",
-          "delta": null
+          "label": "Temperature",
+          "value": "2.725 Kelvin",
+          "delta": "-270.4 CELSIUS"
+        },
+        {
+          "label": "Expansion Rate",
+          "value": "z = 1100",
+          "delta": "REDSHIFTED FLASH"
+        },
+        {
+          "label": "Observable Scale",
+          "value": "All-Sky Relic",
+          "delta": "160.2 GHz PEAK"
         }
       ],
       "visual_elements": [
-        {
-          "element_type": "node_network",
-          "headline": "Air Displacement",
-          "subtext": "Rotors accelerate air downward.",
-          "badge": null,
-          "highlight_color": "cyan"
-        },
-        {
-          "element_type": "quote_callout",
-          "headline": "Newton's Third Law",
-          "subtext": "The reaction force produces upward thrust.",
-          "badge": null,
-          "highlight_color": "cyan"
-        }
-      ],
-      "callout_keywords": [
-        "push air downward",
-        "upward reaction force"
-      ],
-      "illustration": null,
-      "broll_query": "electric aircraft rotor blades spinning with visible downward airflow and upward thrust arrows",
-      "start_sec": 16.61,
-      "duration_sec": 8.46,
-      "broll_asset": null,
-      "broll_attribution": null,
-      "broll_source_url": null
-    },
-    {
-      "scene_id": 4,
-      "chapter_title": "The Lift Challenge",
-      "narration_text": "To rise vertically, the vehicle must generate enough thrust to overcome its weight. Passengers and heavy batteries make this challenge harder.",
-      "visual_archetype": "KINETIC_MINIMALIST",
-      "camera_movement": "slow_zoom_out",
-      "hud_metrics": [
-        {
-          "label": "Required condition",
-          "value": "Thrust exceeds weight",
-          "delta": null
-        }
-      ],
-      "visual_elements": [
-        {
-          "element_type": "comparison_split",
-          "headline": "Thrust vs Gravity",
-          "subtext": "Upward thrust must overcome the vehicle's weight.",
-          "badge": null,
-          "highlight_color": "cyan"
-        },
         {
           "element_type": "stat_card",
-          "headline": "Added Mass",
-          "subtext": "Passengers and batteries increase total weight.",
-          "badge": null,
-          "highlight_color": "cyan"
-        }
-      ],
-      "callout_keywords": [
-        "overcome its weight",
-        "heavy batteries"
-      ],
-      "illustration": null,
-      "broll_query": "electric vertical takeoff aircraft lifting off with visual thrust and gravity arrows",
-      "start_sec": 25.49,
-      "duration_sec": 8.08,
-      "broll_asset": null,
-      "broll_attribution": null,
-      "broll_source_url": null
-    },
-    {
-      "scene_id": 5,
-      "chapter_title": "Flight Control",
-      "narration_text": "Flight computers would constantly adjust rotor output to balance the vehicle, control direction, and respond to disturbances during flight.",
-      "visual_archetype": "NEON_TECHNICAL_HUD",
-      "camera_movement": "pan_right",
-      "hud_metrics": [
-        {
-          "label": "Control system",
-          "value": "Flight computer",
-          "delta": null
-        },
-        {
-          "label": "Primary objective",
-          "value": "Stable flight",
-          "delta": null
-        }
-      ],
-      "visual_elements": [
-        {
-          "element_type": "node_network",
-          "headline": "Flight Sensors",
-          "subtext": "Monitor movement, orientation, and stability.",
-          "badge": null,
-          "highlight_color": "cyan"
+          "headline": "2.725 Kelvin (-270.4 C)",
+          "subtext": "3,000K primordial light stretched by 1,100x into microwave wavelengths",
+          "badge": "CMB RADIATION",
+          "highlight_color": "amber"
         },
         {
           "element_type": "node_network",
-          "headline": "Rotor Control",
-          "subtext": "Adjust thrust to maintain controlled flight.",
-          "badge": null,
-          "highlight_color": "cyan"
+          "headline": "411 Photons / cm^3",
+          "subtext": "Relic Big Bang photons still fill every cubic centimeter of empty space",
+          "badge": "FOSSIL LIGHT",
+          "highlight_color": "emerald"
         }
       ],
       "callout_keywords": [
-        "adjust rotor output",
-        "balance the vehicle"
+        "Cosmic Microwave Background",
+        "stretched and cooled",
+        "2.725 Kelvin"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "Flight Sensors",
+          "title": "THE 2.725 KELVIN ECHO",
           "nodes": [
             {
               "id": "n0",
-              "label": "Monitor movement",
+              "label": "2.725 Kelvin (-270.4 C)",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 1,
@@ -242,18 +264,26 @@
             },
             {
               "id": "n1",
-              "label": "orientation",
+              "label": "411 Photons / cm^3",
               "sublabel": "",
-              "icon": "circle-dot",
+              "icon": "sparkles",
               "tier": 2,
               "highlight": false
             },
             {
               "id": "n2",
-              "label": "and stability.",
+              "label": "1965 Discovery",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "2.725 Kelvin",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 4,
               "highlight": true
             }
           ],
@@ -271,116 +301,404 @@
               "label": "",
               "color": "emerald",
               "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
+              "animate": true
             }
           ],
           "focus_node_id": null,
-          "caption": "Monitor movement, orientation, and stability."
+          "caption": ""
         }
       },
-      "broll_query": "futuristic electric aircraft flight control computer adjusting multiple rotors in flight",
-      "start_sec": 33.99,
-      "duration_sec": 7.31,
+      "broll_query": "Cosmic Microwave Background map",
+      "start_sec": 18.92,
+      "duration_sec": 9.23,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 4,
+      "chapter_title": "HUBBLE'S REDSHIFT PROOF",
+      "narration_text": "Then in 1929, Edwin Hubble proved the expansion never stopped... across 2 trillion galaxies, starlight stretches into longer red wavelengths as space expands between them.",
+      "visual_archetype": "NARRATIVE_STORYBOARD",
+      "camera_movement": "slow_zoom_out",
+      "hud_metrics": [
+        {
+          "label": "Cosmic Epoch",
+          "value": "1929 AD",
+          "delta": "MOUNT WILSON"
+        },
+        {
+          "label": "Temperature",
+          "value": "2.725 Kelvin",
+          "delta": "BASELINE"
+        },
+        {
+          "label": "Expansion Rate",
+          "value": "v = H0 * d",
+          "delta": "HUBBLE LAW"
+        },
+        {
+          "label": "Observable Scale",
+          "value": "2T Galaxies",
+          "delta": "RECEDING"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "timeline_milestone",
+          "headline": "1929: Edwin Hubble",
+          "subtext": "Measured Cepheid variables and spectral redshift using the 100-inch Hooker Telescope",
+          "badge": "DISCOVERY",
+          "highlight_color": "cyan"
+        },
+        {
+          "element_type": "stat_card",
+          "headline": "Cosmological Redshift",
+          "subtext": "As space expands in transit, light waves stretch toward the red spectrum",
+          "badge": "SPECTROSCOPY",
+          "highlight_color": "crimson"
+        }
+      ],
+      "callout_keywords": [
+        "Edwin Hubble",
+        "2 trillion galaxies",
+        "red wavelengths"
+      ],
+      "illustration": {
+        "kind": "glyph_world",
+        "world": {
+          "unit_icon": "star",
+          "formation": "scatter",
+          "population": 2000000000000,
+          "active_fraction": 0.88,
+          "gate_label": "SPECTRAL REDSHIFT",
+          "section_label": "DEEP FIELD SURVEY",
+          "headline": "2 Trillion Galaxies",
+          "unit_label": "galaxies",
+          "active_label": "receding & redshifting",
+          "caption": "Every distant galaxy cluster moves away from every other cluster as the space between them swells.",
+          "status": "normal"
+        },
+        "flow": null
+      },
+      "broll_query": "",
+      "start_sec": 28.57,
+      "duration_sec": 9.62,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 5,
+      "chapter_title": "THE 73 KM/S/MPC FORMULA",
+      "narration_text": "By Hubble's Law, every megaparsec of space stretches by roughly 73 kilometers per second... meaning galaxies beyond 14 billion light-years recede faster than light itself.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "static_focus",
+      "hud_metrics": [
+        {
+          "label": "Cosmic Epoch",
+          "value": "Present Day",
+          "delta": "13.8B YEARS"
+        },
+        {
+          "label": "Temperature",
+          "value": "2.725 Kelvin",
+          "delta": "STABLE"
+        },
+        {
+          "label": "Expansion Rate",
+          "value": "73 km/s/Mpc",
+          "delta": "HUBBLE CONSTANT"
+        },
+        {
+          "label": "Observable Scale",
+          "value": "93B Light-Yrs",
+          "delta": "DIAMETER"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "v = H0 x d (73 km/s/Mpc)",
+          "subtext": "Every 3.26 million light-years adds 73 km/s to a galaxy's recession speed",
+          "badge": "HUBBLE CONSTANT",
+          "highlight_color": "cyan"
+        },
+        {
+          "element_type": "stat_card",
+          "headline": "14.4 Billion Light-Years",
+          "subtext": "The Hubble Sphere where cumulative expansion exceeds 299,792 km/s",
+          "badge": "SUPERLUMINAL",
+          "highlight_color": "amber"
+        }
+      ],
+      "callout_keywords": [
+        "Hubble's Law",
+        "73 kilometers",
+        "14 billion light-years"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "HUBBLE'S LAW SCALING",
+          "nodes": [
+            {
+              "id": "mpc",
+              "label": "1 Megaparsec",
+              "sublabel": "3.26M Light-Years",
+              "icon": "ruler",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "rate",
+              "label": "+73 km/s Stretch",
+              "sublabel": "Per Megaparsec",
+              "icon": "activity",
+              "tier": 2,
+              "highlight": true
+            },
+            {
+              "id": "horizon",
+              "label": "4,200+ Mpc",
+              "sublabel": "Exceeds Light Speed",
+              "icon": "zap",
+              "tier": 3,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "mpc",
+              "target": "rate",
+              "label": "Multiplies (H0)",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "rate",
+              "target": "horizon",
+              "label": "> 299,792 km/s",
+              "color": "crimson",
+              "animate": true
+            }
+          ],
+          "focus_node_id": "rate",
+          "caption": "Relativity caps motion through space, but space itself has no speed limit."
+        }
+      },
+      "broll_query": "",
+      "start_sec": 38.61,
+      "duration_sec": 9.62,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 6,
-      "chapter_title": "Battery Limitations",
-      "narration_text": "Batteries are heavy, and hovering consumes substantial power. Range, payload, cooling, and backup systems create major engineering challenges for electric flight.",
-      "visual_archetype": "DOCUMENTARY_ARCHIVE",
+      "chapter_title": "THE DARK ENERGY TWIST",
+      "narration_text": "Even wilder, 1998 supernova data revealed expansion isn't slowing down... mysterious dark energy makes up 68 percent of the universe, accelerating the cosmic stretch.",
+      "visual_archetype": "KINETIC_MINIMALIST",
       "camera_movement": "slow_zoom_in",
       "hud_metrics": [
         {
-          "label": "Main challenge",
-          "value": "Energy consumption",
-          "delta": null
+          "label": "Cosmic Epoch",
+          "value": "1998 Discovery",
+          "delta": "TYPE IA SUPERNOVAE"
         },
         {
-          "label": "Engineering trade-off",
-          "value": "Range versus payload",
-          "delta": null
+          "label": "Temperature",
+          "value": "2.725 Kelvin",
+          "delta": "DROPPING"
+        },
+        {
+          "label": "Expansion Rate",
+          "value": "ACCELERATING",
+          "delta": "DARK ENERGY"
+        },
+        {
+          "label": "Observable Scale",
+          "value": "68% Dark Energy",
+          "delta": "27% DARK MATTER"
         }
       ],
       "visual_elements": [
         {
-          "element_type": "comparison_split",
-          "headline": "Battery Weight",
-          "subtext": "Energy storage adds significant mass.",
-          "badge": null,
-          "highlight_color": "cyan"
+          "element_type": "stat_card",
+          "headline": "68.3% Dark Energy",
+          "subtext": "Repulsive vacuum energy overcoming gravity (vs 26.8% dark matter, 4.9% normal atoms)",
+          "badge": "COSMIC BUDGET",
+          "highlight_color": "violet"
         },
         {
-          "element_type": "stat_card",
-          "headline": "Flight Endurance",
-          "subtext": "Hovering requires substantial electrical power.",
-          "badge": null,
-          "highlight_color": "cyan"
+          "element_type": "timeline_milestone",
+          "headline": "1998 Nobel Breakthrough",
+          "subtext": "Riess, Perlmutter & Schmidt proved distant Type Ia supernovae are fainter than expected",
+          "badge": "ACCELERATION",
+          "highlight_color": "emerald"
         }
       ],
       "callout_keywords": [
-        "Batteries are heavy",
-        "substantial power",
-        "engineering challenges"
+        "1998 supernova data",
+        "dark energy",
+        "68 percent"
       ],
-      "illustration": null,
-      "broll_query": "electric vertical takeoff aircraft battery system hovering flight and energy consumption visualization",
-      "start_sec": 41.72,
-      "duration_sec": 8.08,
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "THE DARK ENERGY TWIST",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "68.3% Dark Energy",
+              "sublabel": "",
+              "icon": "zap",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "n1",
+              "label": "1998 Nobel Breakthrough",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "n2",
+              "label": "1998 Discovery",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "2.725 Kelvin",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 4,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "n1",
+              "target": "n2",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": ""
+        }
+      },
+      "broll_query": "Hubble Ultra Deep Field galaxies",
+      "start_sec": 48.65,
+      "duration_sec": 9.23,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 7,
-      "chapter_title": "Fact Versus Future",
-      "narration_text": "The physics is real, but Tesla achieving a production flying car is not verified here. The technology remains a significant engineering challenge.",
-      "visual_archetype": "NARRATIVE_STORYBOARD",
-      "camera_movement": "static_focus",
+      "chapter_title": "FREEZE OR BIG RIP?",
+      "narration_text": "Eventually, accelerating expansion will push distant galaxies past our cosmic horizon forever... so will our universe end in a dark Big Freeze, or a Big Rip?",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "slow_zoom_out",
       "hud_metrics": [
         {
-          "label": "Flying vehicle physics",
-          "value": "Established",
-          "delta": null
+          "label": "Cosmic Epoch",
+          "value": "+100B Years",
+          "delta": "DEEP FUTURE"
         },
         {
-          "label": "Tesla production flying car",
-          "value": "Unverified",
-          "delta": null
+          "label": "Temperature",
+          "value": "-> 0 Kelvin",
+          "delta": "HEAT DEATH"
+        },
+        {
+          "label": "Expansion Rate",
+          "value": "EXPONENTIAL",
+          "delta": "HORIZON LOCK"
+        },
+        {
+          "label": "Observable Scale",
+          "value": "Local Group Only",
+          "delta": "ISOLATED"
         }
       ],
       "visual_elements": [
         {
           "element_type": "comparison_split",
-          "headline": "Physics Is Real",
-          "subtext": "Electric vertical flight is physically possible.",
-          "badge": null,
-          "highlight_color": "cyan"
+          "headline": "Big Freeze vs Big Rip",
+          "subtext": "Constant dark energy chills the cosmos; phantom dark energy tears atoms apart",
+          "badge": "FINAL FATE",
+          "highlight_color": "crimson"
         },
         {
-          "element_type": "quote_callout",
-          "headline": "The Reality",
-          "subtext": "A Tesla production flying car is not verified.",
-          "badge": null,
-          "highlight_color": "cyan"
+          "element_type": "stat_card",
+          "headline": "94% Already Unreachable",
+          "subtext": "Light emitted today from galaxies beyond z = 1.8 will never reach Earth",
+          "badge": "COSMIC HORIZON",
+          "highlight_color": "amber"
         }
       ],
       "callout_keywords": [
-        "physics is real",
-        "not verified",
-        "engineering challenge"
+        "cosmic horizon",
+        "Big Freeze",
+        "Big Rip"
       ],
-      "illustration": null,
-      "broll_query": "electric car driving on road beneath futuristic conceptual flying electric aircraft cinematic shot",
-      "start_sec": 50.22,
-      "duration_sec": 8.46,
+      "illustration": {
+        "kind": "glyph_world",
+        "world": {
+          "unit_icon": "planet",
+          "formation": "rush",
+          "population": 2000000000000,
+          "active_fraction": 0.94,
+          "gate_label": "COSMIC EVENT HORIZON",
+          "section_label": "THE FINAL EXIT",
+          "headline": "94% Beyond Reach",
+          "unit_label": "galaxies",
+          "active_label": "crossing the horizon",
+          "caption": "Accelerating expansion pushes 94 percent of observable galaxies beyond the boundary where newly emitted light can ever reach us.",
+          "status": "warning"
+        },
+        "flow": null
+      },
+      "broll_query": "",
+      "start_sec": 58.3,
+      "duration_sec": 10.0,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     }
   ],
   "words": [],
-  "total_duration_sec": 56.0,
+  "total_duration_sec": 68.72,
   "video_format": "portrait",
   "source_urls": []
 }
