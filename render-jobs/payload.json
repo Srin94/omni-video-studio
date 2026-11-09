@@ -1,278 +1,300 @@
 {
-  "genre": "SCIENCE_PHYSICS",
+  "genre": "EVERYDAY_TECH",
   "suggested_bgm_mood": "upbeat_curious_tech",
-  "youtube_title": "The Big Bang Wasn't an Explosion: How Space Stretches Faster Than Light",
-  "youtube_description": "The Big Bang was not an explosion in space—it was the rapid expansion of space itself 13.8 billion years ago. Discover how the Cosmic Microwave Background, Hubble's Law (73 km/s/Mpc), and 68% dark energy prove the universe is still accelerating today. Chapters: 0:00 The Singularity Myth | 0:09 Cosmic Inflation & Recombination | 0:18 The 2.725K Afterglow | 0:27 Hubble's Redshift Proof | 0:36 The 73 km/s/Mpc Speed Limit | 0:46 Dark Energy's 68% Push | 0:55 Big Freeze vs. Big Rip",
+  "youtube_title": "Ramayana Earned ₹375 Cr in 3 Days. Why Isn't That Enough?",
+  "youtube_description": "Ramayana: Part One opened on November 5, 2026 with Ranbir Kapoor, Sai Pallavi and Yash. We break down the day-by-day box office numbers, the language split, the reported budget, and why one trade rule of thumb puts break-even near ₹5,000 crore. All figures are trade-tracker estimates (Sacnilk and press reports), not audited.\n\nChapters (approximate):\n0:00 The Hook\n0:25 The Film\n0:50 Opening Day\n1:25 Language Split\n1:50 The Weekend\n2:25 Budget and Break-Even\n3:15 The Sequel Question\n3:40 The Puzzle",
   "youtube_tags": [
-    "what is the big bang",
-    "is the universe expanding",
-    "hubble constant explained",
-    "cosmic microwave background",
-    "dark energy explained",
-    "cosmic inflation",
-    "edwin hubble redshift",
-    "astrophysics shorts",
-    "cosmology explainer",
-    "big freeze vs big rip"
+    "Ramayana box office",
+    "Ramayana Part 1 collection",
+    "Ranbir Kapoor",
+    "Yash Ravana",
+    "Sai Pallavi",
+    "Nitesh Tiwari",
+    "Diwali 2026 box office",
+    "Bollywood box office",
+    "Sacnilk",
+    "break even explained",
+    "Ramayana budget",
+    "Indian cinema"
   ],
-  "pinned_comment": "Dark energy makes up 68% of the cosmos and is pushing galaxies past our cosmic horizon faster than light. Based on current physics, do you think the universe ends in a cold 'Big Freeze' or tears atoms apart in a 'Big Rip'?",
-  "thumbnail_headline": "FASTER THAN LIGHT",
-  "thumbnail_sub_badge": "COSMOLOGY",
+  "pinned_comment": "375 crore in three days, but roughly 5,000 crore needed to break even under one trade rule of thumb. If collections halve every day after the Diwali weekend, can Part One ever get there... or does Part Two decide the whole ledger? Drop your prediction for the final worldwide total.",
+  "thumbnail_headline": "375 CRORE. STILL SHORT?",
+  "thumbnail_sub_badge": "BOX OFFICE MATH",
   "scenes": [
     {
       "scene_id": 1,
-      "chapter_title": "THE EXPANSION OF SPACE",
-      "narration_text": "13.8 billion years ago, the Big Bang wasn't an explosion in space... it was space itself stretching outward from a scorching, subatomic singularity.",
+      "chapter_title": "THE HOOK",
+      "narration_text": "Ramayana Part One grossed 375.50 crore rupees worldwide in just three days... yet one trade estimate says it needs roughly 5,000 crore to break even. How is a record-breaking epic still so far behind?",
       "visual_archetype": "KINETIC_MINIMALIST",
-      "camera_movement": "slow_zoom_out",
+      "camera_movement": "slow_zoom_in",
       "hud_metrics": [
         {
-          "label": "Cosmic Epoch",
-          "value": "t = 0 sec",
-          "delta": "13.8B YRS AGO"
+          "label": "Worldwide Gross",
+          "value": "₹375.50 Cr",
+          "delta": "Day 3"
         },
         {
-          "label": "Temperature",
-          "value": "10^32 Kelvin",
-          "delta": "PLANCK HEAT"
-        },
-        {
-          "label": "Expansion Rate",
-          "value": "INFLATIONARY",
-          "delta": "METRIC STRETCH"
-        },
-        {
-          "label": "Observable Scale",
-          "value": "Subatomic",
-          "delta": "EXPANDING"
+          "label": "Break-Even Target",
+          "value": "~₹5,000 Cr",
+          "delta": "ESTIMATE"
         }
       ],
       "visual_elements": [
         {
-          "element_type": "comparison_split",
-          "headline": "Explosion in Space vs Expansion of Space",
-          "subtext": "Matter did not fly into empty void; the fabric of spacetime stretched everywhere",
-          "badge": "CORE PRINCIPLE",
-          "highlight_color": "cyan"
+          "element_type": "stat_card",
+          "headline": "₹375.50 Cr",
+          "subtext": "Worldwide gross after 3 days",
+          "badge": "DAY 3",
+          "highlight_color": "emerald"
         },
         {
           "element_type": "stat_card",
-          "headline": "13.8 Billion Years",
-          "subtext": "Age of the universe measured from the initial singularity",
-          "badge": "ORIGIN",
-          "highlight_color": "emerald"
+          "headline": "~₹5,000 Cr",
+          "subtext": "Indicative break-even target",
+          "badge": "TRADE ESTIMATE",
+          "highlight_color": "crimson"
         }
       ],
       "callout_keywords": [
-        "13.8 billion years",
-        "Big Bang",
-        "subatomic singularity"
+        "375.50 crore",
+        "5,000 crore",
+        "break even"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "THE METRIC STRETCH",
+          "title": "THE HOOK",
           "nodes": [
             {
-              "id": "singularity",
-              "label": "Singularity",
-              "sublabel": "t = 0 Seconds",
-              "icon": "zap",
+              "id": "n0",
+              "label": "₹375.50 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
               "tier": 1,
-              "highlight": true
+              "highlight": false
             },
             {
-              "id": "spacetime",
-              "label": "Spacetime Grid",
-              "sublabel": "Metric Expansion",
-              "icon": "maximize-2",
+              "id": "n1",
+              "label": "~₹5,000 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
               "tier": 2,
-              "highlight": true
+              "highlight": false
             },
             {
-              "id": "cosmos",
-              "label": "Expanding Cosmos",
-              "sublabel": "13.8B Years Old",
-              "icon": "globe",
+              "id": "n2",
+              "label": "375.50 crore",
+              "sublabel": "",
+              "icon": "circle-dot",
               "tier": 3,
               "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "5,000 crore",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 4,
+              "highlight": true
             }
           ],
           "edges": [
             {
-              "source": "singularity",
-              "target": "spacetime",
-              "label": "Unfolds",
-              "color": "amber",
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
               "animate": true
             },
             {
-              "source": "spacetime",
-              "target": "cosmos",
-              "label": "Stretches",
-              "color": "cyan",
+              "source": "n1",
+              "target": "n2",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
               "animate": true
             }
           ],
-          "focus_node_id": "spacetime",
-          "caption": "Space itself expands between every coordinate rather(than) exploding from a center."
+          "focus_node_id": null,
+          "caption": ""
         }
       },
-      "broll_query": "",
+      "broll_query": "Indian movie theatre audience",
       "start_sec": 0.0,
-      "duration_sec": 8.85,
+      "duration_sec": 13.08,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 2,
-      "chapter_title": "INFLATION TO FIRST ATOMS",
-      "narration_text": "In the first fraction of a second, cosmic inflation stretched space faster than light... cooling subatomic plasma until atoms finally formed 380,000 years later.",
-      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "chapter_title": "THE FILM",
+      "narration_text": "Nitesh Tiwari's two-part epic stars Ranbir Kapoor as Rama, Sai Pallavi as Sita, and Yash as Ravana. Part One opened on November 5th, 2026, in five Indian languages, with an English release overseas.",
+      "visual_archetype": "DOCUMENTARY_ARCHIVE",
       "camera_movement": "pan_right",
       "hud_metrics": [
         {
-          "label": "Cosmic Epoch",
-          "value": "+380,000 Yrs",
-          "delta": "RECOMBINATION"
+          "label": "Release",
+          "value": "Nov 5, 2026",
+          "delta": null
         },
         {
-          "label": "Temperature",
-          "value": "3,000 Kelvin",
-          "delta": "COOLING PLASMA"
-        },
-        {
-          "label": "Expansion Rate",
-          "value": "> Light Speed",
-          "delta": "10^-36 SEC SURGE"
-        },
-        {
-          "label": "Observable Scale",
-          "value": "84M Light-Yrs",
-          "delta": "TRANSPARENT"
+          "label": "Languages",
+          "value": "5 Indian + English overseas",
+          "delta": null
         }
       ],
       "visual_elements": [
         {
           "element_type": "timeline_milestone",
-          "headline": "t = 10^-36 Seconds",
-          "subtext": "Cosmic inflation expands volume by a factor of at least 10^78",
-          "badge": "INFLATION",
-          "highlight_color": "violet"
-        },
-        {
-          "element_type": "stat_card",
-          "headline": "380,000 Years",
-          "subtext": "Protons capture electrons to form neutral hydrogen, clearing the cosmic fog",
-          "badge": "FIRST ATOMS",
-          "highlight_color": "cyan"
+          "headline": "November 5, 2026",
+          "subtext": "Ramayana: Part One reaches theatres",
+          "badge": "RELEASE",
+          "highlight_color": "amber"
         }
       ],
       "callout_keywords": [
-        "cosmic inflation",
-        "faster than light",
-        "380,000 years"
+        "Ranbir Kapoor",
+        "November 5th",
+        "five Indian languages"
       ],
       "illustration": {
-        "kind": "glyph_world",
-        "world": {
-          "unit_icon": "atom",
-          "formation": "orbit",
-          "population": 1000000000,
-          "active_fraction": 0.75,
-          "gate_label": "3,000K THRESHOLD",
-          "section_label": "RECOMBINATION ERA",
-          "headline": "75% Hydrogen Atoms",
-          "unit_label": "atoms",
-          "active_label": "capturing electrons",
-          "caption": "As expanding space cooled to 3,000 Kelvin, nuclei locked in electrons to form neutral hydrogen and helium.",
-          "status": "normal"
-        },
-        "flow": null
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "THE FILM",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "November 5, 2026",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "n1",
+              "label": "Nov 5, 2026",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "n2",
+              "label": "5 Indian + English oversea…",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "Ranbir Kapoor",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 4,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "n1",
+              "target": "n2",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": ""
+        }
       },
-      "broll_query": "",
-      "start_sec": 9.27,
-      "duration_sec": 9.23,
+      "broll_query": "Nitesh Tiwari director",
+      "start_sec": 13.5,
+      "duration_sec": 12.69,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 3,
-      "chapter_title": "THE 2.725 KELVIN ECHO",
-      "narration_text": "That exact moment released a blinding flash that still fills space today... the Cosmic Microwave Background, now stretched and cooled to just 2.725 Kelvin.",
-      "visual_archetype": "DOCUMENTARY_ARCHIVE",
-      "camera_movement": "slow_zoom_in",
+      "chapter_title": "THE SAGA",
+      "narration_text": "Backed by Namit Malhotra's Prime Focus Studios and Yash's Monster Mind Creations, this is a two-part saga. Sunny Deol plays Hanuman, Ravi Dubey plays Lakshmana, and Part One builds to Sita's abduction by Ravana.",
+      "visual_archetype": "NARRATIVE_STORYBOARD",
+      "camera_movement": "slow_zoom_out",
       "hud_metrics": [
         {
-          "label": "Cosmic Epoch",
-          "value": "1965 Discovery",
-          "delta": "PENZIAS & WILSON"
+          "label": "Parts",
+          "value": "2",
+          "delta": null
         },
         {
-          "label": "Temperature",
-          "value": "2.725 Kelvin",
-          "delta": "-270.4 CELSIUS"
-        },
-        {
-          "label": "Expansion Rate",
-          "value": "z = 1100",
-          "delta": "REDSHIFTED FLASH"
-        },
-        {
-          "label": "Observable Scale",
-          "value": "All-Sky Relic",
-          "delta": "160.2 GHz PEAK"
+          "label": "Day",
+          "value": "Pre-release",
+          "delta": null
         }
       ],
       "visual_elements": [
         {
-          "element_type": "stat_card",
-          "headline": "2.725 Kelvin (-270.4 C)",
-          "subtext": "3,000K primordial light stretched by 1,100x into microwave wavelengths",
-          "badge": "CMB RADIATION",
-          "highlight_color": "amber"
-        },
-        {
           "element_type": "node_network",
-          "headline": "411 Photons / cm^3",
-          "subtext": "Relic Big Bang photons still fill every cubic centimeter of empty space",
-          "badge": "FOSSIL LIGHT",
-          "highlight_color": "emerald"
+          "headline": "Prime Focus + Monster Mind",
+          "subtext": "Producers behind the two-part saga",
+          "badge": null,
+          "highlight_color": "cyan"
         }
       ],
       "callout_keywords": [
-        "Cosmic Microwave Background",
-        "stretched and cooled",
-        "2.725 Kelvin"
+        "Prime Focus Studios",
+        "Sunny Deol",
+        "Sita's abduction"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "THE 2.725 KELVIN ECHO",
+          "title": "THE SAGA",
           "nodes": [
             {
               "id": "n0",
-              "label": "2.725 Kelvin (-270.4 C)",
+              "label": "Prime Focus + Monster Mind",
               "sublabel": "",
-              "icon": "circle-dot",
+              "icon": "brain",
               "tier": 1,
               "highlight": false
             },
             {
               "id": "n1",
-              "label": "411 Photons / cm^3",
+              "label": "Pre-release",
               "sublabel": "",
-              "icon": "sparkles",
+              "icon": "circle-dot",
               "tier": 2,
               "highlight": false
             },
             {
               "id": "n2",
-              "label": "1965 Discovery",
+              "label": "Prime Focus Studios",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 3,
@@ -280,9 +302,9 @@
             },
             {
               "id": "n3",
-              "label": "2.725 Kelvin",
+              "label": "Sunny Deol",
               "sublabel": "",
-              "icon": "circle-dot",
+              "icon": "sun",
               "tier": 4,
               "highlight": true
             }
@@ -314,259 +336,460 @@
           "caption": ""
         }
       },
-      "broll_query": "Cosmic Microwave Background map",
-      "start_sec": 18.92,
-      "duration_sec": 9.23,
+      "broll_query": "Ramayana Ravana Sita painting",
+      "start_sec": 26.61,
+      "duration_sec": 13.08,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 4,
-      "chapter_title": "HUBBLE'S REDSHIFT PROOF",
-      "narration_text": "Then in 1929, Edwin Hubble proved the expansion never stopped... across 2 trillion galaxies, starlight stretches into longer red wavelengths as space expands between them.",
-      "visual_archetype": "NARRATIVE_STORYBOARD",
-      "camera_movement": "slow_zoom_out",
+      "chapter_title": "BEFORE THE OPENING",
+      "narration_text": "Before a single show ran, worldwide advance bookings reportedly crossed 2 million dollars. Then Thursday arrived, and trackers logged more than 7,000 shows by late morning, with the first-day figure updating live.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "static_focus",
       "hud_metrics": [
         {
-          "label": "Cosmic Epoch",
-          "value": "1929 AD",
-          "delta": "MOUNT WILSON"
+          "label": "Advance Bookings",
+          "value": "$2M+",
+          "delta": "WORLDWIDE"
         },
         {
-          "label": "Temperature",
-          "value": "2.725 Kelvin",
-          "delta": "BASELINE"
-        },
-        {
-          "label": "Expansion Rate",
-          "value": "v = H0 * d",
-          "delta": "HUBBLE LAW"
-        },
-        {
-          "label": "Observable Scale",
-          "value": "2T Galaxies",
-          "delta": "RECEDING"
+          "label": "Shows Tracked",
+          "value": "7,786",
+          "delta": "LIVE"
         }
       ],
       "visual_elements": [
         {
-          "element_type": "timeline_milestone",
-          "headline": "1929: Edwin Hubble",
-          "subtext": "Measured Cepheid variables and spectral redshift using the 100-inch Hooker Telescope",
-          "badge": "DISCOVERY",
-          "highlight_color": "cyan"
-        },
-        {
           "element_type": "stat_card",
-          "headline": "Cosmological Redshift",
-          "subtext": "As space expands in transit, light waves stretch toward the red spectrum",
-          "badge": "SPECTROSCOPY",
-          "highlight_color": "crimson"
+          "headline": "$2M+",
+          "subtext": "Reported worldwide advance bookings",
+          "badge": null,
+          "highlight_color": "cyan"
         }
       ],
       "callout_keywords": [
-        "Edwin Hubble",
-        "2 trillion galaxies",
-        "red wavelengths"
+        "2 million dollars",
+        "advance bookings",
+        "7,000 shows"
       ],
       "illustration": {
         "kind": "glyph_world",
         "world": {
-          "unit_icon": "star",
-          "formation": "scatter",
-          "population": 2000000000000,
-          "active_fraction": 0.88,
-          "gate_label": "SPECTRAL REDSHIFT",
-          "section_label": "DEEP FIELD SURVEY",
-          "headline": "2 Trillion Galaxies",
-          "unit_label": "galaxies",
-          "active_label": "receding & redshifting",
-          "caption": "Every distant galaxy cluster moves away from every other cluster as the space between them swells.",
+          "unit_icon": "clock",
+          "formation": "rush",
+          "population": 7786,
+          "active_fraction": 1.0,
+          "gate_label": "Box office tracker",
+          "section_label": "OPENING DAY",
+          "headline": "7,786 shows tracked",
+          "unit_label": "shows",
+          "active_label": "tracked live",
+          "caption": "By 11 AM on release day, trackers had counted thousands of shows.",
           "status": "normal"
         },
         "flow": null
       },
       "broll_query": "",
-      "start_sec": 28.57,
-      "duration_sec": 9.62,
+      "start_sec": 40.11,
+      "duration_sec": 12.31,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 5,
-      "chapter_title": "THE 73 KM/S/MPC FORMULA",
-      "narration_text": "By Hubble's Law, every megaparsec of space stretches by roughly 73 kilometers per second... meaning galaxies beyond 14 billion light-years recede faster than light itself.",
+      "chapter_title": "DAY ONE NUMBERS",
+      "narration_text": "Day one closed at 64.85 crore rupees net in India, and 77.50 crore gross. Add overseas, and the worldwide gross hit 127.50 crore rupees... though some outlets reported a higher 155 crore figure.",
       "visual_archetype": "NEON_TECHNICAL_HUD",
       "camera_movement": "static_focus",
       "hud_metrics": [
         {
-          "label": "Cosmic Epoch",
-          "value": "Present Day",
-          "delta": "13.8B YEARS"
+          "label": "Day",
+          "value": "1",
+          "delta": null
         },
         {
-          "label": "Temperature",
-          "value": "2.725 Kelvin",
-          "delta": "STABLE"
+          "label": "India Net",
+          "value": "₹64.85 Cr",
+          "delta": null
         },
         {
-          "label": "Expansion Rate",
-          "value": "73 km/s/Mpc",
-          "delta": "HUBBLE CONSTANT"
-        },
-        {
-          "label": "Observable Scale",
-          "value": "93B Light-Yrs",
-          "delta": "DIAMETER"
+          "label": "Worldwide Gross",
+          "value": "₹127.50 Cr",
+          "delta": "SOME REPORTS: ₹155 Cr"
         }
       ],
       "visual_elements": [
         {
           "element_type": "stat_card",
-          "headline": "v = H0 x d (73 km/s/Mpc)",
-          "subtext": "Every 3.26 million light-years adds 73 km/s to a galaxy's recession speed",
-          "badge": "HUBBLE CONSTANT",
-          "highlight_color": "cyan"
-        },
-        {
-          "element_type": "stat_card",
-          "headline": "14.4 Billion Light-Years",
-          "subtext": "The Hubble Sphere where cumulative expansion exceeds 299,792 km/s",
-          "badge": "SUPERLUMINAL",
-          "highlight_color": "amber"
+          "headline": "₹64.85 Cr",
+          "subtext": "India net, opening day (Sacnilk)",
+          "badge": null,
+          "highlight_color": "emerald"
         }
       ],
       "callout_keywords": [
-        "Hubble's Law",
-        "73 kilometers",
-        "14 billion light-years"
+        "64.85 crore",
+        "127.50 crore",
+        "155 crore"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "HUBBLE'S LAW SCALING",
+          "title": "Day One Ladder",
           "nodes": [
             {
-              "id": "mpc",
-              "label": "1 Megaparsec",
-              "sublabel": "3.26M Light-Years",
-              "icon": "ruler",
+              "id": "net",
+              "label": "India Net",
+              "sublabel": "₹64.85 Cr",
+              "icon": "ticket",
               "tier": 1,
               "highlight": false
             },
             {
-              "id": "rate",
-              "label": "+73 km/s Stretch",
-              "sublabel": "Per Megaparsec",
-              "icon": "activity",
+              "id": "gross",
+              "label": "India Gross",
+              "sublabel": "₹77.50 Cr",
+              "icon": "indian-rupee",
               "tier": 2,
-              "highlight": true
+              "highlight": false
             },
             {
-              "id": "horizon",
-              "label": "4,200+ Mpc",
-              "sublabel": "Exceeds Light Speed",
-              "icon": "zap",
+              "id": "world",
+              "label": "Worldwide Gross",
+              "sublabel": "₹127.50 Cr",
+              "icon": "globe",
               "tier": 3,
               "highlight": true
             }
           ],
           "edges": [
             {
-              "source": "mpc",
-              "target": "rate",
-              "label": "Multiplies (H0)",
+              "source": "net",
+              "target": "gross",
+              "label": "before tax",
               "color": "cyan",
               "animate": true
             },
             {
-              "source": "rate",
-              "target": "horizon",
-              "label": "> 299,792 km/s",
-              "color": "crimson",
+              "source": "gross",
+              "target": "world",
+              "label": "+ overseas",
+              "color": "emerald",
               "animate": true
             }
           ],
-          "focus_node_id": "rate",
-          "caption": "Relativity caps motion through space, but space itself has no speed limit."
+          "focus_node_id": "world",
+          "caption": "Same opening day, three different headline numbers."
         }
       },
       "broll_query": "",
-      "start_sec": 38.61,
-      "duration_sec": 9.62,
+      "start_sec": 52.84,
+      "duration_sec": 12.69,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 6,
-      "chapter_title": "THE DARK ENERGY TWIST",
-      "narration_text": "Even wilder, 1998 supernova data revealed expansion isn't slowing down... mysterious dark energy makes up 68 percent of the universe, accelerating the cosmic stretch.",
+      "chapter_title": "THE COMPARISON",
+      "narration_text": "That opening beat Animal and broke a pre-Diwali opening record, yet it still trailed both Adipurush and Jawan on the list of biggest Indian openers... a mixed verdict on day one.",
       "visual_archetype": "KINETIC_MINIMALIST",
       "camera_movement": "slow_zoom_in",
       "hud_metrics": [
         {
-          "label": "Cosmic Epoch",
-          "value": "1998 Discovery",
-          "delta": "TYPE IA SUPERNOVAE"
+          "label": "Day",
+          "value": "1",
+          "delta": null
         },
         {
-          "label": "Temperature",
-          "value": "2.725 Kelvin",
-          "delta": "DROPPING"
+          "label": "India Net",
+          "value": "₹64.85 Cr",
+          "delta": null
         },
         {
-          "label": "Expansion Rate",
-          "value": "ACCELERATING",
-          "delta": "DARK ENERGY"
-        },
-        {
-          "label": "Observable Scale",
-          "value": "68% Dark Energy",
-          "delta": "27% DARK MATTER"
+          "label": "Opening Rank",
+          "value": "Behind Adipurush",
+          "delta": "MIXED"
         }
       ],
       "visual_elements": [
         {
-          "element_type": "stat_card",
-          "headline": "68.3% Dark Energy",
-          "subtext": "Repulsive vacuum energy overcoming gravity (vs 26.8% dark matter, 4.9% normal atoms)",
-          "badge": "COSMIC BUDGET",
-          "highlight_color": "violet"
-        },
-        {
-          "element_type": "timeline_milestone",
-          "headline": "1998 Nobel Breakthrough",
-          "subtext": "Riess, Perlmutter & Schmidt proved distant Type Ia supernovae are fainter than expected",
-          "badge": "ACCELERATION",
-          "highlight_color": "emerald"
+          "element_type": "comparison_split",
+          "headline": "Ramayana vs Adipurush",
+          "subtext": "Beat Animal and a pre-Diwali record, but trailed the bigger openers",
+          "badge": null,
+          "highlight_color": "amber"
         }
       ],
       "callout_keywords": [
-        "1998 supernova data",
-        "dark energy",
-        "68 percent"
+        "Animal",
+        "pre-Diwali opening record",
+        "Adipurush"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "THE DARK ENERGY TWIST",
+          "title": "THE COMPARISON",
           "nodes": [
             {
               "id": "n0",
-              "label": "68.3% Dark Energy",
+              "label": "THE COMPARISON",
               "sublabel": "",
-              "icon": "zap",
+              "icon": "circle-dot",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "nA",
+              "label": "Ramayana",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": true
+            },
+            {
+              "id": "nB",
+              "label": "Adipurush",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "nA",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n0",
+              "target": "nB",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": "Beat Animal and a pre-Diwali record, but trailed the bigger openers"
+        }
+      },
+      "broll_query": "Indian multiplex cinema screen",
+      "start_sec": 65.95,
+      "duration_sec": 11.92,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 7,
+      "chapter_title": "FIVE LANGUAGES",
+      "narration_text": "By Saturday, Hindi carried the film with 53 crore of its 69.80 crore net. Kannada added 6.30, Telugu 6, Tamil 2.50 and Malayalam 2... five languages, one dominant market.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "static_focus",
+      "hud_metrics": [
+        {
+          "label": "Day",
+          "value": "3",
+          "delta": null
+        },
+        {
+          "label": "Hindi Share",
+          "value": "₹53 Cr",
+          "delta": "LEADS"
+        },
+        {
+          "label": "India Net (Day 3)",
+          "value": "₹69.80 Cr",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "₹53 Cr",
+          "subtext": "Hindi version, Day 3",
+          "badge": null,
+          "highlight_color": "emerald"
+        }
+      ],
+      "callout_keywords": [
+        "53 crore",
+        "69.80 crore",
+        "Kannada"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "Saturday By Language",
+          "nodes": [
+            {
+              "id": "film",
+              "label": "Ramayana Part One",
+              "sublabel": "₹69.80 Cr net",
+              "icon": "film",
+              "tier": 1,
+              "highlight": true
+            },
+            {
+              "id": "hi",
+              "label": "Hindi",
+              "sublabel": "₹53 Cr",
+              "icon": "languages",
+              "tier": 2,
+              "highlight": true
+            },
+            {
+              "id": "kn",
+              "label": "Kannada",
+              "sublabel": "₹6.30 Cr",
+              "icon": "languages",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "te",
+              "label": "Telugu",
+              "sublabel": "₹6 Cr",
+              "icon": "languages",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "ta",
+              "label": "Tamil",
+              "sublabel": "₹2.50 Cr",
+              "icon": "languages",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "ml",
+              "label": "Malayalam",
+              "sublabel": "₹2 Cr",
+              "icon": "languages",
+              "tier": 2,
+              "highlight": false
+            }
+          ],
+          "edges": [
+            {
+              "source": "film",
+              "target": "hi",
+              "label": "53",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "film",
+              "target": "kn",
+              "label": "6.30",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "film",
+              "target": "te",
+              "label": "6",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "film",
+              "target": "ta",
+              "label": "2.50",
+              "color": "amber",
+              "animate": true
+            },
+            {
+              "source": "film",
+              "target": "ml",
+              "label": "2",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": "hi",
+          "caption": "Hindi delivered roughly three quarters of Saturday's India net."
+        }
+      },
+      "broll_query": "",
+      "start_sec": 78.29,
+      "duration_sec": 11.15,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 8,
+      "chapter_title": "THE WEEKEND",
+      "narration_text": "Friday brought the first scare as occupancy dipped. But Saturday jumped 45.3 percent over Friday to 69.80 crore net, lifting India's three-day total to 182.70 crore.",
+      "visual_archetype": "NARRATIVE_STORYBOARD",
+      "camera_movement": "slow_zoom_in",
+      "hud_metrics": [
+        {
+          "label": "Day",
+          "value": "3",
+          "delta": null
+        },
+        {
+          "label": "India Net (Total)",
+          "value": "₹182.70 Cr",
+          "delta": "+45.3% vs Fri"
+        },
+        {
+          "label": "Worldwide Gross",
+          "value": "₹375.50 Cr",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "+45.3%",
+          "subtext": "Saturday rise over Friday",
+          "badge": "SACNILK",
+          "highlight_color": "emerald"
+        },
+        {
+          "element_type": "stat_card",
+          "headline": "₹182.70 Cr",
+          "subtext": "India net, first three days",
+          "badge": null,
+          "highlight_color": "cyan"
+        }
+      ],
+      "callout_keywords": [
+        "45.3 percent",
+        "69.80 crore",
+        "182.70 crore"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "THE WEEKEND",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "+45.3%",
+              "sublabel": "",
+              "icon": "circle-dot",
               "tier": 1,
               "highlight": false
             },
             {
               "id": "n1",
-              "label": "1998 Nobel Breakthrough",
+              "label": "₹182.70 Cr",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 2,
@@ -574,7 +797,7 @@
             },
             {
               "id": "n2",
-              "label": "1998 Discovery",
+              "label": "₹375.50 Cr",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 3,
@@ -582,7 +805,7 @@
             },
             {
               "id": "n3",
-              "label": "2.725 Kelvin",
+              "label": "45.3 percent",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 4,
@@ -616,89 +839,1200 @@
           "caption": ""
         }
       },
-      "broll_query": "Hubble Ultra Deep Field galaxies",
-      "start_sec": 48.65,
-      "duration_sec": 9.23,
+      "broll_query": "Indian multiplex cinema lobby",
+      "start_sec": 89.86,
+      "duration_sec": 10.0,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
-      "scene_id": 7,
-      "chapter_title": "FREEZE OR BIG RIP?",
-      "narration_text": "Eventually, accelerating expansion will push distant galaxies past our cosmic horizon forever... so will our universe end in a dark Big Freeze, or a Big Rip?",
-      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "scene_id": 9,
+      "chapter_title": "GOING GLOBAL",
+      "narration_text": "Overseas added an estimated 60 crore rupees on Saturday, pushing the worldwide gross to 375.50 crore rupees. The film also reportedly set a UK record on opening day, so the audience extends beyond India.",
+      "visual_archetype": "KINETIC_MINIMALIST",
+      "camera_movement": "pan_right",
+      "hud_metrics": [
+        {
+          "label": "Day",
+          "value": "3",
+          "delta": null
+        },
+        {
+          "label": "Overseas (Day 3)",
+          "value": "~₹60 Cr",
+          "delta": "ESTIMATE"
+        },
+        {
+          "label": "Worldwide Gross",
+          "value": "₹375.50 Cr",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "map_pin",
+          "headline": "United Kingdom",
+          "subtext": "Reported opening-day record",
+          "badge": null,
+          "highlight_color": "violet"
+        },
+        {
+          "element_type": "stat_card",
+          "headline": "₹375.50 Cr",
+          "subtext": "Worldwide gross after Day 3",
+          "badge": null,
+          "highlight_color": "emerald"
+        }
+      ],
+      "callout_keywords": [
+        "60 crore",
+        "375.50 crore",
+        "UK record"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "GOING GLOBAL",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "United Kingdom",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "n1",
+              "label": "₹375.50 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "n2",
+              "label": "~₹60 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "60 crore",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 4,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "n1",
+              "target": "n2",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": ""
+        }
+      },
+      "broll_query": "Leicester Square London cinema",
+      "start_sec": 100.28,
+      "duration_sec": 13.08,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 10,
+      "chapter_title": "DIWALI SUNDAY",
+      "narration_text": "Then came Diwali Sunday, day four. The film reportedly earned 56.15 crore net in India, a record-breaking Diwali Sunday, and one report puts the four-day worldwide total near 500 crore rupees.",
+      "visual_archetype": "DOCUMENTARY_ARCHIVE",
       "camera_movement": "slow_zoom_out",
       "hud_metrics": [
         {
-          "label": "Cosmic Epoch",
-          "value": "+100B Years",
-          "delta": "DEEP FUTURE"
+          "label": "Day",
+          "value": "4",
+          "delta": null
         },
         {
-          "label": "Temperature",
-          "value": "-> 0 Kelvin",
-          "delta": "HEAT DEATH"
+          "label": "India Net (Day 4)",
+          "value": "₹56.15 Cr",
+          "delta": "RECORD DIWALI SUNDAY"
         },
         {
-          "label": "Expansion Rate",
-          "value": "EXPONENTIAL",
-          "delta": "HORIZON LOCK"
+          "label": "Worldwide Gross",
+          "value": "~₹500 Cr",
+          "delta": "NEARING"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "timeline_milestone",
+          "headline": "Diwali Sunday · Day 4",
+          "subtext": "₹56.15 Cr net in India",
+          "badge": "NOV 8, 2026",
+          "highlight_color": "amber"
+        }
+      ],
+      "callout_keywords": [
+        "Diwali Sunday",
+        "56.15 crore",
+        "500 crore"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "DIWALI SUNDAY",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "Diwali Sunday · Day 4",
+              "sublabel": "",
+              "icon": "sun",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "n1",
+              "label": "₹56.15 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "n2",
+              "label": "~₹500 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "Diwali Sunday",
+              "sublabel": "",
+              "icon": "sun",
+              "tier": 4,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "n1",
+              "target": "n2",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": ""
+        }
+      },
+      "broll_query": "Diwali diyas oil lamps",
+      "start_sec": 113.78,
+      "duration_sec": 11.92,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 11,
+      "chapter_title": "BEATING THE FORECAST",
+      "narration_text": "Trade tracker Sacnilk had predicted a four-day India weekend of 220 to 245 crore rupees, with Sunday pegged at 45 to 55 crore, and the real Sunday of 56.15 crore beat that range.",
+      "visual_archetype": "KINETIC_MINIMALIST",
+      "camera_movement": "static_focus",
+      "hud_metrics": [
+        {
+          "label": "Day",
+          "value": "4",
+          "delta": null
         },
         {
-          "label": "Observable Scale",
-          "value": "Local Group Only",
-          "delta": "ISOLATED"
+          "label": "Sunday Forecast",
+          "value": "₹45–55 Cr",
+          "delta": null
+        },
+        {
+          "label": "Sunday Actual",
+          "value": "₹56.15 Cr",
+          "delta": "ABOVE RANGE"
         }
       ],
       "visual_elements": [
         {
           "element_type": "comparison_split",
-          "headline": "Big Freeze vs Big Rip",
-          "subtext": "Constant dark energy chills the cosmos; phantom dark energy tears atoms apart",
-          "badge": "FINAL FATE",
-          "highlight_color": "crimson"
+          "headline": "Forecast ₹45–55 Cr vs Actual ₹56.15 Cr",
+          "subtext": "Diwali Sunday landed above the predicted range",
+          "badge": null,
+          "highlight_color": "emerald"
+        }
+      ],
+      "callout_keywords": [
+        "220 to 245 crore",
+        "Sunday",
+        "56.15 crore"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "BEATING THE FORECAST",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "BEATING THE FORECAST",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "nA",
+              "label": "Forecast ₹45–55 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": true
+            },
+            {
+              "id": "nB",
+              "label": "Actual ₹56.15 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "nA",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n0",
+              "target": "nB",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": "Diwali Sunday landed above the predicted range"
+        }
+      },
+      "broll_query": "box office ticket counter India",
+      "start_sec": 126.12,
+      "duration_sec": 12.69,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 12,
+      "chapter_title": "THE OTHER LEDGER",
+      "narration_text": "Now the other side of the ledger. Part One's budget is reported near 2,000 crore rupees, though figures differ by source and none are audited. Another report cites 4,000 crore for both parts combined.",
+      "visual_archetype": "DOCUMENTARY_ARCHIVE",
+      "camera_movement": "slow_zoom_in",
+      "hud_metrics": [
+        {
+          "label": "Budget (Part One)",
+          "value": "~₹2,000 Cr",
+          "delta": "REPORTED"
+        },
+        {
+          "label": "Budget (Both Parts)",
+          "value": "~₹4,000 Cr",
+          "delta": "REPORTED"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "~₹2,000 Cr",
+          "subtext": "Reported budget, Part One",
+          "badge": "UNAUDITED",
+          "highlight_color": "amber"
         },
         {
           "element_type": "stat_card",
-          "headline": "94% Already Unreachable",
-          "subtext": "Light emitted today from galaxies beyond z = 1.8 will never reach Earth",
-          "badge": "COSMIC HORIZON",
+          "headline": "~₹4,000 Cr",
+          "subtext": "Reported budget, both parts",
+          "badge": "UNAUDITED",
           "highlight_color": "amber"
         }
       ],
       "callout_keywords": [
-        "cosmic horizon",
-        "Big Freeze",
-        "Big Rip"
+        "2,000 crore",
+        "4,000 crore",
+        "none are audited"
       ],
       "illustration": {
-        "kind": "glyph_world",
-        "world": {
-          "unit_icon": "planet",
-          "formation": "rush",
-          "population": 2000000000000,
-          "active_fraction": 0.94,
-          "gate_label": "COSMIC EVENT HORIZON",
-          "section_label": "THE FINAL EXIT",
-          "headline": "94% Beyond Reach",
-          "unit_label": "galaxies",
-          "active_label": "crossing the horizon",
-          "caption": "Accelerating expansion pushes 94 percent of observable galaxies beyond the boundary where newly emitted light can ever reach us.",
-          "status": "warning"
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "THE OTHER LEDGER",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "~₹2,000 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "n1",
+              "label": "~₹4,000 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "n2",
+              "label": "2,000 crore",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "4,000 crore",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 4,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "n1",
+              "target": "n2",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": ""
+        }
+      },
+      "broll_query": "film set camera crane lights",
+      "start_sec": 139.23,
+      "duration_sec": 13.08,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 13,
+      "chapter_title": "THE 2.5X RULE",
+      "narration_text": "Trade analyst Ramesh Bala cites a rule of thumb: a film needs roughly 2.5 times its budget to break even. Applied to 2,000 crore rupees, that points to a worldwide target near 5,000 crore.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "static_focus",
+      "hud_metrics": [
+        {
+          "label": "Budget (Part One)",
+          "value": "~₹2,000 Cr",
+          "delta": null
         },
-        "flow": null
+        {
+          "label": "Break-Even Target",
+          "value": "~₹5,000 Cr",
+          "delta": "INDICATIVE"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "× 2.5",
+          "subtext": "Rule-of-thumb break-even multiple",
+          "badge": null,
+          "highlight_color": "amber"
+        }
+      ],
+      "callout_keywords": [
+        "Ramesh Bala",
+        "2.5 times",
+        "5,000 crore"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "Break-Even Rule",
+          "nodes": [
+            {
+              "id": "budget",
+              "label": "Budget",
+              "sublabel": "~₹2,000 Cr",
+              "icon": "wallet",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "mult",
+              "label": "Multiplier",
+              "sublabel": "× 2.5",
+              "icon": "x",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "target",
+              "label": "Break-Even Target",
+              "sublabel": "~₹5,000 Cr",
+              "icon": "target",
+              "tier": 3,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "budget",
+              "target": "mult",
+              "label": "rule of thumb",
+              "color": "amber",
+              "animate": true
+            },
+            {
+              "source": "mult",
+              "target": "target",
+              "label": "worldwide",
+              "color": "crimson",
+              "animate": true
+            }
+          ],
+          "focus_node_id": "target",
+          "caption": "2,000 × 2.5 puts the indicative target near 5,000 crore."
+        }
       },
       "broll_query": "",
-      "start_sec": 58.3,
-      "duration_sec": 10.0,
+      "start_sec": 152.73,
+      "duration_sec": 13.08,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 14,
+      "chapter_title": "WHY SO HIGH",
+      "narration_text": "Why so high? Break-even isn't budget versus box office. Only a percentage of theatrical revenue reaches the producer, while marketing costs and rights deals shift the math, so 5,000 crore is indicative, not confirmed.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "static_focus",
+      "hud_metrics": [
+        {
+          "label": "Break-Even Target",
+          "value": "~₹5,000 Cr",
+          "delta": "NOT CONFIRMED"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "node_network",
+          "headline": "Producer's share of revenue",
+          "subtext": "Marketing and rights deals change the equation",
+          "badge": null,
+          "highlight_color": "violet"
+        }
+      ],
+      "callout_keywords": [
+        "producer",
+        "rights deals",
+        "indicative"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "Where Money Goes",
+          "nodes": [
+            {
+              "id": "tickets",
+              "label": "Ticket Sales",
+              "sublabel": "",
+              "icon": "ticket",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "rights",
+              "label": "Rights Deals",
+              "sublabel": "",
+              "icon": "handshake",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "share",
+              "label": "Producer's Share",
+              "sublabel": "a percentage only",
+              "icon": "pie-chart",
+              "tier": 2,
+              "highlight": true
+            },
+            {
+              "id": "mkt",
+              "label": "Marketing Costs",
+              "sublabel": "",
+              "icon": "megaphone",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "recoup",
+              "label": "Recoup Budget",
+              "sublabel": "",
+              "icon": "target",
+              "tier": 3,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "tickets",
+              "target": "share",
+              "label": "% of revenue",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "rights",
+              "target": "recoup",
+              "label": "adds revenue",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "share",
+              "target": "recoup",
+              "label": "net of costs",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "mkt",
+              "target": "recoup",
+              "label": "subtracts",
+              "color": "crimson",
+              "animate": true
+            }
+          ],
+          "focus_node_id": "share",
+          "caption": "Break-even depends on the producer's share, marketing and rights deals."
+        }
+      },
+      "broll_query": "",
+      "start_sec": 166.23,
+      "duration_sec": 13.08,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 15,
+      "chapter_title": "HOW FAR TO GO",
+      "narration_text": "Four days in, the worldwide gross is near 500 crore rupees against a roughly 5,000 crore target. That's about ten percent of the way there, with the weekdays still ahead.",
+      "visual_archetype": "KINETIC_MINIMALIST",
+      "camera_movement": "slow_zoom_in",
+      "hud_metrics": [
+        {
+          "label": "Worldwide Gross",
+          "value": "~₹500 Cr",
+          "delta": "Day 4"
+        },
+        {
+          "label": "Target",
+          "value": "~₹5,000 Cr",
+          "delta": null
+        },
+        {
+          "label": "Progress",
+          "value": "~10%",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "~10%",
+          "subtext": "Of the indicative break-even target, after four days",
+          "badge": null,
+          "highlight_color": "crimson"
+        }
+      ],
+      "callout_keywords": [
+        "500 crore",
+        "ten percent",
+        "5,000 crore"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "HOW FAR TO GO",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "~10%",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "n1",
+              "label": "~₹500 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "n2",
+              "label": "~₹5,000 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "500 crore",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 4,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "n1",
+              "target": "n2",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": ""
+        }
+      },
+      "broll_query": "film projector reel",
+      "start_sec": 179.73,
+      "duration_sec": 11.54,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 16,
+      "chapter_title": "THE HALVING TRAP",
+      "narration_text": "Try the math: if every day after Sunday earned half the day before, India would add only about 56 crore rupees more in total... exactly Sunday's own net, forever.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "static_focus",
+      "hud_metrics": [
+        {
+          "label": "Scenario",
+          "value": "Halving daily",
+          "delta": "HYPOTHETICAL"
+        },
+        {
+          "label": "Extra India Net",
+          "value": "≈ ₹56 Cr",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "≈ ₹56 Cr",
+          "subtext": "Total added if each day halves after Sunday",
+          "badge": "HYPOTHETICAL",
+          "highlight_color": "crimson"
+        }
+      ],
+      "callout_keywords": [
+        "56 crore",
+        "halving",
+        "Sunday's own net"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "Halving Series",
+          "nodes": [
+            {
+              "id": "d4",
+              "label": "Sunday",
+              "sublabel": "₹56.15 Cr",
+              "icon": "calendar",
+              "tier": 1,
+              "highlight": true
+            },
+            {
+              "id": "d5",
+              "label": "Day 5",
+              "sublabel": "~₹28 Cr",
+              "icon": "trending-down",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "d6",
+              "label": "Day 6",
+              "sublabel": "~₹14 Cr",
+              "icon": "trending-down",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "d7",
+              "label": "Day 7",
+              "sublabel": "~₹7 Cr",
+              "icon": "trending-down",
+              "tier": 4,
+              "highlight": false
+            },
+            {
+              "id": "sum",
+              "label": "All days after",
+              "sublabel": "≈ ₹56 Cr total",
+              "icon": "sigma",
+              "tier": 5,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "d4",
+              "target": "d5",
+              "label": "× 0.5",
+              "color": "amber",
+              "animate": true
+            },
+            {
+              "source": "d5",
+              "target": "d6",
+              "label": "× 0.5",
+              "color": "amber",
+              "animate": true
+            },
+            {
+              "source": "d6",
+              "target": "d7",
+              "label": "× 0.5",
+              "color": "amber",
+              "animate": true
+            },
+            {
+              "source": "d7",
+              "target": "sum",
+              "label": "sum of series",
+              "color": "crimson",
+              "animate": true
+            }
+          ],
+          "focus_node_id": "sum",
+          "caption": "A hypothetical halving decay adds only Sunday's amount again."
+        }
+      },
+      "broll_query": "",
+      "start_sec": 191.69,
+      "duration_sec": 11.15,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 17,
+      "chapter_title": "HALF THE SAGA",
+      "narration_text": "Remember, this is only half the saga. Part Two is already slated for a future Diwali release, so the reported 4,000 crore budget is spread across two films, not one.",
+      "visual_archetype": "NARRATIVE_STORYBOARD",
+      "camera_movement": "pan_right",
+      "hud_metrics": [
+        {
+          "label": "Parts Released",
+          "value": "1 of 2",
+          "delta": null
+        },
+        {
+          "label": "Budget (Both Parts)",
+          "value": "~₹4,000 Cr",
+          "delta": "REPORTED"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "timeline_milestone",
+          "headline": "Part Two",
+          "subtext": "Already slated for a future Diwali release",
+          "badge": null,
+          "highlight_color": "violet"
+        }
+      ],
+      "callout_keywords": [
+        "Part Two",
+        "4,000 crore",
+        "two films"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "HALF THE SAGA",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "Part Two",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "n1",
+              "label": "1 of 2",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "n2",
+              "label": "~₹4,000 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "4,000 crore",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 4,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "n1",
+              "target": "n2",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": ""
+        }
+      },
+      "broll_query": "Ayodhya Ram temple",
+      "start_sec": 203.26,
+      "duration_sec": 11.54,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 18,
+      "chapter_title": "THE RECEPTION",
+      "narration_text": "Reception will decide the legs. One review praised its audacious scale and visuals, while Sunny Deol, who plays Hanuman, called it better than many Hollywood films. Now comes the real test: weekday holds.",
+      "visual_archetype": "DOCUMENTARY_ARCHIVE",
+      "camera_movement": "slow_zoom_out",
+      "hud_metrics": [
+        {
+          "label": "Day",
+          "value": "5+",
+          "delta": null
+        },
+        {
+          "label": "Key Test",
+          "value": "Weekday holds",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "quote_callout",
+          "headline": "Better than many Hollywood films",
+          "subtext": "Sunny Deol on Ramayana: Part One (reported)",
+          "badge": null,
+          "highlight_color": "cyan"
+        }
+      ],
+      "callout_keywords": [
+        "Sunny Deol",
+        "Hollywood",
+        "weekday holds"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "THE RECEPTION",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "Better than many Hollywood…",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "n1",
+              "label": "5+",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "n2",
+              "label": "Weekday holds",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "Sunny Deol",
+              "sublabel": "",
+              "icon": "sun",
+              "tier": 4,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "n1",
+              "target": "n2",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": ""
+        }
+      },
+      "broll_query": "Sunny Deol",
+      "start_sec": 215.22,
+      "duration_sec": 12.69,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 19,
+      "chapter_title": "THE PUZZLE",
+      "narration_text": "Here's the puzzle: 375 crore in three days, yet roughly 5,000 needed. If collections halve every day after the weekend, can Part One ever break even... or does Part Two decide it?",
+      "visual_archetype": "KINETIC_MINIMALIST",
+      "camera_movement": "slow_zoom_in",
+      "hud_metrics": [
+        {
+          "label": "Worldwide Gross",
+          "value": "₹375.50 Cr",
+          "delta": "Day 3"
+        },
+        {
+          "label": "Target",
+          "value": "~₹5,000 Cr",
+          "delta": null
+        },
+        {
+          "label": "Verdict",
+          "value": "YOU DECIDE",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "comparison_split",
+          "headline": "₹375 Cr vs ₹5,000 Cr",
+          "subtext": "Can Part One close the gap, or does Part Two decide it?",
+          "badge": null,
+          "highlight_color": "violet"
+        }
+      ],
+      "callout_keywords": [
+        "375 crore",
+        "5,000",
+        "break even"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "THE PUZZLE",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "THE PUZZLE",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "nA",
+              "label": "₹375 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": true
+            },
+            {
+              "id": "nB",
+              "label": "₹5,000 Cr",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "nA",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n0",
+              "target": "nB",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": "Can Part One close the gap, or does Part Two decide it?"
+        }
+      },
+      "broll_query": "Indian cinema audience Diwali",
+      "start_sec": 228.33,
+      "duration_sec": 12.31,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     }
   ],
   "words": [],
-  "total_duration_sec": 68.72,
-  "video_format": "portrait",
-  "source_urls": []
+  "total_duration_sec": 241.06,
+  "video_format": "landscape",
+  "source_urls": [
+    "https://www.wionews.com/entertainment/bollywood/ramayana-part-1-box-office-collection-day-3-ranbir-kapoor-s-film-sees-45-jump-inches-closer-to-rs-200-crore-in-india-1794114140705",
+    "https://www.indiatvnews.com/entertainment/news/ramayana-part-1-day-1-box-office-collection-check-final-india-and-worldwide-opening-figures-2026-11-06-1058824",
+    "https://newsable.asianetnews.com/gallery/entertainment/ramayana-box-office-collection-day-4-ranbir-kapoor-film-nears-rs-500-crore-worldwide-cbh388m",
+    "https://www.newsx.com/entertainment/ramayana-part-1-budget-vs-box-office-collection-how-much-does-ranbir-kapoors-film-need-to-earn-to-break-even-and-where-does-it-stand-290304/",
+    "https://www.businesstoday.in/trending/entertainment/story/ramayana-needs-rs5000-crore-to-break-even-the-box-office-numbers-explained-563375-2026-10-24",
+    "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate",
+    "https://gulfnews.com/amp/story/entertainment%2Framayana-box-office-ranbir-kapoors-epic-opens-to-rs-127-billion-worldwide-trails-adipurush-1.500738063",
+    "https://glamsham.com/boc/nboc-india/ramayana-part-one-worldwide-box-office-collection-rs-127-50-crore-opening-day/",
+    "https://www.oneindia.com/entertainment/ramayana-box-office-collection-ranbir-yashs-film-earns-over-2-million-worldwide-ahead-of-release-8243177.html"
+  ]
 }
