@@ -1,179 +1,74 @@
 {
   "genre": "EVERYDAY_TECH",
   "suggested_bgm_mood": "upbeat_curious_tech",
-  "youtube_title": "Ramayana Earned ₹375 Cr in 3 Days. Why Isn't That Enough?",
-  "youtube_description": "Ramayana: Part One opened on November 5, 2026 with Ranbir Kapoor, Sai Pallavi and Yash. We break down the day-by-day box office numbers, the language split, the reported budget, and why one trade rule of thumb puts break-even near ₹5,000 crore. All figures are trade-tracker estimates (Sacnilk and press reports), not audited.\n\nChapters (approximate):\n0:00 The Hook\n0:25 The Film\n0:50 Opening Day\n1:25 Language Split\n1:50 The Weekend\n2:25 Budget and Break-Even\n3:15 The Sequel Question\n3:40 The Puzzle",
+  "youtube_title": "Mandy's House in GTA 6: Where It Is (and What It Hides)",
+  "youtube_description": "Where is Mandy's house in GTA 6? It's on Peach Palm Drive in Key Lento, a few blocks from Jason's stilt house, and it's the setting of the Chapter 1 mission Pipework. We show how to reach it, what happens inside, and the clues behind a fan theory Rockstar hasn't confirmed (light Chapter 1 spoilers).\n\nCHAPTERS\n0:00 Zero trailers, one big question\n0:37 Key Lento and Jason's stilt house\n1:02 The exact address\n1:24 How to reach it\n1:48 Inside: sink, finger, flirting\n2:34 After Pipework\n2:59 The clues and the fan theory\n3:23 The actress and the verdict\n3:47 Your brain-teaser",
   "youtube_tags": [
-    "Ramayana box office",
-    "Ramayana Part 1 collection",
-    "Ranbir Kapoor",
-    "Yash Ravana",
-    "Sai Pallavi",
-    "Nitesh Tiwari",
-    "Diwali 2026 box office",
-    "Bollywood box office",
-    "Sacnilk",
-    "break even explained",
-    "Ramayana budget",
-    "Indian cinema"
+    "GTA 6",
+    "GTA 6 Mandy",
+    "Mandy's house GTA 6",
+    "GTA 6 Pipework",
+    "GTA 6 Key Lento",
+    "GTA 6 map",
+    "GTA 6 walkthrough",
+    "Jason Duval",
+    "Brian Heder",
+    "Leonida Keys",
+    "GTA 6 secrets",
+    "Grand Theft Auto VI"
   ],
-  "pinned_comment": "375 crore in three days, but roughly 5,000 crore needed to break even under one trade rule of thumb. If collections halve every day after the Diwali weekend, can Part One ever get there... or does Part Two decide the whole ledger? Drop your prediction for the final worldwide total.",
-  "thumbnail_headline": "375 CRORE. STILL SHORT?",
-  "thumbnail_sub_badge": "BOX OFFICE MATH",
+  "pinned_comment": "Brain-teaser: a neighbor calls Mandy's house a 'revolving door.' Is she (A) a harmless stalker, (B) a red herring, or (C) the Keys' secret serial killer? And what do you think is behind that locked door? Drop your theory below (Chapter 1 spoilers welcome).",
+  "thumbnail_headline": "MANDY'S HOUSE FOUND",
+  "thumbnail_sub_badge": "LOCATION SOLVED",
   "scenes": [
     {
       "scene_id": 1,
-      "chapter_title": "THE HOOK",
-      "narration_text": "Ramayana Part One grossed 375.50 crore rupees worldwide in just three days... yet one trade estimate says it needs roughly 5,000 crore to break even. How is a record-breaking epic still so far behind?",
+      "chapter_title": "THE ZERO-TRAILER MYSTERY",
+      "narration_text": "Zero trailers. Zero screenshots. Yet within hours of GTA 6 launching on November 19th, a character the marketing never showed became a top trend... and everyone's asking one thing: where is Mandy's house?",
       "visual_archetype": "KINETIC_MINIMALIST",
       "camera_movement": "slow_zoom_in",
       "hud_metrics": [
         {
-          "label": "Worldwide Gross",
-          "value": "₹375.50 Cr",
-          "delta": "Day 3"
+          "label": "Distance to Mandy",
+          "value": "Unknown",
+          "delta": "SEARCHING"
         },
         {
-          "label": "Break-Even Target",
-          "value": "~₹5,000 Cr",
-          "delta": "ESTIMATE"
+          "label": "Clues Found",
+          "value": "0",
+          "delta": null
         }
       ],
       "visual_elements": [
         {
           "element_type": "stat_card",
-          "headline": "₹375.50 Cr",
-          "subtext": "Worldwide gross after 3 days",
-          "badge": "DAY 3",
-          "highlight_color": "emerald"
+          "headline": "0 trailers",
+          "subtext": "Mandy appeared in no trailer or screenshot before launch",
+          "badge": "PRE-LAUNCH",
+          "highlight_color": "violet"
         },
-        {
-          "element_type": "stat_card",
-          "headline": "~₹5,000 Cr",
-          "subtext": "Indicative break-even target",
-          "badge": "TRADE ESTIMATE",
-          "highlight_color": "crimson"
-        }
-      ],
-      "callout_keywords": [
-        "375.50 crore",
-        "5,000 crore",
-        "break even"
-      ],
-      "illustration": {
-        "kind": "concept_flow",
-        "world": null,
-        "flow": {
-          "title": "THE HOOK",
-          "nodes": [
-            {
-              "id": "n0",
-              "label": "₹375.50 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 1,
-              "highlight": false
-            },
-            {
-              "id": "n1",
-              "label": "~₹5,000 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 2,
-              "highlight": false
-            },
-            {
-              "id": "n2",
-              "label": "375.50 crore",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 3,
-              "highlight": false
-            },
-            {
-              "id": "n3",
-              "label": "5,000 crore",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 4,
-              "highlight": true
-            }
-          ],
-          "edges": [
-            {
-              "source": "n0",
-              "target": "n1",
-              "label": "",
-              "color": "cyan",
-              "animate": true
-            },
-            {
-              "source": "n1",
-              "target": "n2",
-              "label": "",
-              "color": "emerald",
-              "animate": true
-            },
-            {
-              "source": "n2",
-              "target": "n3",
-              "label": "",
-              "color": "amber",
-              "animate": true
-            }
-          ],
-          "focus_node_id": null,
-          "caption": ""
-        }
-      },
-      "broll_query": "Indian movie theatre audience",
-      "start_sec": 0.0,
-      "duration_sec": 13.08,
-      "broll_asset": null,
-      "broll_attribution": null,
-      "broll_source_url": null
-    },
-    {
-      "scene_id": 2,
-      "chapter_title": "THE FILM",
-      "narration_text": "Nitesh Tiwari's two-part epic stars Ranbir Kapoor as Rama, Sai Pallavi as Sita, and Yash as Ravana. Part One opened on November 5th, 2026, in five Indian languages, with an English release overseas.",
-      "visual_archetype": "DOCUMENTARY_ARCHIVE",
-      "camera_movement": "pan_right",
-      "hud_metrics": [
-        {
-          "label": "Release",
-          "value": "Nov 5, 2026",
-          "delta": null
-        },
-        {
-          "label": "Languages",
-          "value": "5 Indian + English overseas",
-          "delta": null
-        }
-      ],
-      "visual_elements": [
         {
           "element_type": "timeline_milestone",
-          "headline": "November 5, 2026",
-          "subtext": "Ramayana: Part One reaches theatres",
-          "badge": "RELEASE",
-          "highlight_color": "amber"
+          "headline": "Nov 19, 2026",
+          "subtext": "GTA 6 launches worldwide",
+          "badge": null,
+          "highlight_color": "emerald"
         }
       ],
       "callout_keywords": [
-        "Ranbir Kapoor",
-        "November 5th",
-        "five Indian languages"
+        "Zero trailers",
+        "top trend",
+        "Mandy's house"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "THE FILM",
+          "title": "THE ZERO-TRAILER MYSTERY",
           "nodes": [
             {
               "id": "n0",
-              "label": "November 5, 2026",
+              "label": "0 trailers",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 1,
@@ -181,7 +76,7 @@
             },
             {
               "id": "n1",
-              "label": "Nov 5, 2026",
+              "label": "Nov 19, 2026",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 2,
@@ -189,15 +84,15 @@
             },
             {
               "id": "n2",
-              "label": "5 Indian + English oversea…",
+              "label": "Unknown",
               "sublabel": "",
-              "icon": "circle-dot",
+              "icon": "circle-help",
               "tier": 3,
               "highlight": false
             },
             {
               "id": "n3",
-              "label": "Ranbir Kapoor",
+              "label": "Zero trailers",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 4,
@@ -231,62 +126,69 @@
           "caption": ""
         }
       },
-      "broll_query": "Nitesh Tiwari director",
-      "start_sec": 13.5,
+      "broll_query": "empty movie theater screen",
+      "start_sec": 0.0,
       "duration_sec": 12.69,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
-      "scene_id": 3,
-      "chapter_title": "THE SAGA",
-      "narration_text": "Backed by Namit Malhotra's Prime Focus Studios and Yash's Monster Mind Creations, this is a two-part saga. Sunny Deol plays Hanuman, Ravi Dubey plays Lakshmana, and Part One builds to Sita's abduction by Ravana.",
-      "visual_archetype": "NARRATIVE_STORYBOARD",
-      "camera_movement": "slow_zoom_out",
+      "scene_id": 2,
+      "chapter_title": "THE SHORT ANSWER",
+      "narration_text": "Short answer: Key Lento, on Peach Palm Drive, a few blocks from Jason's house. The long answer involves a blocked sink, what looks like a finger... and a locked door.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "pan_right",
       "hud_metrics": [
         {
-          "label": "Parts",
-          "value": "2",
-          "delta": null
+          "label": "Distance to Mandy",
+          "value": "A few blocks",
+          "delta": "LOCATED"
         },
         {
-          "label": "Day",
-          "value": "Pre-release",
+          "label": "Clues Found",
+          "value": "0",
           "delta": null
         }
       ],
       "visual_elements": [
         {
-          "element_type": "node_network",
-          "headline": "Prime Focus + Monster Mind",
-          "subtext": "Producers behind the two-part saga",
-          "badge": null,
+          "element_type": "map_pin",
+          "headline": "Peach Palm Drive",
+          "subtext": "Key Lento, Leonida Keys",
+          "badge": "THE ANSWER",
           "highlight_color": "cyan"
+        },
+        {
+          "element_type": "stat_card",
+          "headline": "A few blocks",
+          "subtext": "from Jason's house",
+          "badge": null,
+          "highlight_color": "amber"
         }
       ],
       "callout_keywords": [
-        "Prime Focus Studios",
-        "Sunny Deol",
-        "Sita's abduction"
+        "Peach Palm Drive",
+        "Key Lento",
+        "locked door"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "THE SAGA",
+          "title": "THE SHORT ANSWER",
           "nodes": [
             {
               "id": "n0",
-              "label": "Prime Focus + Monster Mind",
+              "label": "Peach Palm Drive",
               "sublabel": "",
-              "icon": "brain",
+              "icon": "circle-dot",
               "tier": 1,
               "highlight": false
             },
             {
               "id": "n1",
-              "label": "Pre-release",
+              "label": "A few blocks",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 2,
@@ -294,7 +196,7 @@
             },
             {
               "id": "n2",
-              "label": "Prime Focus Studios",
+              "label": "Key Lento",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 3,
@@ -302,9 +204,9 @@
             },
             {
               "id": "n3",
-              "label": "Sunny Deol",
+              "label": "locked door",
               "sublabel": "",
-              "icon": "sun",
+              "icon": "circle-dot",
               "tier": 4,
               "highlight": true
             }
@@ -336,64 +238,176 @@
           "caption": ""
         }
       },
-      "broll_query": "Ramayana Ravana Sita painting",
-      "start_sec": 26.61,
-      "duration_sec": 13.08,
+      "broll_query": "Florida Keys aerial view",
+      "start_sec": 13.11,
+      "duration_sec": 11.54,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 3,
+      "chapter_title": "THE PIPEWORK MISSION",
+      "narration_text": "Mandy first appears in Chapter 1, during the seventh story mission, Pipework, when Jason's landlord Brian sends him to collect overdue rent. Light spoilers ahead... but you can't find this house without knocking.",
+      "visual_archetype": "NARRATIVE_STORYBOARD",
+      "camera_movement": "static_focus",
+      "hud_metrics": [
+        {
+          "label": "Distance to Mandy",
+          "value": "A few blocks",
+          "delta": null
+        },
+        {
+          "label": "Clues Found",
+          "value": "0",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "timeline_milestone",
+          "headline": "Chapter 1 · Mission 7",
+          "subtext": "Pipework: collect Mandy's overdue rent",
+          "badge": "LIGHT SPOILERS",
+          "highlight_color": "cyan"
+        }
+      ],
+      "callout_keywords": [
+        "Pipework",
+        "seventh story mission",
+        "overdue rent"
+      ],
+      "illustration": {
+        "kind": "glyph_world",
+        "world": {
+          "unit_icon": "file",
+          "formation": "queue",
+          "population": 7,
+          "active_fraction": 0.14,
+          "gate_label": "Mandy's door",
+          "section_label": "CHAPTER 1",
+          "headline": "Mission 7: Pipework",
+          "unit_label": "story missions",
+          "active_label": "Pipework",
+          "caption": "Mandy appears in the seventh story mission.",
+          "status": "normal"
+        },
+        "flow": null
+      },
+      "broll_query": "",
+      "start_sec": 25.07,
+      "duration_sec": 12.69,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 4,
-      "chapter_title": "BEFORE THE OPENING",
-      "narration_text": "Before a single show ran, worldwide advance bookings reportedly crossed 2 million dollars. Then Thursday arrived, and trackers logged more than 7,000 shows by late morning, with the first-day figure updating live.",
+      "chapter_title": "WELCOME TO KEY LENTO",
+      "narration_text": "The Leonida Keys are an island chain inspired by the Florida Keys, linked by bridges. Key Lento is the main island, home base for smuggler Brian Heder... and where Jason's story starts.",
       "visual_archetype": "NEON_TECHNICAL_HUD",
-      "camera_movement": "static_focus",
+      "camera_movement": "slow_zoom_out",
       "hud_metrics": [
         {
-          "label": "Advance Bookings",
-          "value": "$2M+",
-          "delta": "WORLDWIDE"
+          "label": "Distance to Mandy",
+          "value": "Same island",
+          "delta": null
         },
         {
-          "label": "Shows Tracked",
-          "value": "7,786",
-          "delta": "LIVE"
+          "label": "Clues Found",
+          "value": "0",
+          "delta": null
         }
       ],
       "visual_elements": [
         {
-          "element_type": "stat_card",
-          "headline": "$2M+",
-          "subtext": "Reported worldwide advance bookings",
+          "element_type": "map_pin",
+          "headline": "Key Lento",
+          "subtext": "Main island of the Leonida Keys",
           "badge": null,
           "highlight_color": "cyan"
+        },
+        {
+          "element_type": "node_network",
+          "headline": "Leonida Keys",
+          "subtext": "Bridge-linked islands inspired by the Florida Keys",
+          "badge": null,
+          "highlight_color": "emerald"
         }
       ],
       "callout_keywords": [
-        "2 million dollars",
-        "advance bookings",
-        "7,000 shows"
+        "Leonida Keys",
+        "Key Lento",
+        "Brian Heder"
       ],
       "illustration": {
-        "kind": "glyph_world",
-        "world": {
-          "unit_icon": "clock",
-          "formation": "rush",
-          "population": 7786,
-          "active_fraction": 1.0,
-          "gate_label": "Box office tracker",
-          "section_label": "OPENING DAY",
-          "headline": "7,786 shows tracked",
-          "unit_label": "shows",
-          "active_label": "tracked live",
-          "caption": "By 11 AM on release day, trackers had counted thousands of shows.",
-          "status": "normal"
-        },
-        "flow": null
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "The Leonida Keys",
+          "nodes": [
+            {
+              "id": "keys",
+              "label": "Leonida Keys",
+              "sublabel": "Bridge-linked islands",
+              "icon": "map",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "lento",
+              "label": "Key Lento",
+              "sublabel": "Main island",
+              "icon": "map-pin",
+              "tier": 2,
+              "highlight": true
+            },
+            {
+              "id": "brian",
+              "label": "Brian's base",
+              "sublabel": "Smuggling operation",
+              "icon": "ship",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "jason",
+              "label": "Jason's stilt house",
+              "sublabel": "Where his story starts",
+              "icon": "home",
+              "tier": 3,
+              "highlight": false
+            }
+          ],
+          "edges": [
+            {
+              "source": "keys",
+              "target": "lento",
+              "label": "main island",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "lento",
+              "target": "brian",
+              "label": "home base",
+              "color": "amber",
+              "animate": true
+            },
+            {
+              "source": "lento",
+              "target": "jason",
+              "label": "story starts",
+              "color": "emerald",
+              "animate": true
+            }
+          ],
+          "focus_node_id": "lento",
+          "caption": "Key Lento is Brian Heder's base and Jason's starting island."
+        }
       },
       "broll_query": "",
-      "start_sec": 40.11,
+      "start_sec": 38.18,
       "duration_sec": 12.31,
       "broll_asset": null,
       "broll_attribution": null,
@@ -401,329 +415,271 @@
     },
     {
       "scene_id": 5,
-      "chapter_title": "DAY ONE NUMBERS",
-      "narration_text": "Day one closed at 64.85 crore rupees net in India, and 77.50 crore gross. Add overseas, and the worldwide gross hit 127.50 crore rupees... though some outlets reported a higher 155 crore figure.",
+      "chapter_title": "JASON'S STILT HOUSE",
+      "narration_text": "Jason stays rent-free in a Key Lento stilt house owned by Brian, as long as he handles five repairs and helps with shakedowns. Remember it... because Mandy rents another of Brian's places.",
       "visual_archetype": "NEON_TECHNICAL_HUD",
       "camera_movement": "static_focus",
       "hud_metrics": [
         {
-          "label": "Day",
-          "value": "1",
+          "label": "Distance to Mandy",
+          "value": "A few blocks",
           "delta": null
         },
         {
-          "label": "India Net",
-          "value": "₹64.85 Cr",
+          "label": "Clues Found",
+          "value": "0",
           "delta": null
-        },
-        {
-          "label": "Worldwide Gross",
-          "value": "₹127.50 Cr",
-          "delta": "SOME REPORTS: ₹155 Cr"
         }
       ],
       "visual_elements": [
         {
-          "element_type": "stat_card",
-          "headline": "₹64.85 Cr",
-          "subtext": "India net, opening day (Sacnilk)",
+          "element_type": "map_pin",
+          "headline": "Jason's stilt house",
+          "subtext": "Your anchor point on Key Lento",
           "badge": null,
-          "highlight_color": "emerald"
+          "highlight_color": "cyan"
+        },
+        {
+          "element_type": "stat_card",
+          "headline": "Rent-free",
+          "subtext": "Paid in repairs and shakedown work",
+          "badge": null,
+          "highlight_color": "amber"
         }
       ],
       "callout_keywords": [
-        "64.85 crore",
-        "127.50 crore",
-        "155 crore"
+        "rent-free",
+        "five repairs",
+        "Mandy rents"
       ],
       "illustration": {
-        "kind": "concept_flow",
-        "world": null,
-        "flow": {
-          "title": "Day One Ladder",
-          "nodes": [
-            {
-              "id": "net",
-              "label": "India Net",
-              "sublabel": "₹64.85 Cr",
-              "icon": "ticket",
-              "tier": 1,
-              "highlight": false
-            },
-            {
-              "id": "gross",
-              "label": "India Gross",
-              "sublabel": "₹77.50 Cr",
-              "icon": "indian-rupee",
-              "tier": 2,
-              "highlight": false
-            },
-            {
-              "id": "world",
-              "label": "Worldwide Gross",
-              "sublabel": "₹127.50 Cr",
-              "icon": "globe",
-              "tier": 3,
-              "highlight": true
-            }
-          ],
-          "edges": [
-            {
-              "source": "net",
-              "target": "gross",
-              "label": "before tax",
-              "color": "cyan",
-              "animate": true
-            },
-            {
-              "source": "gross",
-              "target": "world",
-              "label": "+ overseas",
-              "color": "emerald",
-              "animate": true
-            }
-          ],
-          "focus_node_id": "world",
-          "caption": "Same opening day, three different headline numbers."
-        }
+        "kind": "glyph_world",
+        "world": {
+          "unit_icon": "gear",
+          "formation": "queue",
+          "population": 5,
+          "active_fraction": 0.0,
+          "gate_label": null,
+          "section_label": "THE SAFEHOUSE",
+          "headline": "5 repairs",
+          "unit_label": "repairs",
+          "active_label": "fixed",
+          "caption": "Deck, bedroom drywall, bedroom paint, roof, front steps.",
+          "status": "normal"
+        },
+        "flow": null
       },
       "broll_query": "",
-      "start_sec": 52.84,
-      "duration_sec": 12.69,
+      "start_sec": 50.91,
+      "duration_sec": 12.31,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 6,
-      "chapter_title": "THE COMPARISON",
-      "narration_text": "That opening beat Animal and broke a pre-Diwali opening record, yet it still trailed both Adipurush and Jawan on the list of biggest Indian openers... a mixed verdict on day one.",
-      "visual_archetype": "KINETIC_MINIMALIST",
-      "camera_movement": "slow_zoom_in",
+      "chapter_title": "THE ADDRESS",
+      "narration_text": "Now the address. Mandy's rental sits on Peach Palm Drive, in Key Lento, Mariana County. One guide puts it slightly north of Jason's house... only a few blocks away.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "pan_right",
       "hud_metrics": [
         {
-          "label": "Day",
-          "value": "1",
+          "label": "Distance to Mandy",
+          "value": "A few blocks",
           "delta": null
         },
         {
-          "label": "India Net",
-          "value": "₹64.85 Cr",
+          "label": "Clues Found",
+          "value": "0",
           "delta": null
-        },
-        {
-          "label": "Opening Rank",
-          "value": "Behind Adipurush",
-          "delta": "MIXED"
         }
       ],
       "visual_elements": [
         {
-          "element_type": "comparison_split",
-          "headline": "Ramayana vs Adipurush",
-          "subtext": "Beat Animal and a pre-Diwali record, but trailed the bigger openers",
+          "element_type": "map_pin",
+          "headline": "Peach Palm Drive",
+          "subtext": "Key Lento · Mariana County",
+          "badge": null,
+          "highlight_color": "cyan"
+        },
+        {
+          "element_type": "stat_card",
+          "headline": "A few blocks",
+          "subtext": "Slightly north of Jason's house",
           "badge": null,
           "highlight_color": "amber"
         }
       ],
       "callout_keywords": [
-        "Animal",
-        "pre-Diwali opening record",
-        "Adipurush"
+        "Peach Palm Drive",
+        "Mariana County",
+        "slightly north"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "THE COMPARISON",
+          "title": "Finding the Address",
           "nodes": [
             {
-              "id": "n0",
-              "label": "THE COMPARISON",
-              "sublabel": "",
-              "icon": "circle-dot",
+              "id": "jason",
+              "label": "Jason's stilt house",
+              "sublabel": "Key Lento",
+              "icon": "home",
               "tier": 1,
               "highlight": false
             },
             {
-              "id": "nA",
-              "label": "Ramayana",
-              "sublabel": "",
-              "icon": "circle-dot",
+              "id": "drive",
+              "label": "Peach Palm Drive",
+              "sublabel": "Slightly north",
+              "icon": "route",
               "tier": 2,
-              "highlight": true
+              "highlight": false
             },
             {
-              "id": "nB",
-              "label": "Adipurush",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 2,
+              "id": "mandy",
+              "label": "Mandy's house",
+              "sublabel": "Blue, chain-link fence",
+              "icon": "map-pin",
+              "tier": 3,
               "highlight": true
             }
           ],
           "edges": [
             {
-              "source": "n0",
-              "target": "nA",
-              "label": "",
-              "color": "emerald",
+              "source": "jason",
+              "target": "drive",
+              "label": "north",
+              "color": "cyan",
               "animate": true
             },
             {
-              "source": "n0",
-              "target": "nB",
-              "label": "",
+              "source": "drive",
+              "target": "mandy",
+              "label": "a few blocks",
               "color": "amber",
               "animate": true
             }
           ],
-          "focus_node_id": null,
-          "caption": "Beat Animal and a pre-Diwali record, but trailed the bigger openers"
+          "focus_node_id": "mandy",
+          "caption": "Mandy rents a Brian-owned house on Peach Palm Drive."
         }
       },
-      "broll_query": "Indian multiplex cinema screen",
-      "start_sec": 65.95,
-      "duration_sec": 11.92,
+      "broll_query": "",
+      "start_sec": 63.64,
+      "duration_sec": 11.15,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 7,
-      "chapter_title": "FIVE LANGUAGES",
-      "narration_text": "By Saturday, Hindi carried the film with 53 crore of its 69.80 crore net. Kannada added 6.30, Telugu 6, Tamil 2.50 and Malayalam 2... five languages, one dominant market.",
-      "visual_archetype": "NEON_TECHNICAL_HUD",
-      "camera_movement": "static_focus",
+      "chapter_title": "SPOTTING THE HOUSE",
+      "narration_text": "Look for a blue house with a chain-link fence. Jason arrives at night, as neighbors argue in the street... and one of them calls the place a revolving door.",
+      "visual_archetype": "DOCUMENTARY_ARCHIVE",
+      "camera_movement": "slow_zoom_in",
       "hud_metrics": [
         {
-          "label": "Day",
-          "value": "3",
+          "label": "Distance to Mandy",
+          "value": "A few blocks",
           "delta": null
         },
         {
-          "label": "Hindi Share",
-          "value": "₹53 Cr",
-          "delta": "LEADS"
-        },
-        {
-          "label": "India Net (Day 3)",
-          "value": "₹69.80 Cr",
+          "label": "Clues Found",
+          "value": "0",
           "delta": null
         }
       ],
       "visual_elements": [
         {
-          "element_type": "stat_card",
-          "headline": "₹53 Cr",
-          "subtext": "Hindi version, Day 3",
+          "element_type": "map_pin",
+          "headline": "Blue house",
+          "subtext": "Chain-link fence, Peach Palm Drive",
+          "badge": "LANDMARK",
+          "highlight_color": "cyan"
+        },
+        {
+          "element_type": "quote_callout",
+          "headline": "Revolving door",
+          "subtext": "A neighbor on Mandy's house",
           "badge": null,
-          "highlight_color": "emerald"
+          "highlight_color": "violet"
         }
       ],
       "callout_keywords": [
-        "53 crore",
-        "69.80 crore",
-        "Kannada"
+        "blue house",
+        "chain-link fence",
+        "revolving door"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "Saturday By Language",
+          "title": "SPOTTING THE HOUSE",
           "nodes": [
             {
-              "id": "film",
-              "label": "Ramayana Part One",
-              "sublabel": "₹69.80 Cr net",
-              "icon": "film",
+              "id": "n0",
+              "label": "Blue house",
+              "sublabel": "",
+              "icon": "circle-dot",
               "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "n1",
+              "label": "Revolving door",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "n2",
+              "label": "A few blocks",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "chain-link fence",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 4,
               "highlight": true
-            },
-            {
-              "id": "hi",
-              "label": "Hindi",
-              "sublabel": "₹53 Cr",
-              "icon": "languages",
-              "tier": 2,
-              "highlight": true
-            },
-            {
-              "id": "kn",
-              "label": "Kannada",
-              "sublabel": "₹6.30 Cr",
-              "icon": "languages",
-              "tier": 2,
-              "highlight": false
-            },
-            {
-              "id": "te",
-              "label": "Telugu",
-              "sublabel": "₹6 Cr",
-              "icon": "languages",
-              "tier": 2,
-              "highlight": false
-            },
-            {
-              "id": "ta",
-              "label": "Tamil",
-              "sublabel": "₹2.50 Cr",
-              "icon": "languages",
-              "tier": 2,
-              "highlight": false
-            },
-            {
-              "id": "ml",
-              "label": "Malayalam",
-              "sublabel": "₹2 Cr",
-              "icon": "languages",
-              "tier": 2,
-              "highlight": false
             }
           ],
           "edges": [
             {
-              "source": "film",
-              "target": "hi",
-              "label": "53",
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "n1",
+              "target": "n2",
+              "label": "",
               "color": "emerald",
               "animate": true
             },
             {
-              "source": "film",
-              "target": "kn",
-              "label": "6.30",
-              "color": "cyan",
-              "animate": true
-            },
-            {
-              "source": "film",
-              "target": "te",
-              "label": "6",
-              "color": "cyan",
-              "animate": true
-            },
-            {
-              "source": "film",
-              "target": "ta",
-              "label": "2.50",
-              "color": "amber",
-              "animate": true
-            },
-            {
-              "source": "film",
-              "target": "ml",
-              "label": "2",
+              "source": "n2",
+              "target": "n3",
+              "label": "",
               "color": "amber",
               "animate": true
             }
           ],
-          "focus_node_id": "hi",
-          "caption": "Hindi delivered roughly three quarters of Saturday's India net."
+          "focus_node_id": null,
+          "caption": ""
         }
       },
-      "broll_query": "",
-      "start_sec": 78.29,
+      "broll_query": "blue house chain-link fence",
+      "start_sec": 75.21,
       "duration_sec": 11.15,
       "broll_asset": null,
       "broll_attribution": null,
@@ -731,491 +687,472 @@
     },
     {
       "scene_id": 8,
-      "chapter_title": "THE WEEKEND",
-      "narration_text": "Friday brought the first scare as occupancy dipped. But Saturday jumped 45.3 percent over Friday to 69.80 crore net, lifting India's three-day total to 182.70 crore.",
+      "chapter_title": "BRIAN'S JOB CHAIN",
+      "narration_text": "Brian's early jobs start with Lab Fees, an acid pickup. A few missions later, which can include a car repair and Cal's impound run, rent work leads to Pipework. Order can vary.",
       "visual_archetype": "NARRATIVE_STORYBOARD",
-      "camera_movement": "slow_zoom_in",
+      "camera_movement": "static_focus",
       "hud_metrics": [
         {
-          "label": "Day",
-          "value": "3",
+          "label": "Distance to Mandy",
+          "value": "A few blocks",
           "delta": null
         },
         {
-          "label": "India Net (Total)",
-          "value": "₹182.70 Cr",
-          "delta": "+45.3% vs Fri"
-        },
-        {
-          "label": "Worldwide Gross",
-          "value": "₹375.50 Cr",
+          "label": "Clues Found",
+          "value": "0",
           "delta": null
         }
       ],
       "visual_elements": [
         {
-          "element_type": "stat_card",
-          "headline": "+45.3%",
-          "subtext": "Saturday rise over Friday",
-          "badge": "SACNILK",
-          "highlight_color": "emerald"
-        },
-        {
-          "element_type": "stat_card",
-          "headline": "₹182.70 Cr",
-          "subtext": "India net, first three days",
+          "element_type": "timeline_milestone",
+          "headline": "Lab Fees → Pipework",
+          "subtext": "Order of the in-between jobs can vary",
           "badge": null,
           "highlight_color": "cyan"
         }
       ],
       "callout_keywords": [
-        "45.3 percent",
-        "69.80 crore",
-        "182.70 crore"
+        "Lab Fees",
+        "Cal's impound run",
+        "Order can vary"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "THE WEEKEND",
+          "title": "Brian's Job Chain",
           "nodes": [
             {
-              "id": "n0",
-              "label": "+45.3%",
-              "sublabel": "",
-              "icon": "circle-dot",
+              "id": "lab",
+              "label": "Lab Fees",
+              "sublabel": "Acid pickup",
+              "icon": "flask-conical",
               "tier": 1,
               "highlight": false
             },
             {
-              "id": "n1",
-              "label": "₹182.70 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
+              "id": "fix",
+              "label": "Car repair",
+              "sublabel": "Jason's car",
+              "icon": "wrench",
               "tier": 2,
               "highlight": false
             },
             {
-              "id": "n2",
-              "label": "₹375.50 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 3,
+              "id": "impound",
+              "label": "Cal's impound run",
+              "sublabel": "Retrieve a car",
+              "icon": "car",
+              "tier": 2,
               "highlight": false
             },
             {
-              "id": "n3",
-              "label": "45.3 percent",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 4,
+              "id": "pipe",
+              "label": "Pipework",
+              "sublabel": "Mandy's rent",
+              "icon": "droplet",
+              "tier": 3,
               "highlight": true
             }
           ],
           "edges": [
             {
-              "source": "n0",
-              "target": "n1",
+              "source": "lab",
+              "target": "fix",
+              "label": "order can vary",
+              "color": "amber",
+              "animate": true
+            },
+            {
+              "source": "lab",
+              "target": "impound",
+              "label": "order can vary",
+              "color": "amber",
+              "animate": true
+            },
+            {
+              "source": "fix",
+              "target": "pipe",
               "label": "",
               "color": "cyan",
               "animate": true
             },
             {
-              "source": "n1",
-              "target": "n2",
+              "source": "impound",
+              "target": "pipe",
               "label": "",
-              "color": "emerald",
-              "animate": true
-            },
-            {
-              "source": "n2",
-              "target": "n3",
-              "label": "",
-              "color": "amber",
+              "color": "cyan",
               "animate": true
             }
           ],
-          "focus_node_id": null,
-          "caption": ""
+          "focus_node_id": "pipe",
+          "caption": "Brian's rent work leads to Pipework after a few early jobs."
         }
       },
-      "broll_query": "Indian multiplex cinema lobby",
-      "start_sec": 89.86,
-      "duration_sec": 10.0,
+      "broll_query": "",
+      "start_sec": 86.78,
+      "duration_sec": 12.31,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 9,
-      "chapter_title": "GOING GLOBAL",
-      "narration_text": "Overseas added an estimated 60 crore rupees on Saturday, pushing the worldwide gross to 375.50 crore rupees. The film also reportedly set a UK record on opening day, so the audience extends beyond India.",
-      "visual_archetype": "KINETIC_MINIMALIST",
-      "camera_movement": "pan_right",
+      "chapter_title": "THE MAP MARKER",
+      "narration_text": "To get there, open the pause menu as Jason and find the marker labeled Collect Mandy's Rent. Follow it on a short drive from the safehouse, and Mandy's waiting outside.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "slow_zoom_in",
       "hud_metrics": [
         {
-          "label": "Day",
-          "value": "3",
-          "delta": null
+          "label": "Distance to Mandy",
+          "value": "Short drive",
+          "delta": "EN ROUTE"
         },
         {
-          "label": "Overseas (Day 3)",
-          "value": "~₹60 Cr",
-          "delta": "ESTIMATE"
-        },
-        {
-          "label": "Worldwide Gross",
-          "value": "₹375.50 Cr",
+          "label": "Clues Found",
+          "value": "0",
           "delta": null
         }
       ],
       "visual_elements": [
         {
           "element_type": "map_pin",
-          "headline": "United Kingdom",
-          "subtext": "Reported opening-day record",
-          "badge": null,
-          "highlight_color": "violet"
-        },
-        {
-          "element_type": "stat_card",
-          "headline": "₹375.50 Cr",
-          "subtext": "Worldwide gross after Day 3",
-          "badge": null,
-          "highlight_color": "emerald"
+          "headline": "Collect Mandy's Rent",
+          "subtext": "Mission marker, a short drive from the safehouse",
+          "badge": "PAUSE MENU",
+          "highlight_color": "cyan"
         }
       ],
       "callout_keywords": [
-        "60 crore",
-        "375.50 crore",
-        "UK record"
+        "pause menu",
+        "Collect Mandy's Rent",
+        "short drive"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "GOING GLOBAL",
+          "title": "Reaching Mandy's House",
           "nodes": [
             {
-              "id": "n0",
-              "label": "United Kingdom",
-              "sublabel": "",
-              "icon": "circle-dot",
+              "id": "menu",
+              "label": "Pause menu",
+              "sublabel": "Playing as Jason",
+              "icon": "menu",
               "tier": 1,
               "highlight": false
             },
             {
-              "id": "n1",
-              "label": "₹375.50 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
+              "id": "marker",
+              "label": "Collect Mandy's Rent",
+              "sublabel": "Mission marker",
+              "icon": "map-pin",
               "tier": 2,
-              "highlight": false
+              "highlight": true
             },
             {
-              "id": "n2",
-              "label": "~₹60 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
+              "id": "drive",
+              "label": "Short drive",
+              "sublabel": "From the safehouse",
+              "icon": "car",
               "tier": 3,
               "highlight": false
             },
             {
-              "id": "n3",
-              "label": "60 crore",
-              "sublabel": "",
-              "icon": "circle-dot",
+              "id": "door",
+              "label": "Mandy's door",
+              "sublabel": "She waits outside",
+              "icon": "home",
               "tier": 4,
-              "highlight": true
+              "highlight": false
             }
           ],
           "edges": [
             {
-              "source": "n0",
-              "target": "n1",
-              "label": "",
+              "source": "menu",
+              "target": "marker",
+              "label": "find",
               "color": "cyan",
               "animate": true
             },
             {
-              "source": "n1",
-              "target": "n2",
-              "label": "",
-              "color": "emerald",
+              "source": "marker",
+              "target": "drive",
+              "label": "follow",
+              "color": "cyan",
               "animate": true
             },
             {
-              "source": "n2",
-              "target": "n3",
-              "label": "",
-              "color": "amber",
+              "source": "drive",
+              "target": "door",
+              "label": "arrive",
+              "color": "emerald",
               "animate": true
             }
           ],
-          "focus_node_id": null,
-          "caption": ""
+          "focus_node_id": "marker",
+          "caption": "Follow the Collect Mandy's Rent marker straight to her door."
         }
       },
-      "broll_query": "Leicester Square London cinema",
-      "start_sec": 100.28,
-      "duration_sec": 13.08,
+      "broll_query": "",
+      "start_sec": 99.51,
+      "duration_sec": 11.54,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 10,
-      "chapter_title": "DIWALI SUNDAY",
-      "narration_text": "Then came Diwali Sunday, day four. The film reportedly earned 56.15 crore net in India, a record-breaking Diwali Sunday, and one report puts the four-day worldwide total near 500 crore rupees.",
-      "visual_archetype": "DOCUMENTARY_ARCHIVE",
-      "camera_movement": "slow_zoom_out",
+      "chapter_title": "NO FIX, NO RENT",
+      "narration_text": "Mandy won't pay a cent until her blocked kitchen sink is fixed. Jason argues a sink is technically a fixture, Brian's problem, not his... but he's already at the door.",
+      "visual_archetype": "NARRATIVE_STORYBOARD",
+      "camera_movement": "static_focus",
       "hud_metrics": [
         {
-          "label": "Day",
-          "value": "4",
+          "label": "Distance to Mandy",
+          "value": "At her door",
+          "delta": "ARRIVED"
+        },
+        {
+          "label": "Clues Found",
+          "value": "0",
           "delta": null
-        },
-        {
-          "label": "India Net (Day 4)",
-          "value": "₹56.15 Cr",
-          "delta": "RECORD DIWALI SUNDAY"
-        },
-        {
-          "label": "Worldwide Gross",
-          "value": "~₹500 Cr",
-          "delta": "NEARING"
         }
       ],
       "visual_elements": [
         {
-          "element_type": "timeline_milestone",
-          "headline": "Diwali Sunday · Day 4",
-          "subtext": "₹56.15 Cr net in India",
-          "badge": "NOV 8, 2026",
+          "element_type": "comparison_split",
+          "headline": "Fixture vs. Favor",
+          "subtext": "Jason: Brian's problem · Mandy: no fix, no rent",
+          "badge": null,
           "highlight_color": "amber"
         }
       ],
       "callout_keywords": [
-        "Diwali Sunday",
-        "56.15 crore",
-        "500 crore"
+        "blocked kitchen sink",
+        "fixture",
+        "already at the door"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "DIWALI SUNDAY",
+          "title": "No Fix, No Rent",
           "nodes": [
             {
-              "id": "n0",
-              "label": "Diwali Sunday · Day 4",
-              "sublabel": "",
-              "icon": "sun",
+              "id": "sink",
+              "label": "Blocked sink",
+              "sublabel": "Mandy's kitchen",
+              "icon": "droplets",
               "tier": 1,
               "highlight": false
             },
             {
-              "id": "n1",
-              "label": "₹56.15 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
+              "id": "hold",
+              "label": "Rent withheld",
+              "sublabel": "Overdue to Brian",
+              "icon": "coins",
               "tier": 2,
               "highlight": false
             },
             {
-              "id": "n2",
-              "label": "~₹500 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
+              "id": "fix",
+              "label": "Jason steps in",
+              "sublabel": "Says it's Brian's problem",
+              "icon": "wrench",
               "tier": 3,
               "highlight": false
             },
             {
-              "id": "n3",
-              "label": "Diwali Sunday",
-              "sublabel": "",
-              "icon": "sun",
+              "id": "paid",
+              "label": "Rent collected",
+              "sublabel": "After the fix",
+              "icon": "check-circle",
               "tier": 4,
               "highlight": true
             }
           ],
           "edges": [
             {
-              "source": "n0",
-              "target": "n1",
-              "label": "",
-              "color": "cyan",
+              "source": "sink",
+              "target": "hold",
+              "label": "she refuses",
+              "color": "crimson",
               "animate": true
             },
             {
-              "source": "n1",
-              "target": "n2",
+              "source": "hold",
+              "target": "fix",
+              "label": "the deal",
+              "color": "amber",
+              "animate": true
+            },
+            {
+              "source": "fix",
+              "target": "paid",
               "label": "",
               "color": "emerald",
               "animate": true
-            },
-            {
-              "source": "n2",
-              "target": "n3",
-              "label": "",
-              "color": "amber",
-              "animate": true
             }
           ],
-          "focus_node_id": null,
-          "caption": ""
+          "focus_node_id": "hold",
+          "caption": "Mandy ties Brian's rent to a plumbing favor."
         }
       },
-      "broll_query": "Diwali diyas oil lamps",
-      "start_sec": 113.78,
-      "duration_sec": 11.92,
+      "broll_query": "",
+      "start_sec": 111.47,
+      "duration_sec": 11.54,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 11,
-      "chapter_title": "BEATING THE FORECAST",
-      "narration_text": "Trade tracker Sacnilk had predicted a four-day India weekend of 220 to 245 crore rupees, with Sunday pegged at 45 to 55 crore, and the real Sunday of 56.15 crore beat that range.",
-      "visual_archetype": "KINETIC_MINIMALIST",
-      "camera_movement": "static_focus",
+      "chapter_title": "THE SINK MINI-GAME",
+      "narration_text": "Inside, grab the plunger from her bathroom, return to the sink, and clear the blockage with R3. Then slide underneath to unblock the pipes, while Mandy keeps flirting.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "slow_zoom_in",
       "hud_metrics": [
         {
-          "label": "Day",
-          "value": "4",
+          "label": "Distance to Mandy",
+          "value": "Inside",
           "delta": null
         },
         {
-          "label": "Sunday Forecast",
-          "value": "₹45–55 Cr",
+          "label": "Clues Found",
+          "value": "0",
           "delta": null
-        },
-        {
-          "label": "Sunday Actual",
-          "value": "₹56.15 Cr",
-          "delta": "ABOVE RANGE"
         }
       ],
       "visual_elements": [
         {
-          "element_type": "comparison_split",
-          "headline": "Forecast ₹45–55 Cr vs Actual ₹56.15 Cr",
-          "subtext": "Diwali Sunday landed above the predicted range",
+          "element_type": "stat_card",
+          "headline": "R3",
+          "subtext": "Clears the sink in the mini-game",
           "badge": null,
-          "highlight_color": "emerald"
+          "highlight_color": "cyan"
         }
       ],
       "callout_keywords": [
-        "220 to 245 crore",
-        "Sunday",
-        "56.15 crore"
+        "plunger",
+        "R3",
+        "unblock the pipes"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "BEATING THE FORECAST",
+          "title": "The Sink Mini-Game",
           "nodes": [
             {
-              "id": "n0",
-              "label": "BEATING THE FORECAST",
-              "sublabel": "",
-              "icon": "circle-dot",
+              "id": "bath",
+              "label": "Bathroom",
+              "sublabel": "Grab the plunger",
+              "icon": "bath",
               "tier": 1,
               "highlight": false
             },
             {
-              "id": "nA",
-              "label": "Forecast ₹45–55 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
+              "id": "sink",
+              "label": "Kitchen sink",
+              "sublabel": "Clear it with R3",
+              "icon": "droplets",
               "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "pipes",
+              "label": "Under the sink",
+              "sublabel": "Unblock the pipes",
+              "icon": "wrench",
+              "tier": 3,
               "highlight": true
             },
             {
-              "id": "nB",
-              "label": "Actual ₹56.15 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 2,
-              "highlight": true
+              "id": "done",
+              "label": "Job done",
+              "sublabel": "Collect the rent",
+              "icon": "check-circle",
+              "tier": 4,
+              "highlight": false
             }
           ],
           "edges": [
             {
-              "source": "n0",
-              "target": "nA",
-              "label": "",
-              "color": "emerald",
+              "source": "bath",
+              "target": "sink",
+              "label": "plunger",
+              "color": "cyan",
               "animate": true
             },
             {
-              "source": "n0",
-              "target": "nB",
+              "source": "sink",
+              "target": "pipes",
+              "label": "R3",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "pipes",
+              "target": "done",
               "label": "",
-              "color": "amber",
+              "color": "emerald",
               "animate": true
             }
           ],
-          "focus_node_id": null,
-          "caption": "Diwali Sunday landed above the predicted range"
+          "focus_node_id": "pipes",
+          "caption": "A short unblocking mini-game, with Mandy flirting throughout."
         }
       },
-      "broll_query": "box office ticket counter India",
-      "start_sec": 126.12,
-      "duration_sec": 12.69,
+      "broll_query": "",
+      "start_sec": 123.43,
+      "duration_sec": 10.77,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 12,
-      "chapter_title": "THE OTHER LEDGER",
-      "narration_text": "Now the other side of the ledger. Part One's budget is reported near 2,000 crore rupees, though figures differ by source and none are audited. Another report cites 4,000 crore for both parts combined.",
-      "visual_archetype": "DOCUMENTARY_ARCHIVE",
+      "chapter_title": "SOMETHING IN THE DRAIN",
+      "narration_text": "Then comes the twist. Out of the blockage comes something that looks a lot like a finger. Jason reacts with confusion... and Mandy snatches it away before anyone gets a good look.",
+      "visual_archetype": "KINETIC_MINIMALIST",
       "camera_movement": "slow_zoom_in",
       "hud_metrics": [
         {
-          "label": "Budget (Part One)",
-          "value": "~₹2,000 Cr",
-          "delta": "REPORTED"
+          "label": "Distance to Mandy",
+          "value": "Inside",
+          "delta": null
         },
         {
-          "label": "Budget (Both Parts)",
-          "value": "~₹4,000 Cr",
-          "delta": "REPORTED"
+          "label": "Clues Found",
+          "value": "1",
+          "delta": "+1"
         }
       ],
       "visual_elements": [
         {
           "element_type": "stat_card",
-          "headline": "~₹2,000 Cr",
-          "subtext": "Reported budget, Part One",
-          "badge": "UNAUDITED",
-          "highlight_color": "amber"
-        },
-        {
-          "element_type": "stat_card",
-          "headline": "~₹4,000 Cr",
-          "subtext": "Reported budget, both parts",
-          "badge": "UNAUDITED",
-          "highlight_color": "amber"
+          "headline": "Clue #1",
+          "subtext": "Finger-like object in the drain",
+          "badge": "UNEXPLAINED",
+          "highlight_color": "crimson"
         }
       ],
       "callout_keywords": [
-        "2,000 crore",
-        "4,000 crore",
-        "none are audited"
+        "twist",
+        "finger",
+        "snatches it away"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "THE OTHER LEDGER",
+          "title": "SOMETHING IN THE DRAIN",
           "nodes": [
             {
               "id": "n0",
-              "label": "~₹2,000 Cr",
+              "label": "Clue #1",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 1,
@@ -1223,7 +1160,7 @@
             },
             {
               "id": "n1",
-              "label": "~₹4,000 Cr",
+              "label": "Inside",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 2,
@@ -1231,7 +1168,7 @@
             },
             {
               "id": "n2",
-              "label": "2,000 crore",
+              "label": "twist",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 3,
@@ -1239,7 +1176,7 @@
             },
             {
               "id": "n3",
-              "label": "4,000 crore",
+              "label": "finger",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 4,
@@ -1273,704 +1210,61 @@
           "caption": ""
         }
       },
-      "broll_query": "film set camera crane lights",
-      "start_sec": 139.23,
-      "duration_sec": 13.08,
+      "broll_query": "kitchen sink drain pipe",
+      "start_sec": 134.62,
+      "duration_sec": 12.31,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     },
     {
       "scene_id": 13,
-      "chapter_title": "THE 2.5X RULE",
-      "narration_text": "Trade analyst Ramesh Bala cites a rule of thumb: a film needs roughly 2.5 times its budget to break even. Applied to 2,000 crore rupees, that points to a worldwide target near 5,000 crore.",
-      "visual_archetype": "NEON_TECHNICAL_HUD",
-      "camera_movement": "static_focus",
-      "hud_metrics": [
-        {
-          "label": "Budget (Part One)",
-          "value": "~₹2,000 Cr",
-          "delta": null
-        },
-        {
-          "label": "Break-Even Target",
-          "value": "~₹5,000 Cr",
-          "delta": "INDICATIVE"
-        }
-      ],
-      "visual_elements": [
-        {
-          "element_type": "stat_card",
-          "headline": "× 2.5",
-          "subtext": "Rule-of-thumb break-even multiple",
-          "badge": null,
-          "highlight_color": "amber"
-        }
-      ],
-      "callout_keywords": [
-        "Ramesh Bala",
-        "2.5 times",
-        "5,000 crore"
-      ],
-      "illustration": {
-        "kind": "concept_flow",
-        "world": null,
-        "flow": {
-          "title": "Break-Even Rule",
-          "nodes": [
-            {
-              "id": "budget",
-              "label": "Budget",
-              "sublabel": "~₹2,000 Cr",
-              "icon": "wallet",
-              "tier": 1,
-              "highlight": false
-            },
-            {
-              "id": "mult",
-              "label": "Multiplier",
-              "sublabel": "× 2.5",
-              "icon": "x",
-              "tier": 2,
-              "highlight": false
-            },
-            {
-              "id": "target",
-              "label": "Break-Even Target",
-              "sublabel": "~₹5,000 Cr",
-              "icon": "target",
-              "tier": 3,
-              "highlight": true
-            }
-          ],
-          "edges": [
-            {
-              "source": "budget",
-              "target": "mult",
-              "label": "rule of thumb",
-              "color": "amber",
-              "animate": true
-            },
-            {
-              "source": "mult",
-              "target": "target",
-              "label": "worldwide",
-              "color": "crimson",
-              "animate": true
-            }
-          ],
-          "focus_node_id": "target",
-          "caption": "2,000 × 2.5 puts the indicative target near 5,000 crore."
-        }
-      },
-      "broll_query": "",
-      "start_sec": 152.73,
-      "duration_sec": 13.08,
-      "broll_asset": null,
-      "broll_attribution": null,
-      "broll_source_url": null
-    },
-    {
-      "scene_id": 14,
-      "chapter_title": "WHY SO HIGH",
-      "narration_text": "Why so high? Break-even isn't budget versus box office. Only a percentage of theatrical revenue reaches the producer, while marketing costs and rights deals shift the math, so 5,000 crore is indicative, not confirmed.",
-      "visual_archetype": "NEON_TECHNICAL_HUD",
-      "camera_movement": "static_focus",
-      "hud_metrics": [
-        {
-          "label": "Break-Even Target",
-          "value": "~₹5,000 Cr",
-          "delta": "NOT CONFIRMED"
-        }
-      ],
-      "visual_elements": [
-        {
-          "element_type": "node_network",
-          "headline": "Producer's share of revenue",
-          "subtext": "Marketing and rights deals change the equation",
-          "badge": null,
-          "highlight_color": "violet"
-        }
-      ],
-      "callout_keywords": [
-        "producer",
-        "rights deals",
-        "indicative"
-      ],
-      "illustration": {
-        "kind": "concept_flow",
-        "world": null,
-        "flow": {
-          "title": "Where Money Goes",
-          "nodes": [
-            {
-              "id": "tickets",
-              "label": "Ticket Sales",
-              "sublabel": "",
-              "icon": "ticket",
-              "tier": 1,
-              "highlight": false
-            },
-            {
-              "id": "rights",
-              "label": "Rights Deals",
-              "sublabel": "",
-              "icon": "handshake",
-              "tier": 1,
-              "highlight": false
-            },
-            {
-              "id": "share",
-              "label": "Producer's Share",
-              "sublabel": "a percentage only",
-              "icon": "pie-chart",
-              "tier": 2,
-              "highlight": true
-            },
-            {
-              "id": "mkt",
-              "label": "Marketing Costs",
-              "sublabel": "",
-              "icon": "megaphone",
-              "tier": 2,
-              "highlight": false
-            },
-            {
-              "id": "recoup",
-              "label": "Recoup Budget",
-              "sublabel": "",
-              "icon": "target",
-              "tier": 3,
-              "highlight": true
-            }
-          ],
-          "edges": [
-            {
-              "source": "tickets",
-              "target": "share",
-              "label": "% of revenue",
-              "color": "cyan",
-              "animate": true
-            },
-            {
-              "source": "rights",
-              "target": "recoup",
-              "label": "adds revenue",
-              "color": "emerald",
-              "animate": true
-            },
-            {
-              "source": "share",
-              "target": "recoup",
-              "label": "net of costs",
-              "color": "cyan",
-              "animate": true
-            },
-            {
-              "source": "mkt",
-              "target": "recoup",
-              "label": "subtracts",
-              "color": "crimson",
-              "animate": true
-            }
-          ],
-          "focus_node_id": "share",
-          "caption": "Break-even depends on the producer's share, marketing and rights deals."
-        }
-      },
-      "broll_query": "",
-      "start_sec": 166.23,
-      "duration_sec": 13.08,
-      "broll_asset": null,
-      "broll_attribution": null,
-      "broll_source_url": null
-    },
-    {
-      "scene_id": 15,
-      "chapter_title": "HOW FAR TO GO",
-      "narration_text": "Four days in, the worldwide gross is near 500 crore rupees against a roughly 5,000 crore target. That's about ten percent of the way there, with the weekdays still ahead.",
+      "chapter_title": "NO ROMANCE PATH",
+      "narration_text": "Mandy even admits she keeps breaking appliances to get Jason over, and hints they were destined to marry. He calls her a stalker, and nothing you do unlocks a romance.",
       "visual_archetype": "KINETIC_MINIMALIST",
-      "camera_movement": "slow_zoom_in",
-      "hud_metrics": [
-        {
-          "label": "Worldwide Gross",
-          "value": "~₹500 Cr",
-          "delta": "Day 4"
-        },
-        {
-          "label": "Target",
-          "value": "~₹5,000 Cr",
-          "delta": null
-        },
-        {
-          "label": "Progress",
-          "value": "~10%",
-          "delta": null
-        }
-      ],
-      "visual_elements": [
-        {
-          "element_type": "stat_card",
-          "headline": "~10%",
-          "subtext": "Of the indicative break-even target, after four days",
-          "badge": null,
-          "highlight_color": "crimson"
-        }
-      ],
-      "callout_keywords": [
-        "500 crore",
-        "ten percent",
-        "5,000 crore"
-      ],
-      "illustration": {
-        "kind": "concept_flow",
-        "world": null,
-        "flow": {
-          "title": "HOW FAR TO GO",
-          "nodes": [
-            {
-              "id": "n0",
-              "label": "~10%",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 1,
-              "highlight": false
-            },
-            {
-              "id": "n1",
-              "label": "~₹500 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 2,
-              "highlight": false
-            },
-            {
-              "id": "n2",
-              "label": "~₹5,000 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 3,
-              "highlight": false
-            },
-            {
-              "id": "n3",
-              "label": "500 crore",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 4,
-              "highlight": true
-            }
-          ],
-          "edges": [
-            {
-              "source": "n0",
-              "target": "n1",
-              "label": "",
-              "color": "cyan",
-              "animate": true
-            },
-            {
-              "source": "n1",
-              "target": "n2",
-              "label": "",
-              "color": "emerald",
-              "animate": true
-            },
-            {
-              "source": "n2",
-              "target": "n3",
-              "label": "",
-              "color": "amber",
-              "animate": true
-            }
-          ],
-          "focus_node_id": null,
-          "caption": ""
-        }
-      },
-      "broll_query": "film projector reel",
-      "start_sec": 179.73,
-      "duration_sec": 11.54,
-      "broll_asset": null,
-      "broll_attribution": null,
-      "broll_source_url": null
-    },
-    {
-      "scene_id": 16,
-      "chapter_title": "THE HALVING TRAP",
-      "narration_text": "Try the math: if every day after Sunday earned half the day before, India would add only about 56 crore rupees more in total... exactly Sunday's own net, forever.",
-      "visual_archetype": "NEON_TECHNICAL_HUD",
       "camera_movement": "static_focus",
       "hud_metrics": [
         {
-          "label": "Scenario",
-          "value": "Halving daily",
-          "delta": "HYPOTHETICAL"
-        },
-        {
-          "label": "Extra India Net",
-          "value": "≈ ₹56 Cr",
-          "delta": null
-        }
-      ],
-      "visual_elements": [
-        {
-          "element_type": "stat_card",
-          "headline": "≈ ₹56 Cr",
-          "subtext": "Total added if each day halves after Sunday",
-          "badge": "HYPOTHETICAL",
-          "highlight_color": "crimson"
-        }
-      ],
-      "callout_keywords": [
-        "56 crore",
-        "halving",
-        "Sunday's own net"
-      ],
-      "illustration": {
-        "kind": "concept_flow",
-        "world": null,
-        "flow": {
-          "title": "Halving Series",
-          "nodes": [
-            {
-              "id": "d4",
-              "label": "Sunday",
-              "sublabel": "₹56.15 Cr",
-              "icon": "calendar",
-              "tier": 1,
-              "highlight": true
-            },
-            {
-              "id": "d5",
-              "label": "Day 5",
-              "sublabel": "~₹28 Cr",
-              "icon": "trending-down",
-              "tier": 2,
-              "highlight": false
-            },
-            {
-              "id": "d6",
-              "label": "Day 6",
-              "sublabel": "~₹14 Cr",
-              "icon": "trending-down",
-              "tier": 3,
-              "highlight": false
-            },
-            {
-              "id": "d7",
-              "label": "Day 7",
-              "sublabel": "~₹7 Cr",
-              "icon": "trending-down",
-              "tier": 4,
-              "highlight": false
-            },
-            {
-              "id": "sum",
-              "label": "All days after",
-              "sublabel": "≈ ₹56 Cr total",
-              "icon": "sigma",
-              "tier": 5,
-              "highlight": true
-            }
-          ],
-          "edges": [
-            {
-              "source": "d4",
-              "target": "d5",
-              "label": "× 0.5",
-              "color": "amber",
-              "animate": true
-            },
-            {
-              "source": "d5",
-              "target": "d6",
-              "label": "× 0.5",
-              "color": "amber",
-              "animate": true
-            },
-            {
-              "source": "d6",
-              "target": "d7",
-              "label": "× 0.5",
-              "color": "amber",
-              "animate": true
-            },
-            {
-              "source": "d7",
-              "target": "sum",
-              "label": "sum of series",
-              "color": "crimson",
-              "animate": true
-            }
-          ],
-          "focus_node_id": "sum",
-          "caption": "A hypothetical halving decay adds only Sunday's amount again."
-        }
-      },
-      "broll_query": "",
-      "start_sec": 191.69,
-      "duration_sec": 11.15,
-      "broll_asset": null,
-      "broll_attribution": null,
-      "broll_source_url": null
-    },
-    {
-      "scene_id": 17,
-      "chapter_title": "HALF THE SAGA",
-      "narration_text": "Remember, this is only half the saga. Part Two is already slated for a future Diwali release, so the reported 4,000 crore budget is spread across two films, not one.",
-      "visual_archetype": "NARRATIVE_STORYBOARD",
-      "camera_movement": "pan_right",
-      "hud_metrics": [
-        {
-          "label": "Parts Released",
-          "value": "1 of 2",
+          "label": "Distance to Mandy",
+          "value": "Inside",
           "delta": null
         },
         {
-          "label": "Budget (Both Parts)",
-          "value": "~₹4,000 Cr",
-          "delta": "REPORTED"
-        }
-      ],
-      "visual_elements": [
-        {
-          "element_type": "timeline_milestone",
-          "headline": "Part Two",
-          "subtext": "Already slated for a future Diwali release",
-          "badge": null,
-          "highlight_color": "violet"
-        }
-      ],
-      "callout_keywords": [
-        "Part Two",
-        "4,000 crore",
-        "two films"
-      ],
-      "illustration": {
-        "kind": "concept_flow",
-        "world": null,
-        "flow": {
-          "title": "HALF THE SAGA",
-          "nodes": [
-            {
-              "id": "n0",
-              "label": "Part Two",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 1,
-              "highlight": false
-            },
-            {
-              "id": "n1",
-              "label": "1 of 2",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 2,
-              "highlight": false
-            },
-            {
-              "id": "n2",
-              "label": "~₹4,000 Cr",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 3,
-              "highlight": false
-            },
-            {
-              "id": "n3",
-              "label": "4,000 crore",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 4,
-              "highlight": true
-            }
-          ],
-          "edges": [
-            {
-              "source": "n0",
-              "target": "n1",
-              "label": "",
-              "color": "cyan",
-              "animate": true
-            },
-            {
-              "source": "n1",
-              "target": "n2",
-              "label": "",
-              "color": "emerald",
-              "animate": true
-            },
-            {
-              "source": "n2",
-              "target": "n3",
-              "label": "",
-              "color": "amber",
-              "animate": true
-            }
-          ],
-          "focus_node_id": null,
-          "caption": ""
-        }
-      },
-      "broll_query": "Ayodhya Ram temple",
-      "start_sec": 203.26,
-      "duration_sec": 11.54,
-      "broll_asset": null,
-      "broll_attribution": null,
-      "broll_source_url": null
-    },
-    {
-      "scene_id": 18,
-      "chapter_title": "THE RECEPTION",
-      "narration_text": "Reception will decide the legs. One review praised its audacious scale and visuals, while Sunny Deol, who plays Hanuman, called it better than many Hollywood films. Now comes the real test: weekday holds.",
-      "visual_archetype": "DOCUMENTARY_ARCHIVE",
-      "camera_movement": "slow_zoom_out",
-      "hud_metrics": [
-        {
-          "label": "Day",
-          "value": "5+",
-          "delta": null
-        },
-        {
-          "label": "Key Test",
-          "value": "Weekday holds",
-          "delta": null
-        }
-      ],
-      "visual_elements": [
-        {
-          "element_type": "quote_callout",
-          "headline": "Better than many Hollywood films",
-          "subtext": "Sunny Deol on Ramayana: Part One (reported)",
-          "badge": null,
-          "highlight_color": "cyan"
-        }
-      ],
-      "callout_keywords": [
-        "Sunny Deol",
-        "Hollywood",
-        "weekday holds"
-      ],
-      "illustration": {
-        "kind": "concept_flow",
-        "world": null,
-        "flow": {
-          "title": "THE RECEPTION",
-          "nodes": [
-            {
-              "id": "n0",
-              "label": "Better than many Hollywood…",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 1,
-              "highlight": false
-            },
-            {
-              "id": "n1",
-              "label": "5+",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 2,
-              "highlight": false
-            },
-            {
-              "id": "n2",
-              "label": "Weekday holds",
-              "sublabel": "",
-              "icon": "circle-dot",
-              "tier": 3,
-              "highlight": false
-            },
-            {
-              "id": "n3",
-              "label": "Sunny Deol",
-              "sublabel": "",
-              "icon": "sun",
-              "tier": 4,
-              "highlight": true
-            }
-          ],
-          "edges": [
-            {
-              "source": "n0",
-              "target": "n1",
-              "label": "",
-              "color": "cyan",
-              "animate": true
-            },
-            {
-              "source": "n1",
-              "target": "n2",
-              "label": "",
-              "color": "emerald",
-              "animate": true
-            },
-            {
-              "source": "n2",
-              "target": "n3",
-              "label": "",
-              "color": "amber",
-              "animate": true
-            }
-          ],
-          "focus_node_id": null,
-          "caption": ""
-        }
-      },
-      "broll_query": "Sunny Deol",
-      "start_sec": 215.22,
-      "duration_sec": 12.69,
-      "broll_asset": null,
-      "broll_attribution": null,
-      "broll_source_url": null
-    },
-    {
-      "scene_id": 19,
-      "chapter_title": "THE PUZZLE",
-      "narration_text": "Here's the puzzle: 375 crore in three days, yet roughly 5,000 needed. If collections halve every day after the weekend, can Part One ever break even... or does Part Two decide it?",
-      "visual_archetype": "KINETIC_MINIMALIST",
-      "camera_movement": "slow_zoom_in",
-      "hud_metrics": [
-        {
-          "label": "Worldwide Gross",
-          "value": "₹375.50 Cr",
-          "delta": "Day 3"
-        },
-        {
-          "label": "Target",
-          "value": "~₹5,000 Cr",
-          "delta": null
-        },
-        {
-          "label": "Verdict",
-          "value": "YOU DECIDE",
+          "label": "Clues Found",
+          "value": "1",
           "delta": null
         }
       ],
       "visual_elements": [
         {
           "element_type": "comparison_split",
-          "headline": "₹375 Cr vs ₹5,000 Cr",
-          "subtext": "Can Part One close the gap, or does Part Two decide it?",
+          "headline": "She flirts vs. He refuses",
+          "subtext": "No romance path with Mandy",
           "badge": null,
-          "highlight_color": "violet"
+          "highlight_color": "amber"
+        },
+        {
+          "element_type": "quote_callout",
+          "headline": "Stalker",
+          "subtext": "What Jason calls her",
+          "badge": null,
+          "highlight_color": "crimson"
         }
       ],
       "callout_keywords": [
-        "375 crore",
-        "5,000",
-        "break even"
+        "breaking appliances",
+        "stalker",
+        "romance"
       ],
       "illustration": {
         "kind": "concept_flow",
         "world": null,
         "flow": {
-          "title": "THE PUZZLE",
+          "title": "NO ROMANCE PATH",
           "nodes": [
             {
               "id": "n0",
-              "label": "THE PUZZLE",
+              "label": "NO ROMANCE PATH",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 1,
@@ -1978,7 +1272,7 @@
             },
             {
               "id": "nA",
-              "label": "₹375 Cr",
+              "label": "She flirts",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 2,
@@ -1986,7 +1280,7 @@
             },
             {
               "id": "nB",
-              "label": "₹5,000 Cr",
+              "label": "He refuses",
               "sublabel": "",
               "icon": "circle-dot",
               "tier": 2,
@@ -2010,29 +1304,839 @@
             }
           ],
           "focus_node_id": null,
-          "caption": "Can Part One close the gap, or does Part Two decide it?"
+          "caption": "No romance path with Mandy"
         }
       },
-      "broll_query": "Indian cinema audience Diwali",
-      "start_sec": 228.33,
+      "broll_query": "broken washing machine",
+      "start_sec": 147.35,
+      "duration_sec": 11.54,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 14,
+      "chapter_title": "PIPEWORK ENDS",
+      "narration_text": "Eventually she demands he leave. Jason collects the rent, heads outside, and Brian calls as he leaves. Pipework ends... but you can return to the house, and that's where things get interesting.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "pan_right",
+      "hud_metrics": [
+        {
+          "label": "Distance to Mandy",
+          "value": "Leaving",
+          "delta": null
+        },
+        {
+          "label": "Clues Found",
+          "value": "1",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "timeline_milestone",
+          "headline": "Pipework complete",
+          "subtext": "The house stays open to revisit",
+          "badge": null,
+          "highlight_color": "emerald"
+        }
+      ],
+      "callout_keywords": [
+        "collects the rent",
+        "Brian calls",
+        "return to the house"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "Pipework Ends",
+          "nodes": [
+            {
+              "id": "rent",
+              "label": "Collect the rent",
+              "sublabel": "From Mandy",
+              "icon": "coins",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "out",
+              "label": "Head outside",
+              "sublabel": "Short exchange",
+              "icon": "door-open",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "call",
+              "label": "Brian calls",
+              "sublabel": "As you leave",
+              "icon": "phone",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "end",
+              "label": "Pipework complete",
+              "sublabel": "House stays revisitable",
+              "icon": "flag",
+              "tier": 4,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "rent",
+              "target": "out",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "out",
+              "target": "call",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "call",
+              "target": "end",
+              "label": "mission over",
+              "color": "emerald",
+              "animate": true
+            }
+          ],
+          "focus_node_id": "end",
+          "caption": "Brian's call closes the mission, but the house stays open."
+        }
+      },
+      "broll_query": "",
+      "start_sec": 159.31,
       "duration_sec": 12.31,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 15,
+      "chapter_title": "MANDY AFTER PIPEWORK",
+      "narration_text": "After Pipework, Mandy texts Jason that she knows he wants her. Later, before the Coming Home mission, she says she's moved on... and one guide reports another event if you pass her house.",
+      "visual_archetype": "NARRATIVE_STORYBOARD",
+      "camera_movement": "slow_zoom_out",
+      "hud_metrics": [
+        {
+          "label": "Distance to Mandy",
+          "value": "Revisitable",
+          "delta": null
+        },
+        {
+          "label": "Clues Found",
+          "value": "1",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "timeline_milestone",
+          "headline": "Before Coming Home",
+          "subtext": "She says she's moved on",
+          "badge": null,
+          "highlight_color": "violet"
+        }
+      ],
+      "callout_keywords": [
+        "texts Jason",
+        "Coming Home",
+        "moved on"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "Mandy After Pipework",
+          "nodes": [
+            {
+              "id": "end",
+              "label": "Pipework ends",
+              "sublabel": "Rent collected",
+              "icon": "flag",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "text",
+              "label": "Text message",
+              "sublabel": "She knows he wants her",
+              "icon": "message-square",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "talk",
+              "label": "Later encounter",
+              "sublabel": "Says she's moved on",
+              "icon": "user",
+              "tier": 3,
+              "highlight": true
+            },
+            {
+              "id": "home",
+              "label": "Coming Home",
+              "sublabel": "Story mission",
+              "icon": "home",
+              "tier": 4,
+              "highlight": false
+            }
+          ],
+          "edges": [
+            {
+              "source": "end",
+              "target": "text",
+              "label": "after",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "text",
+              "target": "talk",
+              "label": "later",
+              "color": "amber",
+              "animate": true
+            },
+            {
+              "source": "talk",
+              "target": "home",
+              "label": "before",
+              "color": "cyan",
+              "animate": true
+            }
+          ],
+          "focus_node_id": "talk",
+          "caption": "Mandy keeps resurfacing after the sink job."
+        }
+      },
+      "broll_query": "",
+      "start_sec": 172.04,
+      "duration_sec": 12.69,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 16,
+      "chapter_title": "THE SUSPICION MAP",
+      "narration_text": "Add it up: a finger-like object in the sink, a locked door, a car trunk with tools and sharp objects, and a woman who seems to know a lot about Jason.",
+      "visual_archetype": "NEON_TECHNICAL_HUD",
+      "camera_movement": "slow_zoom_in",
+      "hud_metrics": [
+        {
+          "label": "Distance to Mandy",
+          "value": "Revisitable",
+          "delta": null
+        },
+        {
+          "label": "Clues Found",
+          "value": "4",
+          "delta": "+3"
+        },
+        {
+          "label": "Rockstar Confirmed",
+          "value": "NO",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "4 clues",
+          "subtext": "Finger-like object, locked door, trunk tools, knows Jason",
+          "badge": null,
+          "highlight_color": "crimson"
+        },
+        {
+          "element_type": "node_network",
+          "headline": "Clue network",
+          "subtext": "4 clues feed 1 unconfirmed theory",
+          "badge": null,
+          "highlight_color": "violet"
+        }
+      ],
+      "callout_keywords": [
+        "locked door",
+        "sharp objects",
+        "know a lot"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "The Suspicion Map",
+          "nodes": [
+            {
+              "id": "c1",
+              "label": "Finger-like object",
+              "sublabel": "In the sink",
+              "icon": "hand",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "c2",
+              "label": "Locked door",
+              "sublabel": "Inside her house",
+              "icon": "lock",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "c3",
+              "label": "Car trunk",
+              "sublabel": "Tools, sharp objects",
+              "icon": "car",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "c4",
+              "label": "Knows Jason",
+              "sublabel": "A lot about him",
+              "icon": "eye",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "theory",
+              "label": "Serial-killer theory",
+              "sublabel": "Fan speculation",
+              "icon": "alert-triangle",
+              "tier": 2,
+              "highlight": true
+            },
+            {
+              "id": "status",
+              "label": "Rockstar: unconfirmed",
+              "sublabel": "No official word",
+              "icon": "help-circle",
+              "tier": 3,
+              "highlight": false
+            }
+          ],
+          "edges": [
+            {
+              "source": "c1",
+              "target": "theory",
+              "label": "",
+              "color": "crimson",
+              "animate": true
+            },
+            {
+              "source": "c2",
+              "target": "theory",
+              "label": "",
+              "color": "crimson",
+              "animate": true
+            },
+            {
+              "source": "c3",
+              "target": "theory",
+              "label": "",
+              "color": "crimson",
+              "animate": true
+            },
+            {
+              "source": "c4",
+              "target": "theory",
+              "label": "",
+              "color": "crimson",
+              "animate": true
+            },
+            {
+              "source": "theory",
+              "target": "status",
+              "label": "no confirmation",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": "theory",
+          "caption": "Four odd clues feed a fan theory the game hasn't confirmed."
+        }
+      },
+      "broll_query": "",
+      "start_sec": 185.15,
+      "duration_sec": 11.92,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 17,
+      "chapter_title": "FAN THEORY ONLY",
+      "narration_text": "But here's the catch: it's a fan theory, not a reveal. Rockstar hasn't confirmed anything, and the clues alone don't prove Mandy is a killer. Treat it as a mystery, not a fact.",
+      "visual_archetype": "KINETIC_MINIMALIST",
+      "camera_movement": "static_focus",
+      "hud_metrics": [
+        {
+          "label": "Distance to Mandy",
+          "value": "Revisitable",
+          "delta": null
+        },
+        {
+          "label": "Clues Found",
+          "value": "4",
+          "delta": null
+        },
+        {
+          "label": "Rockstar Confirmed",
+          "value": "NO",
+          "delta": "FAN THEORY"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "UNCONFIRMED",
+          "subtext": "Fan theory only; Rockstar hasn't confirmed it",
+          "badge": null,
+          "highlight_color": "amber"
+        },
+        {
+          "element_type": "comparison_split",
+          "headline": "Clues vs. Proof",
+          "subtext": "Suspicious, but not conclusive",
+          "badge": null,
+          "highlight_color": "amber"
+        }
+      ],
+      "callout_keywords": [
+        "fan theory",
+        "hasn't confirmed",
+        "mystery"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "FAN THEORY ONLY",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "FAN THEORY ONLY",
+              "sublabel": "",
+              "icon": "lightbulb",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "nA",
+              "label": "Clues",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": true
+            },
+            {
+              "id": "nB",
+              "label": "Proof",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "nA",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n0",
+              "target": "nB",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": "Suspicious, but not conclusive"
+        }
+      },
+      "broll_query": "detective evidence board",
+      "start_sec": 197.49,
+      "duration_sec": 12.69,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 18,
+      "chapter_title": "THE VOICE OF MANDY",
+      "narration_text": "The woman behind Mandy is actor Lexie Shoaibi, who did both the voice and motion capture. After launch, she revealed it on Instagram and challenged players to find her.",
+      "visual_archetype": "DOCUMENTARY_ARCHIVE",
+      "camera_movement": "pan_right",
+      "hud_metrics": [
+        {
+          "label": "Distance to Mandy",
+          "value": "Revisitable",
+          "delta": null
+        },
+        {
+          "label": "Clues Found",
+          "value": "4",
+          "delta": null
+        },
+        {
+          "label": "Rockstar Confirmed",
+          "value": "NO",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "Voice + mocap",
+          "subtext": "Lexie Shoaibi plays Mandy",
+          "badge": null,
+          "highlight_color": "cyan"
+        }
+      ],
+      "callout_keywords": [
+        "Lexie Shoaibi",
+        "motion capture",
+        "Instagram"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "THE VOICE OF MANDY",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "Voice + mocap",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "n1",
+              "label": "Revisitable",
+              "sublabel": "",
+              "icon": "table",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "n2",
+              "label": "NO",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "Lexie Shoaibi",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 4,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "n1",
+              "target": "n2",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": ""
+        }
+      },
+      "broll_query": "motion capture studio actor",
+      "start_sec": 210.6,
+      "duration_sec": 11.15,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 19,
+      "chapter_title": "A BREAKOUT CHARACTER",
+      "narration_text": "Step back: one mission, no trailer, no screenshots, and she still became a breakout. One outlet reads it as Rockstar's signal that side characters should be as interesting as the leads.",
+      "visual_archetype": "NARRATIVE_STORYBOARD",
+      "camera_movement": "slow_zoom_out",
+      "hud_metrics": [
+        {
+          "label": "Distance to Mandy",
+          "value": "Revisitable",
+          "delta": null
+        },
+        {
+          "label": "Clues Found",
+          "value": "4",
+          "delta": null
+        },
+        {
+          "label": "Rockstar Confirmed",
+          "value": "NO",
+          "delta": null
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "stat_card",
+          "headline": "0 trailers → top trend",
+          "subtext": "Mandy's launch-day rise",
+          "badge": null,
+          "highlight_color": "emerald"
+        }
+      ],
+      "callout_keywords": [
+        "breakout",
+        "no trailer",
+        "side characters"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "A BREAKOUT CHARACTER",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "0 trailers → top trend",
+              "sublabel": "",
+              "icon": "flag",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "n1",
+              "label": "Revisitable",
+              "sublabel": "",
+              "icon": "table",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "n2",
+              "label": "NO",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "breakout",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 4,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "n1",
+              "target": "n2",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": ""
+        }
+      },
+      "broll_query": "people playing video games",
+      "start_sec": 222.17,
+      "duration_sec": 11.92,
+      "broll_asset": null,
+      "broll_attribution": null,
+      "broll_source_url": null
+    },
+    {
+      "scene_id": 20,
+      "chapter_title": "THE REVOLVING DOOR",
+      "narration_text": "So here's your puzzle: a neighbor called her house a revolving door. If visitors keep coming in... where do they go? Red herring, or the Keys' best-kept secret? Comment your theory.",
+      "visual_archetype": "KINETIC_MINIMALIST",
+      "camera_movement": "slow_zoom_in",
+      "hud_metrics": [
+        {
+          "label": "Distance to Mandy",
+          "value": "Revisitable",
+          "delta": null
+        },
+        {
+          "label": "Clues Found",
+          "value": "4",
+          "delta": null
+        },
+        {
+          "label": "Rockstar Confirmed",
+          "value": "NO",
+          "delta": null
+        },
+        {
+          "label": "Verdict",
+          "value": "???",
+          "delta": "YOU DECIDE"
+        }
+      ],
+      "visual_elements": [
+        {
+          "element_type": "quote_callout",
+          "headline": "Revolving door",
+          "subtext": "What a neighbor says about Mandy's house",
+          "badge": null,
+          "highlight_color": "violet"
+        },
+        {
+          "element_type": "stat_card",
+          "headline": "Your verdict?",
+          "subtext": "Red herring or secret?",
+          "badge": "COMMENT BELOW",
+          "highlight_color": "violet"
+        }
+      ],
+      "callout_keywords": [
+        "revolving door",
+        "Red herring",
+        "Comment your theory"
+      ],
+      "illustration": {
+        "kind": "concept_flow",
+        "world": null,
+        "flow": {
+          "title": "THE REVOLVING DOOR",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "Revolving door",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 1,
+              "highlight": false
+            },
+            {
+              "id": "n1",
+              "label": "Your verdict?",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 2,
+              "highlight": false
+            },
+            {
+              "id": "n2",
+              "label": "Revisitable",
+              "sublabel": "",
+              "icon": "table",
+              "tier": 3,
+              "highlight": false
+            },
+            {
+              "id": "n3",
+              "label": "NO",
+              "sublabel": "",
+              "icon": "circle-dot",
+              "tier": 4,
+              "highlight": true
+            }
+          ],
+          "edges": [
+            {
+              "source": "n0",
+              "target": "n1",
+              "label": "",
+              "color": "cyan",
+              "animate": true
+            },
+            {
+              "source": "n1",
+              "target": "n2",
+              "label": "",
+              "color": "emerald",
+              "animate": true
+            },
+            {
+              "source": "n2",
+              "target": "n3",
+              "label": "",
+              "color": "amber",
+              "animate": true
+            }
+          ],
+          "focus_node_id": null,
+          "caption": ""
+        }
+      },
+      "broll_query": "revolving door entrance",
+      "start_sec": 234.51,
+      "duration_sec": 11.92,
       "broll_asset": null,
       "broll_attribution": null,
       "broll_source_url": null
     }
   ],
   "words": [],
-  "total_duration_sec": 241.06,
+  "total_duration_sec": 246.85,
   "video_format": "landscape",
   "source_urls": [
-    "https://www.wionews.com/entertainment/bollywood/ramayana-part-1-box-office-collection-day-3-ranbir-kapoor-s-film-sees-45-jump-inches-closer-to-rs-200-crore-in-india-1794114140705",
-    "https://www.indiatvnews.com/entertainment/news/ramayana-part-1-day-1-box-office-collection-check-final-india-and-worldwide-opening-figures-2026-11-06-1058824",
-    "https://newsable.asianetnews.com/gallery/entertainment/ramayana-box-office-collection-day-4-ranbir-kapoor-film-nears-rs-500-crore-worldwide-cbh388m",
-    "https://www.newsx.com/entertainment/ramayana-part-1-budget-vs-box-office-collection-how-much-does-ranbir-kapoors-film-need-to-earn-to-break-even-and-where-does-it-stand-290304/",
-    "https://www.businesstoday.in/trending/entertainment/story/ramayana-needs-rs5000-crore-to-break-even-the-box-office-numbers-explained-563375-2026-10-24",
-    "https://www.sacnilk.com/news/ramayana-4-day-pre-diwali-weekend-prediction-will-it-beat-trades-240-cr-estimate",
-    "https://gulfnews.com/amp/story/entertainment%2Framayana-box-office-ranbir-kapoors-epic-opens-to-rs-127-billion-worldwide-trails-adipurush-1.500738063",
-    "https://glamsham.com/boc/nboc-india/ramayana-part-one-worldwide-box-office-collection-rs-127-50-crore-opening-day/",
-    "https://www.oneindia.com/entertainment/ramayana-box-office-collection-ranbir-yashs-film-earns-over-2-million-worldwide-ahead-of-release-8243177.html"
+    "https://consolepcgaming.com/how-to-complete-pipework-and-read-mandys-clues-in-gta-6/",
+    "https://www.videogameschronicle.com/guide/gta-6-pipework-mission-walkthrough/",
+    "https://www.videogameschronicle.com/guide/gta-6-mandy-explained-can-you-romance-mandy-in-gta-6/",
+    "https://gta.wiki/w/Mandy",
+    "https://gta.fandom.com/wiki/Mandy_(GTA_6)",
+    "https://thebasedotaku.com/guides/gta-6-mandys-house-location-uncovering-secrets/",
+    "https://gamerblurb.com/articles/gta-6-many-house-location",
+    "https://gamingpromax.com/gta-6-pipework-walkthrough/",
+    "https://outputlag.com/guides/gta-6-characters/",
+    "https://www.gtabites.com/news/gta-6-mandy-pipework",
+    "https://www.unilad.com/technology/gta-6-fans-discovered-mandy-and-girlfriends-are-already-worried-717014-20261118",
+    "https://www.vice.com/en/article/gta-6-mandy-actor-lexie-shoaibi/",
+    "https://thedirect.com/article/gta-6-mandy-voice-mocap-actress-video",
+    "https://www.shacknews.com/article/151406/safehouse-repairs-gta6",
+    "https://newsable.asianetnews.com/technology/why-is-mandy-trending-in-gta-6-jason-duval-interaction-with-her-sparks-online-buzz-articleshow-vqd5hv5",
+    "https://games.gg/grand-theft-auto-vi/guides/who-is-mandy-in-gta-6/",
+    "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mandy-sink/",
+    "https://thegameswiki.com/gta6/wiki/leonida-keys/history/09aac955-6a72-4683-878c-ac45e98dcefd"
   ]
 }
